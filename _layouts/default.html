@@ -34,8 +34,10 @@
 
         {% for page in site.pages %}
         <a href="{{ page.filename }}" class="btn">{{ page.title }}</a>
-        <p>site.pages</p>
+        
         {% endfor %}
+
+        <p>{{ site.pages }}</p>
         
         {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
