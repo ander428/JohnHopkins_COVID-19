@@ -1,7 +1,7 @@
 ---
-title: tutorial
+title: Tutorial
 layout: default
-filename: tutorial.md
+filename: Tutorial.md
 ---
 
 ```python
