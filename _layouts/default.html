@@ -34,6 +34,7 @@
 
         {% for page in site.pages %}
         <a href="{{ page.filename }}" class="btn">{{ page.title }}</a>
+        <p>site.pages</p>
         {% endfor %}
         
         {% if site.show_downloads %}
