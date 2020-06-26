@@ -1,5 +1,5 @@
 ---
-title: READmE
+title: README
 layout: default
 filename: README
 ---
