@@ -1,7 +1,7 @@
 ---
 title: README
 layout: default
-filename: index.md
+filename: index
 ---
 
 # John Hopkins Database COVID-19 Analysis
