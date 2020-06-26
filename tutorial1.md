@@ -1,7 +1,7 @@
 ---
-title: Tutorial
+title: Tutorial1
 layout: default
-filename: Tutorial
+filename: tutorial1
 ---
 
 ```python
