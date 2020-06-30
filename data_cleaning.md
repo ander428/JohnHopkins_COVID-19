@@ -1,11 +1,16 @@
+---
+title: Data Cleaning
+layout: default
+filename: data_cleaning
+---
 
 # Data Cleaning
-***
+
+---
 
 ## Data Aquisition
 
 ### Pandemic Data
-
 
 ```python
 import pandas as pd
@@ -24,7 +29,6 @@ highlighted_countries = ["US", "Australia", "Canada", "China", "Netherlands", "U
 
 #### US Cases
 
-
 ```python
 cases_US = pd.read_csv("../data/pandemic/time_series_covid19_confirmed_US.csv")
 
@@ -34,9 +38,6 @@ cases_US = cases_US.rename(columns={"Admin2": "County", "Long_": "Long"})
 
 cases_US.head(10)
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -51,6 +52,7 @@ cases_US.head(10)
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -325,26 +327,19 @@ cases_US.head(10)
 <p>10 rows × 164 columns</p>
 </div>
 
-
-
-
 ```python
 
 ```
 
 #### Global Cases
 
-
 ```python
 cases_global = pd.read_csv("../data/pandemic/time_series_covid19_confirmed_global.csv")
-cases_global = cases_global.rename(columns={"Province/State": "Province_State", 
+cases_global = cases_global.rename(columns={"Province/State": "Province_State",
                                             "Country/Region": "Country_Region"})
 cases_global["County"] = NaN
 cases_global.head(10)
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -359,6 +354,7 @@ cases_global.head(10)
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -633,22 +629,18 @@ cases_global.head(10)
 <p>10 rows × 164 columns</p>
 </div>
 
-
-
 #### Combine Data and Change Time Series Dimension
 
 **Here I wanted to treat the time series data as one feature. I explored several ways to approach this, but with a lack of user friendly solutions, I iteratively expanded each row. I was able to minimize the runtime through multiprocessing.**
-
 
 ```python
 cases_total_temp = pd.concat([cases_US, cases_global], sort=False)
 cases_total_temp = cases_total_temp[cases_total_temp['Country_Region'].isin(highlighted_countries)]
 ```
 
-
 ```python
 def get_rows(row):
-    temp = pd.DataFrame(columns=pd.DataFrame(columns=['County','Province_State','Country_Region', 
+    temp = pd.DataFrame(columns=pd.DataFrame(columns=['County','Province_State','Country_Region',
                                                       'Lat','Long','Date','Total_Cases']))
     for date in row[5:].iteritems():
             new_row = row[:5]
@@ -671,13 +663,9 @@ end_time = time.time() - start_time
 # print("--- %s seconds ---" % (end_time))
 ```
 
-
 ```python
 cases_total
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -692,6 +680,7 @@ cases_total
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1321,9 +1310,6 @@ cases_total
 </table>
 <p>529629 rows × 7 columns</p>
 </div>
-
-
-
 
 ```python
 cases_total.to_csv("../data/pandemic/covid_19_time_series_all.csv")
