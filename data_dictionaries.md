@@ -1,10 +1,10 @@
 ---
-title: Data Descriptions
+title: Data Dictionaries
 layout: default
-filename: data_descriptions
+filename: data_dictionaries
 --- 
 
-# Data Descriptions
+# Data Dictionaries
 
 ## COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
 
@@ -41,3 +41,19 @@ A vulnerable individual was defined as:
 *1. Elderly individuals.*  
 *2. Individuals with serious underlying health conditions, including high blood pressure, chronic lung disease,
 diabetes, obesity, asthma, and those whose immune system is compromised such as by chemotherapy for cancer and other conditions requiring such therapy.*
+
+## Where states reopened and cases spiked after the U.S. shutdown by Washington Post
+
+This article from the Washington Post was the best aggregation of the lockdown procedures by state I could find. I used this information along with the White House phases to generalize the phases into comparable factors between states. With this information, I constructed a [table](https://github.com/ander428/JohnHopkins_COVID-19/blob/master/data/pandemic/WP_phases_6.30.20.csv) capturing the data to compare to the time series data in the John Hopkins database. This was a subjective process prone to error, but provides a small amount more of context to the reopenning procedures of each state.
+
+These are the variables used to construct the table:
+
+- **State**: The state the restrictions applied to.
+- **Abbreviation**: The two letter abbreviation for the state.
+- **Phase.0**: A date that describes the initial lockdown.
+- **Phase.1**: A date that describes the changes causing the state to closely fit the description of phase 1.
+- **Phase.2**: A date that describes the changes causing the state to closely fit the description of phase 2.
+- **Phase.3**: A date that describes the changes causing the state to closely fit the description of phase 3.
+- **Restriction Rating**: The subjective rating given by Washington Post that generally describes the nature of the descriptions.
+- **Governer.Party**: The political party affiliation of the governor (or leader responsible for the lockdown restrictions).
+
