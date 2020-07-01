@@ -17,8 +17,8 @@ The John Hopkins CSSE COVID-19 dashboard is a highly reguarded data tracking pro
 ## Data Sources
 
 - Pandemic Sources:
-  - COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University: https://github.com/CSSEGISandData/COVID-19
-  - White House guidlines and reopenning criteria: https://www.whitehouse.gov/openingamerica/
+  - COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University: [https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
+  - White House guidlines and reopenning criteria: (https://www.whitehouse.gov/openingamerica/)
   - Where states reopened and cases spiked after the U.S. shutdown by Washington Post: https://www.washingtonpost.com/graphics/2020/national/states-reopening-coronavirus-map/
 
 - U.S. Geographical and Population Data:
