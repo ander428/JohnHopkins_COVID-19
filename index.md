@@ -18,18 +18,18 @@ The John Hopkins CSSE COVID-19 dashboard is a highly reguarded data tracking pro
 
 - Pandemic Sources:
   - COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University: [https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
-  - White House guidlines and reopenning criteria: (https://www.whitehouse.gov/openingamerica/)
-  - Where states reopened and cases spiked after the U.S. shutdown by Washington Post: https://www.washingtonpost.com/graphics/2020/national/states-reopening-coronavirus-map/
+  - White House guidlines and reopenning criteria: [https://www.whitehouse.gov/openingamerica/](https://www.whitehouse.gov/openingamerica/)
+  - Where states reopened and cases spiked after the U.S. shutdown by Washington Post: [https://www.washingtonpost.com/graphics/2020/national/states-reopening-coronavirus-map/](https://www.washingtonpost.com/graphics/2020/national/states-reopening-coronavirus-map/)
 
 - U.S. Geographical and Population Data:
   - National, State, and County Housing Unit Totals: 2010-2019 (2010 Census Approximations):   
-  https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-housing-units.html  
-  https://web.archive.org/web/20150807220054/http://quickfacts.census.gov/qfd/download_data.html 
-  - World Population Review US County Populations 2020: https://worldpopulationreview.com/us-counties
-  - National Oceanic and Atmospheric Administration "Climate at a Glance" county mapping: https://www.ncdc.noaa.gov/cag/county/mapping/110/tavg/202005/1/value
+  [https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-housing-units.html](https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-housing-units.html)  
+  [https://web.archive.org/web/20150807220054/http://quickfacts.census.gov/qfd/download_data.html](https://web.archive.org/web/20150807220054/http://quickfacts.census.gov/qfd/download_data.html) 
+  - World Population Review US County Populations 2020: [https://worldpopulationreview.com/us-counties](https://worldpopulationreview.com/us-counties)
+  - National Oceanic and Atmospheric Administration "Climate at a Glance" county mapping: [https://www.ncdc.noaa.gov/cag/county/mapping/110/tavg/202005/1/value](https://www.ncdc.noaa.gov/cag/county/mapping/110/tavg/202005/1/value)
   
 - Non-U.S. Sources:
-  - Australian Bureau Of Statistics Population Estimates: https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/3218.02016-17?OpenDocument
+  - Australian Bureau Of Statistics Population Estimates: [https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/3218.02016-17?OpenDocument](https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/3218.02016-17?OpenDocument)
   
 - Protest Sources:
-  - Alex Smith, a GIS analyst in the southwest U.S., Black Lives Matter 2020 Protests Map: https://www.creosotemaps.com/blm2020/?fbclid=IwAR28N-iX_CZZ06JZrR7fd64xp5lfPIYBvLiHb_sB7g1Kb1-z70rCDBnX4qs
+  - Alex Smith, a GIS analyst in the southwest U.S., Black Lives Matter 2020 Protests Map: [https://www.creosotemaps.com/blm2020/?fbclid=IwAR28N-iX_CZZ06JZrR7fd64xp5lfPIYBvLiHb_sB7g1Kb1-z70rCDBnX4qs](https://www.creosotemaps.com/blm2020/?fbclid=IwAR28N-iX_CZZ06JZrR7fd64xp5lfPIYBvLiHb_sB7g1Kb1-z70rCDBnX4qs)
