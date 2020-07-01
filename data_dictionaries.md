@@ -44,7 +44,7 @@ diabetes, obesity, asthma, and those whose immune system is compromised such as 
 
 ## Where states reopened and cases spiked after the U.S. shutdown by Washington Post
 
-This article from the Washington Post was the best aggregation of the lockdown procedures by state I could find. I used this information along with the White House phases to generalize the phases into comparable factors between states. With this information, I constructed [WP_phases_6.30.20.csv](https://github.com/ander428/JohnHopkins_COVID-19/blob/master/data/pandemic/WP_phases_6.30.20.csv) capturing the data to compare to the time series data in the John Hopkins database. This was a subjective process prone to error, but provides a small amount more of context to the reopenning procedures of each state.
+This article from the Washington Post was the best aggregation of the lockdown procedures by state I could find. I used this information along with the White House phases to generalize the phases into comparable factors between states as of June 30th. With this information, I constructed [WP_phases_6.30.20.csv](https://github.com/ander428/JohnHopkins_COVID-19/blob/master/data/pandemic/WP_phases_6.30.20.csv) capturing the data to compare to the time series data in the John Hopkins database. This was a subjective process prone to error, but provides a small amount more of context to the reopenning procedures of each state.
 
 These are the variables used to construct the table:
 
