@@ -90,9 +90,13 @@ As there is evidence that suggests temperature can affect COVID-19, I thought th
 
 This data is an aggregation of population per country including multiple different factors such as population by biological sex and population density. The variables are as listed:
 
-- **LocID (numeric)**: numeric code for the location; for countries and areas, it follows the ISO 3166-1 numeric standard
-- **Location (string)**: name of the region, subregion, country or area
-- **VarID (numeric)**: numeric code for the variant
-- **Variant (string)**: projection variant name (Medium is the most used); for more information see Definition of projection variants
-- **Time (string)**: label identifying the single year (e.g. 1950) or the period of the data (e.g. 1950-1955)
-- **MidPeriod (numeric)**: numeric value identifying the mid period of the data, with the decimal representing the month (e.g. 1950.5 for July 1950)
+- **LocID**: numeric code for the location; for countries and areas, it follows the ISO 3166-1 numeric standard
+- **Location**: name of the region, subregion, country or area
+- **VarID**: numeric code for the variant
+- **Variant**: projection variant name (Medium is the most used); for more information see Definition of projection variants
+- **Time**: label identifying the single year (e.g. 1950) or the period of the data (e.g. 1950-1955)
+- **MidPeriod**: numeric value identifying the mid period of the data, with the decimal representing the month (e.g. 1950.5 for July 1950)
+- **PopMale**: Total male population (thousands)
+- **PopFemale**: Total female population (thousands)
+- **PopTotal**: Total population, both sexes (thousands)
+- **PopDensity**: Population per square kilometre (thousands)
