@@ -159,30 +159,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>NaN</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>NaN</td>
-      <td>Angola</td>
-      <td>-11.202700</td>
-      <td>17.873900</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>186</td>
-      <td>189</td>
-      <td>197</td>
-      <td>212</td>
-      <td>212</td>
-      <td>259</td>
-      <td>267</td>
-      <td>276</td>
-      <td>284</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -205,30 +181,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>261</th>
-      <td>NaN</td>
-      <td>Sao Tome and Principe</td>
-      <td>0.186360</td>
-      <td>6.613081</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>702</td>
-      <td>707</td>
-      <td>710</td>
-      <td>711</td>
-      <td>712</td>
-      <td>713</td>
-      <td>713</td>
-      <td>713</td>
-      <td>714</td>
-      <td>NaN</td>
     </tr>
     <tr>
       <th>262</th>
@@ -479,30 +431,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>167</td>
     </tr>
     <tr>
-      <th>9</th>
-      <td>Blount</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>33.982109</td>
-      <td>-86.567906</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>146</td>
-      <td>150</td>
-      <td>156</td>
-      <td>165</td>
-      <td>173</td>
-      <td>181</td>
-      <td>185</td>
-      <td>186</td>
-      <td>196</td>
-      <td>204</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -525,30 +453,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>3256</th>
-      <td>Central Utah</td>
-      <td>Utah</td>
-      <td>US</td>
-      <td>39.372319</td>
-      <td>-111.575868</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>102</td>
-      <td>110</td>
-      <td>114</td>
-      <td>117</td>
-      <td>117</td>
-      <td>127</td>
-      <td>134</td>
-      <td>143</td>
-      <td>159</td>
-      <td>169</td>
     </tr>
     <tr>
       <th>3257</th>
@@ -733,16 +637,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>0</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
-      <td>2020-01-26</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -751,16 +645,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>524211</th>
-      <td>Weber-Morgan</td>
-      <td>Utah</td>
-      <td>US</td>
-      <td>41.271160</td>
-      <td>-111.914512</td>
-      <td>2020-06-26</td>
-      <td>814</td>
     </tr>
     <tr>
       <th>524212</th>
@@ -882,15 +766,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>0</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
-      <td>2020-01-26</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -898,15 +773,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>8528</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
-      <td>2020-06-26</td>
-      <td>1368</td>
     </tr>
     <tr>
       <th>8529</th>
@@ -1091,28 +957,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>0</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>Autauga</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
-      <td>2020-01-26</td>
-      <td>0</td>
-      <td>Alabama</td>
-      <td>AL</td>
-      <td>2020-04-04</td>
-      <td>2020-04-30</td>
-      <td>2020-05-11</td>
-      <td>2020-05-22</td>
-      <td>minor</td>
-      <td>R</td>
-      <td>-1</td>
-      <td>1001</td>
-      <td>2020-01</td>
-      <td>50.5</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -1133,28 +977,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>521635</th>
-      <td>Unassigned</td>
-      <td>US</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>2020-06-26</td>
-      <td>0</td>
-      <td>Wyoming</td>
-      <td>WY</td>
-      <td>2020-03-15</td>
-      <td>2020-03-15</td>
-      <td>2020-05-01</td>
-      <td>2020-05-15</td>
-      <td>minor</td>
-      <td>R</td>
-      <td>3</td>
-      <td>90056</td>
-      <td>2020-06</td>
-      <td>NaN</td>
-      <td>0</td>
     </tr>
     <tr>
       <th>521636</th>
@@ -1344,19 +1166,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>38.0</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
-      <td>2020-01-26</td>
-      <td>0</td>
-      <td>2020-01</td>
-      <td>NaN</td>
-      <td>AL</td>
-      <td>38.0</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -1368,19 +1177,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>541599</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
-      <td>2020-06-26</td>
-      <td>1368</td>
-      <td>2020-06</td>
-      <td>NaN</td>
-      <td>WY</td>
-      <td>14.0</td>
     </tr>
     <tr>
       <th>541600</th>
@@ -1576,27 +1372,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>13.887959</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>1009</td>
-      <td>16.4</td>
-      <td>96.0</td>
-      <td>1.8</td>
-      <td>0.6</td>
-      <td>0.3</td>
-      <td>0.1</td>
-      <td>1.1</td>
-      <td>8.7</td>
-      <td>4.3</td>
-      <td>2.70</td>
-      <td>57.826</td>
-      <td>Blount</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>009</td>
-      <td>1.669974</td>
-      <td>34.626892</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -1616,27 +1391,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>3000</th>
-      <td>56037</td>
-      <td>9.0</td>
-      <td>94.2</td>
-      <td>1.7</td>
-      <td>1.2</td>
-      <td>0.9</td>
-      <td>0.2</td>
-      <td>1.7</td>
-      <td>15.9</td>
-      <td>5.5</td>
-      <td>2.62</td>
-      <td>42.343</td>
-      <td>Sweetwater</td>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>037</td>
-      <td>27.004919</td>
-      <td>1.567974</td>
     </tr>
     <tr>
       <th>3001</th>
@@ -1807,16 +1561,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>29645.078151</td>
     </tr>
     <tr>
-      <th>4</th>
-      <td>African Union: Central Africa</td>
-      <td>2080</td>
-      <td>79260.910</td>
-      <td>79358.728</td>
-      <td>158619.638</td>
-      <td>30.066</td>
-      <td>5275.714694</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -1825,16 +1569,6 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>469</th>
-      <td>World</td>
-      <td>900</td>
-      <td>3929973.953</td>
-      <td>3864824.776</td>
-      <td>7794798.729</td>
-      <td>59.917</td>
-      <td>130093.274513</td>
     </tr>
     <tr>
       <th>470</th>
