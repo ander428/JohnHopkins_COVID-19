@@ -9,303 +9,13 @@ filename: data_cleaning
 
 ## Data Aquisition
 
-### Pandemic Data
+### Time Series Tables
 
-#### US Cases
-
-
+These are the U.S. and Global time series tables from the CSSE database
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<p style='font-size: 15px'>Global Cases</p>
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>County</th>
-      <th>Province_State</th>
-      <th>Country_Region</th>
-      <th>Lat</th>
-      <th>Long</th>
-      <th>1/22/20</th>
-      <th>1/23/20</th>
-      <th>1/24/20</th>
-      <th>1/25/20</th>
-      <th>1/26/20</th>
-      <th>...</th>
-      <th>6/19/20</th>
-      <th>6/20/20</th>
-      <th>6/21/20</th>
-      <th>6/22/20</th>
-      <th>6/23/20</th>
-      <th>6/24/20</th>
-      <th>6/25/20</th>
-      <th>6/26/20</th>
-      <th>6/27/20</th>
-      <th>6/28/20</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>405</td>
-      <td>425</td>
-      <td>428</td>
-      <td>436</td>
-      <td>447</td>
-      <td>463</td>
-      <td>473</td>
-      <td>482</td>
-      <td>492</td>
-      <td>497</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Baldwin</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>30.727750</td>
-      <td>-87.722071</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>398</td>
-      <td>405</td>
-      <td>415</td>
-      <td>422</td>
-      <td>435</td>
-      <td>449</td>
-      <td>462</td>
-      <td>500</td>
-      <td>539</td>
-      <td>559</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Barbour</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>31.868263</td>
-      <td>-85.387129</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>265</td>
-      <td>271</td>
-      <td>271</td>
-      <td>276</td>
-      <td>279</td>
-      <td>287</td>
-      <td>303</td>
-      <td>309</td>
-      <td>314</td>
-      <td>314</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Bibb</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.996421</td>
-      <td>-87.125115</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>123</td>
-      <td>123</td>
-      <td>124</td>
-      <td>126</td>
-      <td>132</td>
-      <td>138</td>
-      <td>146</td>
-      <td>150</td>
-      <td>158</td>
-      <td>159</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Blount</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>33.982109</td>
-      <td>-86.567906</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>136</td>
-      <td>140</td>
-      <td>146</td>
-      <td>150</td>
-      <td>156</td>
-      <td>165</td>
-      <td>173</td>
-      <td>181</td>
-      <td>185</td>
-      <td>186</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Bullock</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.100305</td>
-      <td>-85.712655</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>318</td>
-      <td>324</td>
-      <td>324</td>
-      <td>325</td>
-      <td>325</td>
-      <td>332</td>
-      <td>347</td>
-      <td>347</td>
-      <td>354</td>
-      <td>353</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Butler</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>31.753001</td>
-      <td>-86.680575</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>567</td>
-      <td>570</td>
-      <td>574</td>
-      <td>576</td>
-      <td>579</td>
-      <td>582</td>
-      <td>586</td>
-      <td>592</td>
-      <td>597</td>
-      <td>599</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Calhoun</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>33.774837</td>
-      <td>-85.826304</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>202</td>
-      <td>203</td>
-      <td>205</td>
-      <td>207</td>
-      <td>208</td>
-      <td>212</td>
-      <td>225</td>
-      <td>228</td>
-      <td>237</td>
-      <td>237</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Chambers</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.913601</td>
-      <td>-85.390727</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>493</td>
-      <td>502</td>
-      <td>507</td>
-      <td>514</td>
-      <td>520</td>
-      <td>529</td>
-      <td>535</td>
-      <td>545</td>
-      <td>547</td>
-      <td>547</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Cherokee</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>34.178060</td>
-      <td>-85.606390</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>56</td>
-      <td>56</td>
-      <td>56</td>
-      <td>56</td>
-      <td>56</td>
-      <td>56</td>
-      <td>62</td>
-      <td>65</td>
-      <td>66</td>
-      <td>67</td>
-    </tr>
-  </tbody>
-</table>
-<p>10 rows × 164 columns</p>
-</div>
-
-
-
-#### Global Cases
 
 
 
@@ -332,22 +42,22 @@ filename: data_cleaning
       <th>Country_Region</th>
       <th>Lat</th>
       <th>Long</th>
-      <th>1/22/20</th>
-      <th>1/23/20</th>
-      <th>1/24/20</th>
-      <th>1/25/20</th>
-      <th>1/26/20</th>
-      <th>1/27/20</th>
+      <th>1/22/2020</th>
+      <th>1/23/2020</th>
+      <th>1/24/2020</th>
+      <th>1/25/2020</th>
+      <th>1/26/2020</th>
+      <th>1/27/2020</th>
       <th>...</th>
-      <th>6/20/20</th>
-      <th>6/21/20</th>
-      <th>6/22/20</th>
-      <th>6/23/20</th>
-      <th>6/24/20</th>
-      <th>6/25/20</th>
-      <th>6/26/20</th>
-      <th>6/27/20</th>
-      <th>6/28/20</th>
+      <th>6/22/2020</th>
+      <th>6/23/2020</th>
+      <th>6/24/2020</th>
+      <th>6/25/2020</th>
+      <th>6/26/2020</th>
+      <th>6/27/2020</th>
+      <th>6/28/2020</th>
+      <th>6/29/2020</th>
+      <th>6/30/2020</th>
       <th>County</th>
     </tr>
   </thead>
@@ -356,8 +66,8 @@ filename: data_cleaning
       <th>0</th>
       <td>NaN</td>
       <td>Afghanistan</td>
-      <td>33.0000</td>
-      <td>65.0000</td>
+      <td>33.000000</td>
+      <td>65.000000</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -365,8 +75,6 @@ filename: data_cleaning
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>28424</td>
-      <td>28833</td>
       <td>29157</td>
       <td>29481</td>
       <td>29640</td>
@@ -374,14 +82,16 @@ filename: data_cleaning
       <td>30451</td>
       <td>30616</td>
       <td>30967</td>
+      <td>31238</td>
+      <td>31517</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>1</th>
       <td>NaN</td>
       <td>Albania</td>
-      <td>41.1533</td>
-      <td>20.1683</td>
+      <td>41.153300</td>
+      <td>20.168300</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -389,8 +99,6 @@ filename: data_cleaning
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>1891</td>
-      <td>1962</td>
       <td>1995</td>
       <td>2047</td>
       <td>2114</td>
@@ -398,14 +106,16 @@ filename: data_cleaning
       <td>2269</td>
       <td>2330</td>
       <td>2402</td>
+      <td>2466</td>
+      <td>2535</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>2</th>
       <td>NaN</td>
       <td>Algeria</td>
-      <td>28.0339</td>
-      <td>1.6596</td>
+      <td>28.033900</td>
+      <td>1.659600</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -413,8 +123,6 @@ filename: data_cleaning
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>11631</td>
-      <td>11771</td>
       <td>11920</td>
       <td>12076</td>
       <td>12248</td>
@@ -422,14 +130,16 @@ filename: data_cleaning
       <td>12685</td>
       <td>12968</td>
       <td>13273</td>
+      <td>13571</td>
+      <td>13907</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>3</th>
       <td>NaN</td>
       <td>Andorra</td>
-      <td>42.5063</td>
-      <td>1.5218</td>
+      <td>42.506300</td>
+      <td>1.521800</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -452,8 +162,8 @@ filename: data_cleaning
       <th>4</th>
       <td>NaN</td>
       <td>Angola</td>
-      <td>-11.2027</td>
-      <td>17.8739</td>
+      <td>-11.202700</td>
+      <td>17.873900</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -461,8 +171,6 @@ filename: data_cleaning
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>176</td>
-      <td>183</td>
       <td>186</td>
       <td>189</td>
       <td>197</td>
@@ -470,14 +178,40 @@ filename: data_cleaning
       <td>212</td>
       <td>259</td>
       <td>267</td>
+      <td>276</td>
+      <td>284</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>261</th>
       <td>NaN</td>
-      <td>Antigua and Barbuda</td>
-      <td>17.0608</td>
-      <td>-61.7964</td>
+      <td>Sao Tome and Principe</td>
+      <td>0.186360</td>
+      <td>6.613081</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -485,23 +219,23 @@ filename: data_cleaning
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>26</td>
-      <td>26</td>
-      <td>26</td>
-      <td>26</td>
-      <td>26</td>
-      <td>65</td>
-      <td>65</td>
-      <td>65</td>
-      <td>69</td>
+      <td>702</td>
+      <td>707</td>
+      <td>710</td>
+      <td>711</td>
+      <td>712</td>
+      <td>713</td>
+      <td>713</td>
+      <td>713</td>
+      <td>714</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>6</th>
+      <th>262</th>
       <td>NaN</td>
-      <td>Argentina</td>
-      <td>-38.4161</td>
-      <td>-63.6167</td>
+      <td>Yemen</td>
+      <td>15.552727</td>
+      <td>48.516388</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -509,23 +243,23 @@ filename: data_cleaning
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>41204</td>
-      <td>42785</td>
-      <td>44931</td>
-      <td>47203</td>
-      <td>49851</td>
-      <td>52457</td>
-      <td>55343</td>
-      <td>57744</td>
-      <td>59933</td>
+      <td>967</td>
+      <td>992</td>
+      <td>1015</td>
+      <td>1076</td>
+      <td>1089</td>
+      <td>1103</td>
+      <td>1118</td>
+      <td>1128</td>
+      <td>1158</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>263</th>
       <td>NaN</td>
-      <td>Armenia</td>
-      <td>40.0691</td>
-      <td>45.0382</td>
+      <td>Comoros</td>
+      <td>-11.645500</td>
+      <td>43.333300</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -533,23 +267,23 @@ filename: data_cleaning
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>19708</td>
-      <td>20268</td>
-      <td>20588</td>
-      <td>21006</td>
-      <td>21717</td>
-      <td>22488</td>
-      <td>23247</td>
-      <td>23909</td>
-      <td>24645</td>
+      <td>247</td>
+      <td>265</td>
+      <td>265</td>
+      <td>272</td>
+      <td>272</td>
+      <td>272</td>
+      <td>272</td>
+      <td>272</td>
+      <td>303</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>Australian Capital Territory</td>
-      <td>Australia</td>
-      <td>-35.4735</td>
-      <td>149.0124</td>
+      <th>264</th>
+      <td>NaN</td>
+      <td>Tajikistan</td>
+      <td>38.861034</td>
+      <td>71.276093</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -557,51 +291,377 @@ filename: data_cleaning
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>108</td>
-      <td>108</td>
-      <td>108</td>
-      <td>108</td>
-      <td>108</td>
-      <td>108</td>
-      <td>108</td>
-      <td>108</td>
-      <td>108</td>
+      <td>5513</td>
+      <td>5567</td>
+      <td>5630</td>
+      <td>5691</td>
+      <td>5747</td>
+      <td>5799</td>
+      <td>5849</td>
+      <td>5900</td>
+      <td>5900</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>9</th>
-      <td>New South Wales</td>
-      <td>Australia</td>
-      <td>-33.8688</td>
-      <td>151.2093</td>
+      <th>265</th>
+      <td>NaN</td>
+      <td>Lesotho</td>
+      <td>-29.609988</td>
+      <td>28.233608</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>3</td>
-      <td>4</td>
+      <td>0</td>
+      <td>0</td>
       <td>...</td>
-      <td>3149</td>
-      <td>3151</td>
-      <td>3150</td>
-      <td>3159</td>
-      <td>3162</td>
-      <td>3168</td>
-      <td>3174</td>
-      <td>3177</td>
-      <td>3184</td>
+      <td>12</td>
+      <td>17</td>
+      <td>17</td>
+      <td>17</td>
+      <td>24</td>
+      <td>24</td>
+      <td>27</td>
+      <td>27</td>
+      <td>27</td>
       <td>NaN</td>
     </tr>
   </tbody>
 </table>
-<p>10 rows × 164 columns</p>
+<p>266 rows × 166 columns</p>
 </div>
 
 
 
-#### Combine Data and Change Time Series Dimension
 
-**Here I wanted to treat the time series data as one feature. I explored several ways to approach this, but with a lack of user friendly solutions, I iteratively expanded each row. I was able to minimize the runtime through multiprocessing.**
+<p style='font-size: 15px'>U.S. Cases</p>
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>County</th>
+      <th>Province_State</th>
+      <th>Country_Region</th>
+      <th>Lat</th>
+      <th>Long</th>
+      <th>1/22/2020</th>
+      <th>1/23/2020</th>
+      <th>1/24/2020</th>
+      <th>1/25/2020</th>
+      <th>1/26/2020</th>
+      <th>...</th>
+      <th>6/21/2020</th>
+      <th>6/22/2020</th>
+      <th>6/23/2020</th>
+      <th>6/24/2020</th>
+      <th>6/25/2020</th>
+      <th>6/26/2020</th>
+      <th>6/27/2020</th>
+      <th>6/28/2020</th>
+      <th>6/29/2020</th>
+      <th>6/30/2020</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>5</th>
+      <td>Autauga</td>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>428</td>
+      <td>436</td>
+      <td>447</td>
+      <td>463</td>
+      <td>473</td>
+      <td>482</td>
+      <td>492</td>
+      <td>497</td>
+      <td>521</td>
+      <td>530</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Baldwin</td>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>30.727750</td>
+      <td>-87.722071</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>415</td>
+      <td>422</td>
+      <td>435</td>
+      <td>449</td>
+      <td>462</td>
+      <td>500</td>
+      <td>539</td>
+      <td>559</td>
+      <td>626</td>
+      <td>663</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Barbour</td>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>31.868263</td>
+      <td>-85.387129</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>271</td>
+      <td>276</td>
+      <td>279</td>
+      <td>287</td>
+      <td>303</td>
+      <td>309</td>
+      <td>314</td>
+      <td>314</td>
+      <td>319</td>
+      <td>322</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Bibb</td>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.996421</td>
+      <td>-87.125115</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>124</td>
+      <td>126</td>
+      <td>132</td>
+      <td>138</td>
+      <td>146</td>
+      <td>150</td>
+      <td>158</td>
+      <td>159</td>
+      <td>162</td>
+      <td>167</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Blount</td>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>33.982109</td>
+      <td>-86.567906</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>146</td>
+      <td>150</td>
+      <td>156</td>
+      <td>165</td>
+      <td>173</td>
+      <td>181</td>
+      <td>185</td>
+      <td>186</td>
+      <td>196</td>
+      <td>204</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3256</th>
+      <td>Central Utah</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>39.372319</td>
+      <td>-111.575868</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>102</td>
+      <td>110</td>
+      <td>114</td>
+      <td>117</td>
+      <td>117</td>
+      <td>127</td>
+      <td>134</td>
+      <td>143</td>
+      <td>159</td>
+      <td>169</td>
+    </tr>
+    <tr>
+      <th>3257</th>
+      <td>Southeast Utah</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>38.996171</td>
+      <td>-110.701396</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>31</td>
+      <td>31</td>
+      <td>31</td>
+      <td>32</td>
+      <td>32</td>
+      <td>33</td>
+      <td>34</td>
+      <td>35</td>
+      <td>35</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>3258</th>
+      <td>Southwest Utah</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>37.854472</td>
+      <td>-111.441876</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>1056</td>
+      <td>1104</td>
+      <td>1151</td>
+      <td>1200</td>
+      <td>1258</td>
+      <td>1302</td>
+      <td>1361</td>
+      <td>1428</td>
+      <td>1467</td>
+      <td>1519</td>
+    </tr>
+    <tr>
+      <th>3259</th>
+      <td>TriCounty</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>40.124915</td>
+      <td>-109.517442</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>38</td>
+      <td>39</td>
+      <td>39</td>
+      <td>40</td>
+      <td>42</td>
+      <td>45</td>
+      <td>46</td>
+      <td>48</td>
+      <td>48</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>3260</th>
+      <td>Weber-Morgan</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>41.271160</td>
+      <td>-111.914512</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>666</td>
+      <td>676</td>
+      <td>708</td>
+      <td>734</td>
+      <td>779</td>
+      <td>814</td>
+      <td>846</td>
+      <td>872</td>
+      <td>919</td>
+      <td>954</td>
+    </tr>
+  </tbody>
+</table>
+<p>3256 rows × 166 columns</p>
+</div>
+
+
+
+#### Expand Time Series Data
+
+**Here I wanted to treat the time series data as one feature rather than separate variabels. I explored several ways to approach this, but with a lack of user friendly solutions, I iteratively expanded each row. I was able to minimize the runtime through multiprocessing.**
+
+**The global table was filtered by the key countries of interest: U.S., Australia, Canada, China, and UK. I chose these countries as they have province specific data making them comparable at a detailed level. The U.S. cases were kept in a separate table at the county level for separate analysis, but were aggregated to the state level within the global table.**
+
+
+<p style='font-size: 15px'>U.S. By Counties</p>
+
 
 
 
@@ -635,303 +695,53 @@ filename: data_cleaning
   </thead>
   <tbody>
     <tr>
-      <th>5</th>
+      <th>0</th>
       <td>Autauga</td>
       <td>Alabama</td>
       <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/22/20</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-22</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>1</th>
       <td>Autauga</td>
       <td>Alabama</td>
       <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/23/20</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-23</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>2</th>
       <td>Autauga</td>
       <td>Alabama</td>
       <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/24/20</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-24</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>3</th>
       <td>Autauga</td>
       <td>Alabama</td>
       <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/25/20</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-25</td>
       <td>0</td>
     </tr>
     <tr>
-      <th>5</th>
+      <th>4</th>
       <td>Autauga</td>
       <td>Alabama</td>
       <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/26/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/27/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/28/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/29/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/30/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>1/31/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/1/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/2/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/3/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/4/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/5/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/6/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/7/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/8/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/9/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/10/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/11/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/12/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/13/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/14/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/15/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/16/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/17/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/18/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/19/20</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Autauga</td>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.5395</td>
-      <td>-86.6441</td>
-      <td>2/20/20</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-26</td>
       <td>0</td>
     </tr>
     <tr>
@@ -945,308 +755,1044 @@ filename: data_cleaning
       <td>...</td>
     </tr>
     <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>5/30/20</td>
-      <td>1</td>
+      <th>524211</th>
+      <td>Weber-Morgan</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>41.271160</td>
+      <td>-111.914512</td>
+      <td>2020-06-26</td>
+      <td>814</td>
     </tr>
     <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>5/31/20</td>
-      <td>1</td>
+      <th>524212</th>
+      <td>Weber-Morgan</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>41.271160</td>
+      <td>-111.914512</td>
+      <td>2020-06-27</td>
+      <td>846</td>
     </tr>
     <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/1/20</td>
-      <td>1</td>
+      <th>524213</th>
+      <td>Weber-Morgan</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>41.271160</td>
+      <td>-111.914512</td>
+      <td>2020-06-28</td>
+      <td>872</td>
     </tr>
     <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/2/20</td>
-      <td>1</td>
+      <th>524214</th>
+      <td>Weber-Morgan</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>41.271160</td>
+      <td>-111.914512</td>
+      <td>2020-06-29</td>
+      <td>919</td>
     </tr>
     <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/3/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/4/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/5/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/6/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/7/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/8/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/9/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/10/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/11/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/12/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/13/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/14/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/15/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/16/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/17/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/18/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/19/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/20/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/21/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/22/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/23/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/24/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/25/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/26/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/27/20</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>258</th>
-      <td>NaN</td>
-      <td>Saint Pierre and Miquelon</td>
-      <td>France</td>
-      <td>46.8852</td>
-      <td>-56.3159</td>
-      <td>6/28/20</td>
-      <td>1</td>
+      <th>524215</th>
+      <td>Weber-Morgan</td>
+      <td>Utah</td>
+      <td>US</td>
+      <td>41.271160</td>
+      <td>-111.914512</td>
+      <td>2020-06-30</td>
+      <td>954</td>
     </tr>
   </tbody>
 </table>
-<p>529629 rows × 7 columns</p>
+<p>524216 rows × 7 columns</p>
+</div>
+
+
+
+
+<p style='font-size: 15px'>Global</p>
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Province_State</th>
+      <th>Country_Region</th>
+      <th>Lat</th>
+      <th>Long</th>
+      <th>Date</th>
+      <th>Total_Cases</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-22</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-23</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-24</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-25</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-26</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>8528</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-26</td>
+      <td>1368</td>
+    </tr>
+    <tr>
+      <th>8529</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-27</td>
+      <td>1392</td>
+    </tr>
+    <tr>
+      <th>8530</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-28</td>
+      <td>1417</td>
+    </tr>
+    <tr>
+      <th>8531</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-29</td>
+      <td>1450</td>
+    </tr>
+    <tr>
+      <th>8532</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-30</td>
+      <td>1487</td>
+    </tr>
+  </tbody>
+</table>
+<p>541604 rows × 6 columns</p>
+</div>
+
+
+
+### Adding Temperature, Political Party, Protest, and Lockdown Variables
+
+**After organizing the pandemic data, I added a series of other interesting variables mainly to the U.S. dataset including average temperature per month, political party controlling the current local governemnt, a count for the number of recoreded Black Lives Matter protests in the area, COVID-19 lockdown phases and restriction rating from the Washington Post.**
+
+
+<p style='font-size: 15px'>U.S. By Counties</p>
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>County</th>
+      <th>Country_Region</th>
+      <th>Lat</th>
+      <th>Long</th>
+      <th>Date</th>
+      <th>Total_Cases</th>
+      <th>State</th>
+      <th>Abbreviation</th>
+      <th>Phase.0</th>
+      <th>Phase.1</th>
+      <th>Phase.2</th>
+      <th>Phase.3</th>
+      <th>Restriction Rating</th>
+      <th>Governer.Party</th>
+      <th>Current_Phase</th>
+      <th>FIPS</th>
+      <th>Month</th>
+      <th>Avg_Temp</th>
+      <th>Protest_Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Autauga</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-22</td>
+      <td>0</td>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>2020-04-04</td>
+      <td>2020-04-30</td>
+      <td>2020-05-11</td>
+      <td>2020-05-22</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>-1</td>
+      <td>1001</td>
+      <td>2020-01</td>
+      <td>50.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Autauga</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-23</td>
+      <td>0</td>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>2020-04-04</td>
+      <td>2020-04-30</td>
+      <td>2020-05-11</td>
+      <td>2020-05-22</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>-1</td>
+      <td>1001</td>
+      <td>2020-01</td>
+      <td>50.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Autauga</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-24</td>
+      <td>0</td>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>2020-04-04</td>
+      <td>2020-04-30</td>
+      <td>2020-05-11</td>
+      <td>2020-05-22</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>-1</td>
+      <td>1001</td>
+      <td>2020-01</td>
+      <td>50.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Autauga</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-25</td>
+      <td>0</td>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>2020-04-04</td>
+      <td>2020-04-30</td>
+      <td>2020-05-11</td>
+      <td>2020-05-22</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>-1</td>
+      <td>1001</td>
+      <td>2020-01</td>
+      <td>50.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Autauga</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-26</td>
+      <td>0</td>
+      <td>Alabama</td>
+      <td>AL</td>
+      <td>2020-04-04</td>
+      <td>2020-04-30</td>
+      <td>2020-05-11</td>
+      <td>2020-05-22</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>-1</td>
+      <td>1001</td>
+      <td>2020-01</td>
+      <td>50.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>521635</th>
+      <td>Unassigned</td>
+      <td>US</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>2020-06-26</td>
+      <td>0</td>
+      <td>Wyoming</td>
+      <td>WY</td>
+      <td>2020-03-15</td>
+      <td>2020-03-15</td>
+      <td>2020-05-01</td>
+      <td>2020-05-15</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>3</td>
+      <td>90056</td>
+      <td>2020-06</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>521636</th>
+      <td>Unassigned</td>
+      <td>US</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>2020-06-27</td>
+      <td>0</td>
+      <td>Wyoming</td>
+      <td>WY</td>
+      <td>2020-03-15</td>
+      <td>2020-03-15</td>
+      <td>2020-05-01</td>
+      <td>2020-05-15</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>3</td>
+      <td>90056</td>
+      <td>2020-06</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>521637</th>
+      <td>Unassigned</td>
+      <td>US</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>2020-06-28</td>
+      <td>0</td>
+      <td>Wyoming</td>
+      <td>WY</td>
+      <td>2020-03-15</td>
+      <td>2020-03-15</td>
+      <td>2020-05-01</td>
+      <td>2020-05-15</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>3</td>
+      <td>90056</td>
+      <td>2020-06</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>521638</th>
+      <td>Unassigned</td>
+      <td>US</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>2020-06-29</td>
+      <td>0</td>
+      <td>Wyoming</td>
+      <td>WY</td>
+      <td>2020-03-15</td>
+      <td>2020-03-15</td>
+      <td>2020-05-01</td>
+      <td>2020-05-15</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>3</td>
+      <td>90056</td>
+      <td>2020-06</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>521639</th>
+      <td>Unassigned</td>
+      <td>US</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>2020-06-30</td>
+      <td>0</td>
+      <td>Wyoming</td>
+      <td>WY</td>
+      <td>2020-03-15</td>
+      <td>2020-03-15</td>
+      <td>2020-05-01</td>
+      <td>2020-05-15</td>
+      <td>minor</td>
+      <td>R</td>
+      <td>3</td>
+      <td>90056</td>
+      <td>2020-06</td>
+      <td>NaN</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>521640 rows × 19 columns</p>
+</div>
+
+
+
+
+<p style='font-size: 15px'>Global</p>
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Province_State</th>
+      <th>Country_Region</th>
+      <th>Lat</th>
+      <th>Long</th>
+      <th>Date</th>
+      <th>Total_Cases</th>
+      <th>Abbreviation</th>
+      <th>Protest_Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-22</td>
+      <td>0</td>
+      <td>AL</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-23</td>
+      <td>0</td>
+      <td>AL</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-24</td>
+      <td>0</td>
+      <td>AL</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-25</td>
+      <td>0</td>
+      <td>AL</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Alabama</td>
+      <td>US</td>
+      <td>32.539527</td>
+      <td>-86.644082</td>
+      <td>2020-01-26</td>
+      <td>0</td>
+      <td>AL</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>541599</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-26</td>
+      <td>1368</td>
+      <td>WY</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <th>541600</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-27</td>
+      <td>1392</td>
+      <td>WY</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <th>541601</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-28</td>
+      <td>1417</td>
+      <td>WY</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <th>541602</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-29</td>
+      <td>1450</td>
+      <td>WY</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <th>541603</th>
+      <td>Wyoming</td>
+      <td>US</td>
+      <td>39.639935</td>
+      <td>-98.580983</td>
+      <td>2020-06-30</td>
+      <td>1487</td>
+      <td>WY</td>
+      <td>14.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>541604 rows × 8 columns</p>
+</div>
+
+
+
+### Population and Demographics Variables (US)
+
+**Lastly, I added American Community Survey (ACS) estimates from the Census Bureau including demographic data at the county level in the U.S along with the population density of each county.**
+
+
+<p style='font-size: 15px'>U.S. By Counties</p>
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>FIPS</th>
+      <th>POP.2014</th>
+      <th>Perc.Over.65</th>
+      <th>Perc.White</th>
+      <th>Perc.Black</th>
+      <th>Perc.Native</th>
+      <th>Perc.Asian</th>
+      <th>Perc.Pac.Island</th>
+      <th>Perc.Mixed</th>
+      <th>Perc.His.Lat</th>
+      <th>Perc.Foreign.Born</th>
+      <th>Avg.Person.Per.Household</th>
+      <th>Land.Area.sq.mi</th>
+      <th>POP.per.sq.mi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>318857056</td>
+      <td>14.1</td>
+      <td>77.7</td>
+      <td>13.2</td>
+      <td>1.2</td>
+      <td>5.3</td>
+      <td>0.2</td>
+      <td>2.4</td>
+      <td>17.1</td>
+      <td>12.9</td>
+      <td>2.63</td>
+      <td>3531905.43</td>
+      <td>87.4</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1000</td>
+      <td>4849377</td>
+      <td>14.9</td>
+      <td>69.8</td>
+      <td>26.6</td>
+      <td>0.7</td>
+      <td>1.3</td>
+      <td>0.1</td>
+      <td>1.5</td>
+      <td>4.1</td>
+      <td>3.5</td>
+      <td>2.55</td>
+      <td>50645.33</td>
+      <td>94.4</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1001</td>
+      <td>55395</td>
+      <td>13.5</td>
+      <td>78.1</td>
+      <td>18.4</td>
+      <td>0.5</td>
+      <td>1.1</td>
+      <td>0.1</td>
+      <td>1.7</td>
+      <td>2.7</td>
+      <td>1.6</td>
+      <td>2.71</td>
+      <td>594.44</td>
+      <td>91.8</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1003</td>
+      <td>200111</td>
+      <td>18.1</td>
+      <td>87.3</td>
+      <td>9.5</td>
+      <td>0.7</td>
+      <td>0.9</td>
+      <td>0.1</td>
+      <td>1.5</td>
+      <td>4.6</td>
+      <td>3.6</td>
+      <td>2.52</td>
+      <td>1589.78</td>
+      <td>114.6</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1005</td>
+      <td>26887</td>
+      <td>15.9</td>
+      <td>50.2</td>
+      <td>47.6</td>
+      <td>0.6</td>
+      <td>0.5</td>
+      <td>0.2</td>
+      <td>0.9</td>
+      <td>4.8</td>
+      <td>2.9</td>
+      <td>2.66</td>
+      <td>884.88</td>
+      <td>31.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3190</th>
+      <td>56037</td>
+      <td>45010</td>
+      <td>9.0</td>
+      <td>94.2</td>
+      <td>1.7</td>
+      <td>1.2</td>
+      <td>0.9</td>
+      <td>0.2</td>
+      <td>1.7</td>
+      <td>15.9</td>
+      <td>5.5</td>
+      <td>2.62</td>
+      <td>10426.65</td>
+      <td>4.2</td>
+    </tr>
+    <tr>
+      <th>3191</th>
+      <td>56039</td>
+      <td>22930</td>
+      <td>11.8</td>
+      <td>94.6</td>
+      <td>1.5</td>
+      <td>1.0</td>
+      <td>1.3</td>
+      <td>0.1</td>
+      <td>1.5</td>
+      <td>15.1</td>
+      <td>9.1</td>
+      <td>2.76</td>
+      <td>3995.38</td>
+      <td>5.3</td>
+    </tr>
+    <tr>
+      <th>3192</th>
+      <td>56041</td>
+      <td>20904</td>
+      <td>10.5</td>
+      <td>95.6</td>
+      <td>0.8</td>
+      <td>1.3</td>
+      <td>0.4</td>
+      <td>0.2</td>
+      <td>1.7</td>
+      <td>9.1</td>
+      <td>3.4</td>
+      <td>2.85</td>
+      <td>2081.26</td>
+      <td>10.1</td>
+    </tr>
+    <tr>
+      <th>3193</th>
+      <td>56043</td>
+      <td>8322</td>
+      <td>19.2</td>
+      <td>95.0</td>
+      <td>0.8</td>
+      <td>1.7</td>
+      <td>0.7</td>
+      <td>0.1</td>
+      <td>1.7</td>
+      <td>14.2</td>
+      <td>5.0</td>
+      <td>2.40</td>
+      <td>2238.55</td>
+      <td>3.8</td>
+    </tr>
+    <tr>
+      <th>3194</th>
+      <td>56045</td>
+      <td>7201</td>
+      <td>17.4</td>
+      <td>95.3</td>
+      <td>0.6</td>
+      <td>1.7</td>
+      <td>0.3</td>
+      <td>0.0</td>
+      <td>2.1</td>
+      <td>3.8</td>
+      <td>0.4</td>
+      <td>2.29</td>
+      <td>2398.09</td>
+      <td>3.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>3195 rows × 14 columns</p>
+</div>
+
+
+
+**For the global data, the European Union had population numbers per county. These are 2020 estimates.**
+
+
+<p style='font-size: 15px'>Global</p>
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>FIPS</th>
+      <th>PopMale</th>
+      <th>PopFemale</th>
+      <th>PopTotal</th>
+      <th>PopDensity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Afghanistan</td>
+      <td>4</td>
+      <td>19976.265</td>
+      <td>18952.076</td>
+      <td>38928.341</td>
+      <td>59.627</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Africa</td>
+      <td>903</td>
+      <td>669878.340</td>
+      <td>670719.773</td>
+      <td>1340598.113</td>
+      <td>45.216</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>African Group</td>
+      <td>1823</td>
+      <td>668995.562</td>
+      <td>669831.029</td>
+      <td>1338826.591</td>
+      <td>45.571</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>African Union</td>
+      <td>1560</td>
+      <td>669307.822</td>
+      <td>670116.099</td>
+      <td>1339423.921</td>
+      <td>45.182</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>African Union: Central Africa</td>
+      <td>2080</td>
+      <td>79260.910</td>
+      <td>79358.728</td>
+      <td>158619.638</td>
+      <td>30.066</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>469</th>
+      <td>World</td>
+      <td>900</td>
+      <td>3929973.953</td>
+      <td>3864824.776</td>
+      <td>7794798.729</td>
+      <td>59.917</td>
+    </tr>
+    <tr>
+      <th>470</th>
+      <td>World Bank Regional Groups (developing only)</td>
+      <td>1801</td>
+      <td>3299567.992</td>
+      <td>3229194.235</td>
+      <td>6528762.227</td>
+      <td>71.088</td>
+    </tr>
+    <tr>
+      <th>471</th>
+      <td>Yemen</td>
+      <td>887</td>
+      <td>15024.985</td>
+      <td>14800.983</td>
+      <td>29825.968</td>
+      <td>56.492</td>
+    </tr>
+    <tr>
+      <th>472</th>
+      <td>Zambia</td>
+      <td>894</td>
+      <td>9103.006</td>
+      <td>9280.950</td>
+      <td>18383.956</td>
+      <td>24.730</td>
+    </tr>
+    <tr>
+      <th>473</th>
+      <td>Zimbabwe</td>
+      <td>716</td>
+      <td>7092.010</td>
+      <td>7770.917</td>
+      <td>14862.927</td>
+      <td>38.420</td>
+    </tr>
+  </tbody>
+</table>
+<p>474 rows × 6 columns</p>
 </div>
 
 
