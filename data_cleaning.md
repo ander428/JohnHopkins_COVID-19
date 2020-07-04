@@ -1443,7 +1443,7 @@ These are the U.S. and Global time series tables from the CSSE database
 
 ### Population and Demographics Variables (US)
 
-**Lastly, I added American Community Survey (ACS) estimates from the Census Bureau including demographic data at the county level in the U.S along with the population density of each county. Reminder that the population and area metrics are in the thousands.**
+**Lastly, I added American Community Survey (ACS) estimates from the Census Bureau including demographic data at the county level in the U.S along with the population density of each county. The population and area metrics are in the thousands.**
 
 
 <p style='font-size: 15px'>U.S. By Counties</p>
