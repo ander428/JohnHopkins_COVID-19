@@ -83,3 +83,16 @@ The Census Bureau provides detailed data on U.S. demographics and population. I 
 ### National Oceanic and Atmospheric Administration “Climate at a Glance” county mapping
 
 As there is evidence that suggests temperature can affect COVID-19, I thought the climate could potentially have an impact. This data from the NOAA conveniently has 2020 data of the average temperature for every county in the U.S. up to date. I used average temperatures from January to June as that is the timeframe of this analysis. An interactive map provided by the NOAA can be found [here](https://www.ncdc.noaa.gov/cag/county/mapping/110/tavg/202005/1/value).
+
+## Non-U.S. Sources
+
+### United Nations, Department of Economic and Social Affairs, Population Division (2019). World Population Prospects 2019, Online Edition. Rev. 1
+
+This data is an aggregation of population per country including multiple different factors such as population by biological sex and population density. The variables are as listed:
+
+- **LocID (numeric)**: numeric code for the location; for countries and areas, it follows the ISO 3166-1 numeric standard
+- **Location (string)**: name of the region, subregion, country or area
+- **VarID (numeric)**: numeric code for the variant
+- **Variant (string)**: projection variant name (Medium is the most used); for more information see Definition of projection variants
+- **Time (string)**: label identifying the single year (e.g. 1950) or the period of the data (e.g. 1950-1955)
+- **MidPeriod (numeric)**: numeric value identifying the mid period of the data, with the decimal representing the month (e.g. 1950.5 for July 1950)
