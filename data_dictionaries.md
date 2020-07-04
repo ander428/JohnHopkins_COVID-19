@@ -6,7 +6,9 @@ filename: data_dictionaries
 
 # Data Dictionaries
 
-## COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
+## Pandemic Sources
+
+### COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
 
 This database was the inspiration for ths project. Having numerous factors about the pandemic on a domestic and international level,
 this database includes confirmed cases and deaths down to the county level along with total recoveries at an international level. 
@@ -22,7 +24,7 @@ The variables used from this data source include:
 - **Lat and Long_**: Dot locations on the dashboard. All points (except for Australia) shown on the map are based on geographic centroids, and are not representative of a specific address, building or any location at a spatial scale finer than a province/state. Australian dots are located at the centroid of the largest city in each state.
 - **Confirmed**: Confirmed cases include presumptive positive cases and probable cases, in accordance with CDC guidelines up to *June 30th.*
 
-## White House Guidlines and Reopenning Criteria
+### White House Guidlines and Reopenning Criteria
 
 These are federal guidlines that were provided by the White House as a recommendation for the states to have a framework to work with.
 Since every state decided their own approach to reopenning phases, I decided to use these guidlines as a lowest common denominator for 
@@ -42,7 +44,7 @@ A vulnerable individual was defined as:
 *2. Individuals with serious underlying health conditions, including high blood pressure, chronic lung disease,
 diabetes, obesity, asthma, and those whose immune system is compromised such as by chemotherapy for cancer and other conditions requiring such therapy.*
 
-## Where states reopened and cases spiked after the U.S. shutdown by Washington Post
+### Where states reopened and cases spiked after the U.S. shutdown by Washington Post
 
 This article from the Washington Post was the best aggregation of the lockdown procedures by state I could find. I used this information along with the White House phases to generalize the phases into comparable factors between states as of June 30th. With this information, I constructed [WP_phases_6.30.20.csv](https://github.com/ander428/JohnHopkins_COVID-19/blob/master/data/pandemic/WP_phases_6.30.20.csv) capturing the data to compare to the time series data in the John Hopkins database. This was a subjective process prone to error, but provides a small amount more of context to the reopenning procedures of each state.
 
@@ -57,3 +59,27 @@ These are the variables used to construct the table:
 - **Restriction Rating**: The subjective rating given by Washington Post that generally describes the nature of the descriptions.
 - **Governer.Party**: The political party affiliation of the governor (or leader responsible for the lockdown restrictions).
 
+## U.S. Geographical and Population Data
+
+### National, State, and County Housing Unit Totals: 2010-2019 (2010 Census Approximations)
+
+The Census Bureau provides detailed data on U.S. demographics and population. I opted for an aggregated 2014 table as the ACS API is much more complex to get the same results. This table has many variables so you can view the full dictionary [here](https://web.archive.org/web/20150821061818/http://quickfacts.census.gov/qfd/download/DataDict.txt). I selected a subset of variables that I thought may have some interesting or significant results. These variales include:
+
+- **STATECOU**:  FIPS State and County code
+- **PST045214**: Population, 2014 estimate
+- **AGE775213**: Persons 65 years and over, percent, 2013
+- **RHI125213**: White alone, percent, 2013   
+- **RHI225213**: Black or African American alone, percent, 2013 
+- **RHI325213**: American Indian and Alaska Native alone, percent, 2013  
+- **RHI425213**: Asian alone, percent, 2013   
+- **RHI525213**: Native Hawaiian and Other Pacific Islander alone, percent, 2013   
+- **RHI625213**: Two or More Races, percent, 2013 
+- **RHI625213**: Two or More Races, percent, 2013 
+- **RHI725213**: Hispanic or Latino, percent, 2013   
+- **POP645213**: Foreign born persons, percent, 2009-2013 
+- **LND110210**: Land area in square miles, 2010  
+- **POP060210**: Population per square mile, 2010 
+
+### National Oceanic and Atmospheric Administration “Climate at a Glance” county mapping
+
+As there is evidence that suggests temperature can affect COVID-19, I thought the climate could potentially have an impact. This data from the NOAA conveniently has 2020 data of the average temperature for every county in the U.S. up to date. I used average temperatures from January to June as that is the timeframe of this analysis. An interactive map provided by the NOAA can be found [here](https://www.ncdc.noaa.gov/cag/county/mapping/110/tavg/202005/1/value).
