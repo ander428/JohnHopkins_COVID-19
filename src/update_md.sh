@@ -17,8 +17,8 @@ done
 mv *.md ../
 
 if [[ `git status --porcelain` ]]; then
-    git add ../*.md
-    git commit -m "Markdown Autoupdate `date`"
+    git add ./*.ipynb ../*.md
+    git commit -m "Code and Markdown Autoupdate `date`"
     git push
     echo "Changes Uploaded!"
 fi

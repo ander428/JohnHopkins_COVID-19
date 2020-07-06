@@ -1,4 +1,4 @@
-"","Region","Value.properties.Country","State","Count"
+"","Region","Value.properties.Country","State","n"
 "1","Acadia Parish","USA","LA",1
 "2","Accomack County","USA","VA",2
 "3","Ada County","USA","ID",1
@@ -59,1537 +59,1616 @@
 "58","Atoka County","USA","OK",1
 "59","Audrain County","USA","MO",1
 "60","Austin County","USA","TX",1
-"61","Australian Capital Territory","Australia",NA,1
+"61","Australian Capital Territory","Australia","(Missing)",1
 "62","Avery County","USA","NC",1
 "63","Avoyelles Parish","USA","LA",1
-"64","Baker County","USA","OR",1
-"65","Baldwin County","USA","GA",1
-"66","Baltimore city","USA","MD",1
-"67","Baltimore County","USA","MD",7
-"68","Bannock County","USA","ID",1
-"69","Barnes County","USA","ND",1
-"70","Barnstable County","USA","MA",11
-"71","Barren County","USA","KY",1
-"72","Barron County","USA","WI",2
-"73","Barry County","USA","MO",1
-"74","Bartholomew County","USA","IN",1
-"75","Barton County","USA","KS",1
-"76","Bartow County","USA","GA",1
-"77","Bastrop County","USA","TX",1
-"78","Baxter County","USA","AR",1
-"79","Bay County","USA","FL",3
-"80","Bay County","USA","MI",1
-"81","Bayfield County","USA","WI",1
-"82","Beadle County","USA","SD",1
-"83","Beaufort County","USA","NC",1
-"84","Beaufort County","USA","SC",3
-"85","Beauregard Parish","USA","LA",1
-"86","Beaver County","USA","PA",4
-"87","Beaverhead County","USA","MT",1
-"88","Becker County","USA","MN",1
-"89","Bedford city","USA","VA",1
-"90","Bedford County","USA","PA",1
-"91","Belknap County","USA","NH",2
-"92","Bell County","USA","KY",1
-"93","Bell County","USA","TX",3
-"94","Beltrami County","USA","MN",1
-"95","Ben Hill County","USA","GA",1
-"96","Bennington County","USA","VT",2
-"97","Benton County","USA","AR",2
-"98","Benton County","USA","IA",1
-"99","Benton County","USA","OR",1
-"100","Benton County","USA","WA",2
-"101","Bergen County","USA","NJ",19
-"102","Berkeley County","USA","SC",1
-"103","Berkeley County","USA","WV",1
-"104","Berks County","USA","PA",9
-"105","Berkshire County","USA","MA",4
-"106","Bermuda","UK",NA,1
-"107","Bernalillo County","USA","NM",1
-"108","Berrien County","USA","MI",5
-"109","Bethel Census Area","USA","AK",1
-"110","Bexar County","USA","TX",2
-"111","Bibb County","USA","GA",1
-"112","Black Hawk County","USA","IA",2
-"113","Bladen County","USA","NC",1
-"114","Blaine County","USA","ID",3
-"115","Blair County","USA","PA",3
-"116","Bleckley County","USA","GA",1
-"117","Blount County","USA","TN",2
-"118","Blue Earth County","USA","MN",1
-"119","Bolivar County","USA","MS",1
-"120","Bonner County","USA","ID",1
-"121","Bonneville County","USA","ID",1
-"122","Boone County","USA","AR",1
-"123","Boone County","USA","IA",1
-"124","Boone County","USA","MO",1
-"125","Bossier Parish","USA","LA",2
-"126","Boulder County","USA","CO",4
-"127","Bourbon County","USA","KS",1
-"128","Bowie County","USA","TX",1
-"129","Box Butte County","USA","NE",1
-"130","Boyle County","USA","KY",1
-"131","Bradford County","USA","PA",1
-"132","Bradley County","USA","TN",1
-"133","Branch County","USA","MI",1
-"134","Brazoria County","USA","TX",5
-"135","Brazos County","USA","TX",2
-"136","Brevard County","USA","FL",8
-"137","Brewster County","USA","TX",1
-"138","Bristol city","USA","VA",1
-"139","Bristol County","USA","MA",8
-"140","Bristol County","USA","RI",2
-"141","British Columbia","Canada","BC",26
-"142","Bronx County","USA","NY",1
-"143","Brookings County","USA","SD",1
-"144","Broome County","USA","NY",1
-"145","Broomfield County","USA","CO",1
-"146","Broward County","USA","FL",11
-"147","Brown County","USA","MN",1
-"148","Brown County","USA","SD",1
-"149","Brown County","USA","TX",1
-"150","Brown County","USA","WI",3
-"151","Brunswick County","USA","VA",1
-"152","Bryan County","USA","GA",1
-"153","Bryan County","USA","OK",1
-"154","Buchanan County","USA","MO",1
-"155","Bucks County","USA","PA",12
-"156","Buena Vista County","USA","IA",1
-"157","Buffalo County","USA","NE",1
-"158","Bulloch County","USA","GA",1
-"159","Buncombe County","USA","NC",3
-"160","Bureau County","USA","IL",1
-"161","Burke County","USA","NC",1
-"162","Burleigh County","USA","ND",1
-"163","Burlington County","USA","NJ",8
-"164","Burnet County","USA","TX",1
-"165","Butler County","USA","MO",1
-"166","Butler County","USA","OH",5
-"167","Butler County","USA","PA",3
-"168","Butte County","USA","CA",4
-"169","Butte County","USA","SD",1
-"170","Cabarrus County","USA","NC",2
-"171","Cabell County","USA","WV",1
-"172","Cache County","USA","UT",1
-"173","Caddo Parish","USA","LA",1
-"174","Calaveras County","USA","CA",1
-"175","Calcasieu Parish","USA","LA",1
-"176","Caldwell County","USA","KY",1
-"177","Caldwell County","USA","NC",1
-"178","Caldwell County","USA","TX",1
-"179","Caledonia County","USA","VT",2
-"180","Calhoun County","USA","AL",2
-"181","Calhoun County","USA","MI",2
-"182","Calhoun County","USA","WV",1
-"183","Callaway County","USA","MO",1
-"184","Calloway County","USA","KY",1
-"185","Calvert County","USA","MD",1
-"186","Cambria County","USA","PA",1
-"187","Camden County","USA","GA",3
-"188","Camden County","USA","MO",1
-"189","Camden County","USA","NJ",6
-"190","Cameron County","USA","TX",2
-"191","Campbell County","USA","KY",1
-"192","Campbell County","USA","WY",1
-"193","Cape Girardeau County","USA","MO",1
-"194","Cape May County","USA","NJ",4
-"195","Carbon County","USA","MT",1
-"196","Carbon County","USA","PA",4
-"197","Caroline County","USA","MD",1
-"198","Caroline County","USA","VA",1
-"199","Carroll County","USA","GA",1
-"200","Carroll County","USA","IA",1
-"201","Carroll County","USA","MD",3
-"202","Carroll County","USA","NH",3
-"203","Carroll County","USA","TN",1
-"204","Carson City","USA","NV",1
-"205","Carter County","USA","OK",1
-"206","Carteret County","USA","NC",2
-"207","Carver County","USA","MN",1
-"208","Cascade County","USA","MT",1
-"209","Cass County","USA","IA",1
-"210","Cass County","USA","IL",1
-"211","Cass County","USA","MI",2
-"212","Cass County","USA","ND",1
-"213","Cass County","USA","TX",1
-"214","Catawba County","USA","NC",2
-"215","Cattaraugus County","USA","NY",1
-"216","Cayuga County","USA","NY",1
-"217","Cecil County","USA","MD",2
-"218","Centre County","USA","PA",3
-"219","Cerro Gordo County","USA","IA",1
-"220","Chaffee County","USA","CO",1
-"221","Champaign County","USA","IL",3
-"222","Charles City County","USA","VA",1
-"223","Charles County","USA","MD",2
-"224","Charleston County","USA","SC",2
-"225","Charlevoix County","USA","MI",1
-"226","Charlotte County","USA","FL",2
-"227","Charlottesville city","USA","VA",1
-"228","Chatham County","USA","GA",2
-"229","Chatham County","USA","NC",1
-"230","Chautauqua County","USA","NY",3
-"231","Chaves County","USA","NM",1
-"232","Cheboygan County","USA","MI",1
-"233","Chelan County","USA","WA",2
-"234","Chemung County","USA","NY",1
-"235","Chenango County","USA","NY",1
-"236","Cherokee County","USA","GA",2
-"237","Cherokee County","USA","NC",1
-"238","Cherokee County","USA","OK",1
-"239","Cherokee County","USA","SC",1
-"240","Cherokee County","USA","TX",1
-"241","Chesapeake city","USA","VA",1
-"242","Cheshire County","USA","NH",2
-"243","Chester County","USA","PA",6
-"244","Chester County","USA","SC",1
-"245","Chesterfield County","USA","SC",1
-"246","Chesterfield County","USA","VA",1
-"247","Cheyenne County","USA","NE",1
-"248","Chippewa County","USA","MI",1
-"249","Chippewa County","USA","MN",1
-"250","Chittenden County","USA","VT",5
-"251","Choctaw County","USA","AL",1
-"252","Chowan County","USA","NC",1
-"253","Christian County","USA","IL",1
-"254","Christian County","USA","KY",1
-"255","Churchill County","USA","NV",1
-"256","Citrus County","USA","FL",2
-"257","Clackamas County","USA","OR",9
-"258","Clallam County","USA","WA",3
-"259","Clarion County","USA","PA",1
-"260","Clark County","USA","AR",1
-"261","Clark County","USA","IL",1
-"262","Clark County","USA","IN",1
-"263","Clark County","USA","KY",1
-"264","Clark County","USA","NV",5
-"265","Clark County","USA","OH",1
-"266","Clark County","USA","WA",5
-"267","Clarke County","USA","AL",1
-"268","Clarke County","USA","GA",1
-"269","Clatsop County","USA","OR",3
-"270","Clay County","USA","AL",1
-"271","Clay County","USA","IA",1
-"272","Clay County","USA","IL",1
-"273","Clay County","USA","NE",1
-"274","Clay County","USA","SD",1
-"275","Clearfield County","USA","PA",2
-"276","Clermont County","USA","OH",1
-"277","Cleveland County","USA","NC",1
-"278","Cleveland County","USA","OK",1
-"279","Clinton County","USA","IA",1
-"280","Clinton County","USA","NY",1
-"281","Clinton County","USA","OH",1
-"282","Clinton County","USA","PA",1
-"283","Coahoma County","USA","MS",1
-"284","Cobb County","USA","GA",4
-"285","Cochise County","USA","AZ",3
-"286","Cocke County","USA","TN",1
-"287","Coconino County","USA","AZ",3
-"288","Codington County","USA","SD",1
-"289","Colbert County","USA","AL",2
-"290","Cole County","USA","MO",1
-"291","Coles County","USA","IL",2
-"292","Colfax County","USA","NM",2
-"293","Colleton County","USA","SC",1
-"294","Collier County","USA","FL",4
-"295","Collin County","USA","TX",7
-"296","Colonial Heights city","USA","VA",1
-"297","Colquitt County","USA","GA",1
-"298","Columbia County","USA","AR",1
-"299","Columbia County","USA","FL",1
-"300","Columbia County","USA","GA",1
-"301","Columbia County","USA","NY",2
-"302","Columbia County","USA","OR",1
-"303","Columbia County","USA","PA",1
-"304","Columbia County","USA","WI",1
-"305","Columbiana County","USA","OH",1
-"306","Colusa County","USA","CA",1
-"307","Comal County","USA","TX",1
-"308","Comanche County","USA","OK",1
-"309","Contra Costa County","USA","CA",16
-"310","Cook County","USA","IL",32
-"311","Cook County","USA","MN",1
-"312","Cooper County","USA","MO",1
-"313","Coos County","USA","NH",2
-"314","Coos County","USA","OR",3
-"315","Cortland County","USA","NY",2
-"316","Coryell County","USA","TX",1
-"317","Coshocton County","USA","OH",1
-"318","Covington city","USA","VA",1
-"319","Covington County","USA","AL",1
-"320","Coweta County","USA","GA",1
-"321","Cowley County","USA","KS",1
-"322","Cowlitz County","USA","WA",2
-"323","Craighead County","USA","AR",1
-"324","Craven County","USA","NC",2
-"325","Crawford County","USA","AR",1
-"326","Crawford County","USA","IA",1
-"327","Crawford County","USA","IL",1
-"328","Crawford County","USA","KS",1
-"329","Crawford County","USA","MI",1
-"330","Crawford County","USA","MO",1
-"331","Crawford County","USA","OH",1
-"332","Crawford County","USA","PA",1
-"333","Crawford County","USA","WI",1
-"334","Crittenden County","USA","AR",1
-"335","Crook County","USA","OR",1
-"336","Crow Wing County","USA","MN",1
-"337","Cullman County","USA","AL",1
-"338","Culpeper County","USA","VA",1
-"339","Cumberland County","USA","ME",5
-"340","Cumberland County","USA","NC",1
-"341","Cumberland County","USA","NJ",2
-"342","Cumberland County","USA","PA",4
-"343","Curry County","USA","NM",1
-"344","Curry County","USA","OR",1
-"345","Custer County","USA","CO",1
-"346","Custer County","USA","OK",1
-"347","Cuyahoga County","USA","OH",11
-"348","Dakota County","USA","MN",5
-"349","Dallas County","USA","AL",1
-"350","Dallas County","USA","TX",12
-"351","Dane County","USA","WI",8
-"352","Danville city","USA","VA",1
-"353","Dare County","USA","NC",1
-"354","Darke County","USA","OH",1
-"355","Darlington County","USA","SC",1
-"356","Dauphin County","USA","PA",2
-"357","Davidson County","USA","NC",1
-"358","Davidson County","USA","TN",1
-"359","Daviess County","USA","IN",1
-"360","Daviess County","USA","KY",1
-"361","Davis County","USA","UT",1
-"362","Davison County","USA","SD",1
-"363","Dawes County","USA","NE",1
-"364","Dawson County","USA","MT",1
-"365","Defiance County","USA","OH",1
-"366","DeKalb County","USA","AL",1
-"367","DeKalb County","USA","GA",2
-"368","DeKalb County","USA","IL",2
-"369","DeKalb County","USA","IN",1
-"370","Del Norte County","USA","CA",1
-"371","Delaware County","USA","IN",1
-"372","Delaware County","USA","NY",6
-"373","Delaware County","USA","OH",1
-"374","Delaware County","USA","OK",1
-"375","Delaware County","USA","PA",8
-"376","Delta County","USA","MI",1
-"377","Denali Borough","USA","AK",1
-"378","Denton County","USA","TX",7
-"379","Denver County","USA","CO",1
-"380","Des Moines County","USA","IA",1
-"381","Deschutes County","USA","OR",3
-"382","DeSoto County","USA","MS",2
-"383","Dickinson County","USA","MI",1
-"384","Dickson County","USA","TN",1
-"385","Dillingham Census Area","USA","AK",1
-"386","Dillon County","USA","SC",1
-"387","District of Columbia","USA","DC",1
-"388","Doña Ana County","USA","NM",1
-"389","Dodge County","USA","NE",1
-"390","Dodge County","USA","WI",2
-"391","Door County","USA","WI",2
-"392","Dorchester County","USA","MD",1
-"393","Dorchester County","USA","SC",1
-"394","Dougherty County","USA","GA",1
-"395","Douglas County","USA","CO",2
-"396","Douglas County","USA","GA",1
-"397","Douglas County","USA","IL",1
-"398","Douglas County","USA","KS",1
-"399","Douglas County","USA","MN",1
-"400","Douglas County","USA","NE",1
-"401","Douglas County","USA","NV",1
-"402","Douglas County","USA","OR",1
-"403","Douglas County","USA","WI",1
-"404","Drew County","USA","AR",1
-"405","Dubois County","USA","IN",1
-"406","Dubuque County","USA","IA",1
-"407","Duchesne County","USA","UT",1
-"408","Dukes County","USA","MA",2
-"409","Dunn County","USA","WI",1
-"410","DuPage County","USA","IL",7
-"411","Durham County","USA","NC",1
-"412","Dutchess County","USA","NY",6
-"413","Duval County","USA","FL",2
-"414","Eagle County","USA","CO",1
-"415","East Baton Rouge Parish","USA","LA",1
-"416","Eau Claire County","USA","WI",1
-"417","Ector County","USA","TX",1
-"418","Eddy County","USA","NM",1
-"419","Edgefield County","USA","SC",1
-"420","Effingham County","USA","IL",1
-"421","El Dorado County","USA","CA",3
-"422","El Paso County","USA","CO",1
-"423","El Paso County","USA","TX",1
-"424","Elk County","USA","PA",2
-"425","Elkhart County","USA","IN",2
-"426","Elko County","USA","NV",1
-"427","Ellis County","USA","KS",1
-"428","Ellis County","USA","TX",3
-"429","Emmet County","USA","MI",1
-"430","England","UK",NA,133
-"431","Erath County","USA","TX",1
-"432","Erie County","USA","NY",2
-"433","Erie County","USA","OH",1
-"434","Erie County","USA","PA",3
-"435","Escambia County","USA","AL",1
-"436","Escambia County","USA","FL",1
-"437","Essex County","USA","MA",16
-"438","Essex County","USA","NJ",14
-"439","Essex County","USA","NY",6
-"440","Essex County","USA","VT",1
-"441","Etowah County","USA","AL",1
-"442","Fairbanks North Star Borough","USA","AK",1
-"443","Fairfax city","USA","VA",1
-"444","Fairfax County","USA","VA",6
-"445","Fairfield County","USA","CT",16
-"446","Fairfield County","USA","OH",1
-"447","Falls Church city","USA","VA",1
-"448","Faroe Islands","Denmark",NA,1
-"449","Faulkner County","USA","AR",1
-"450","Fauquier County","USA","VA",1
-"451","Fayette County","USA","GA",1
-"452","Fayette County","USA","IL",1
-"453","Fayette County","USA","KY",1
-"454","Fayette County","USA","PA",2
-"455","Fayette County","USA","TX",1
-"456","Fayette County","USA","WV",2
-"457","Finney County","USA","KS",1
-"458","Flagler County","USA","FL",1
-"459","Flathead County","USA","MT",3
-"460","Florence County","USA","SC",1
-"461","Floyd County","USA","GA",1
-"462","Floyd County","USA","IA",1
-"463","Floyd County","USA","IN",1
-"464","Floyd County","USA","VA",1
-"465","Fond du Lac County","USA","WI",2
-"466","Ford County","USA","IL",1
-"467","Ford County","USA","KS",1
-"468","Forrest County","USA","MS",2
-"469","Forsyth County","USA","GA",1
-"470","Forsyth County","USA","NC",1
-"471","Fort Bend County","USA","TX",1
-"472","Franklin city","USA","VA",1
-"473","Franklin County","USA","IL",1
-"474","Franklin County","USA","KY",1
-"475","Franklin County","USA","MA",3
-"476","Franklin County","USA","ME",1
-"477","Franklin County","USA","MO",3
-"478","Franklin County","USA","NY",2
-"479","Franklin County","USA","OH",9
-"480","Franklin County","USA","PA",3
-"481","Franklin County","USA","TN",2
-"482","Franklin County","USA","VA",1
-"483","Franklin County","USA","VT",1
-"484","Franklin County","USA","WA",1
-"485","Franklin Parish","USA","LA",1
-"486","Frederick County","USA","MD",1
-"487","Fredericksburg city","USA","VA",1
-"488","Freeborn County","USA","MN",1
-"489","Fremont County","USA","WY",3
-"490","Fresno County","USA","CA",2
-"491","Fulton County","USA","GA",5
-"492","Fulton County","USA","IL",1
-"493","Fulton County","USA","IN",1
-"494","Fulton County","USA","NY",2
-"495","Fulton County","USA","PA",1
-"496","Gadsden County","USA","FL",1
-"497","Gage County","USA","NE",1
-"498","Galax city","USA","VA",1
-"499","Gallatin County","USA","MT",1
-"500","Gallia County","USA","OH",1
-"501","Galveston County","USA","TX",4
-"502","Garfield County","USA","CO",3
-"503","Garfield County","USA","OK",1
-"504","Garfield County","USA","UT",1
-"505","Garland County","USA","AR",1
-"506","Garrett County","USA","MD",1
-"507","Garvin County","USA","OK",1
-"508","Gaston County","USA","NC",2
-"509","Geary County","USA","KS",1
-"510","Genesee County","USA","MI",4
-"511","Genesee County","USA","NY",1
-"512","Georgetown County","USA","SC",3
-"513","Gibson County","USA","IN",1
-"514","Gibson County","USA","TN",1
-"515","Gila County","USA","AZ",2
-"516","Gillespie County","USA","TX",1
-"517","Glenn County","USA","CA",2
-"518","Gloucester County","USA","NJ",6
-"519","Gloucester County","USA","VA",1
-"520","Glynn County","USA","GA",1
-"521","Gogebic County","USA","MI",1
-"522","Goodhue County","USA","MN",1
-"523","Gordon County","USA","GA",1
-"524","Goshen County","USA","WY",1
-"525","Grady County","USA","GA",1
-"526","Grady County","USA","OK",1
-"527","Grafton County","USA","NH",4
-"528","Graham County","USA","AZ",1
-"529","Grand County","USA","CO",1
-"530","Grand County","USA","UT",2
-"531","Grand Forks County","USA","ND",1
-"532","Grand Traverse County","USA","MI",1
-"533","Granite County","USA","MT",1
-"534","Grant County","USA","IN",1
-"535","Grant County","USA","NM",1
-"536","Grant County","USA","OR",1
-"537","Grant County","USA","WA",1
-"538","Grant County","USA","WI",1
-"539","Graves County","USA","KY",1
-"540","Gray County","USA","TX",1
-"541","Grays Harbor County","USA","WA",2
-"542","Grayson County","USA","KY",1
-"543","Grayson County","USA","TX",3
-"544","Green County","USA","WI",1
-"545","Greenbrier County","USA","WV",1
-"546","Greene County","USA","MO",1
-"547","Greene County","USA","NY",2
-"548","Greene County","USA","OH",5
-"549","Greene County","USA","TN",1
-"550","Greenville County","USA","SC",2
-"551","Greenwood County","USA","SC",1
-"552","Gregg County","USA","TX",1
-"553","Grimes County","USA","TX",1
-"554","Grundy County","USA","IA",1
-"555","Grundy County","USA","IL",1
-"556","Guadalupe County","USA","TX",1
-"557","Guam","USA","GU",2
-"558","Guernsey","UK",NA,1
-"559","Guernsey County","USA","OH",2
-"560","Guilford County","USA","NC",2
-"561","Gunnison County","USA","CO",2
-"562","Guthrie County","USA","IA",1
-"563","Gwinnett County","USA","GA",6
-"564","Haines Borough","USA","AK",1
-"565","Halifax County","USA","NC",1
-"566","Halifax County","USA","VA",1
-"567","Hall County","USA","GA",1
-"568","Hall County","USA","NE",1
-"569","Hamblen County","USA","TN",1
-"570","Hamilton County","USA","IN",4
-"571","Hamilton County","USA","OH",4
-"572","Hamilton County","USA","TN",1
-"573","Hampden County","USA","MA",8
-"574","Hampshire County","USA","MA",3
-"575","Hampton city","USA","VA",1
-"576","Hancock County","USA","ME",6
-"577","Hancock County","USA","OH",1
-"578","Hancock County","USA","WV",1
-"579","Hanover County","USA","VA",2
-"580","Hardeman County","USA","TN",1
-"581","Hardin County","USA","KY",1
-"582","Hardin County","USA","TN",1
-"583","Harford County","USA","MD",4
-"584","Harlan County","USA","KY",1
-"585","Harnett County","USA","NC",1
-"586","Harney County","USA","OR",1
-"587","Harris County","USA","GA",1
-"588","Harris County","USA","TX",5
-"589","Harrison County","USA","MS",2
-"590","Harrison County","USA","TX",1
-"591","Harrison County","USA","WV",1
-"592","Harrisonburg city","USA","VA",1
-"593","Hart County","USA","GA",1
-"594","Hartford County","USA","CT",21
-"595","Harvey County","USA","KS",1
-"596","Hawaii County","USA","HI",3
-"597","Hays County","USA","TX",6
-"598","Haywood County","USA","NC",2
-"599","Henderson County","USA","KY",1
-"600","Henderson County","USA","NC",1
-"601","Henderson County","USA","TX",1
-"602","Hendricks County","USA","IN",2
-"603","Hennepin County","USA","MN",8
-"604","Henrico County","USA","VA",2
-"605","Henry County","USA","GA",1
-"606","Henry County","USA","IA",1
-"607","Henry County","USA","IL",1
-"608","Henry County","USA","TN",1
-"609","Herkimer County","USA","NY",1
-"610","Hernando County","USA","FL",1
-"611","Hidalgo County","USA","TX",2
-"612","Highland County","USA","OH",1
-"613","Highlands County","USA","FL",1
-"614","Hill County","USA","MT",1
-"615","Hillsborough County","USA","FL",4
-"616","Hillsborough County","USA","NH",6
-"617","Hillsdale County","USA","MI",1
-"618","Hinds County","USA","MS",1
-"619","Hockley County","USA","TX",1
-"620","Hoke County","USA","NC",1
-"621","Hong Kong","China",NA,1
-"622","Honolulu County","USA","HI",4
-"623","Hood County","USA","TX",1
-"624","Hood River County","USA","OR",1
-"625","Hopkins County","USA","KY",1
-"626","Hopkins County","USA","TX",1
-"627","Horry County","USA","SC",3
-"628","Houghton County","USA","MI",2
-"629","Houston County","USA","AL",1
-"630","Houston County","USA","GA",1
-"631","Howard County","USA","IN",1
-"632","Howard County","USA","MD",1
-"633","Howard County","USA","TX",1
-"634","Howell County","USA","MO",1
-"635","Hubbard County","USA","MN",1
-"636","Hudson County","USA","NJ",7
-"637","Huerfano County","USA","CO",1
-"638","Hughes County","USA","SD",1
-"639","Humboldt County","USA","CA",5
-"640","Humboldt County","USA","NV",1
-"641","Hunt County","USA","TX",3
-"642","Hunterdon County","USA","NJ",2
-"643","Huntingdon County","USA","PA",1
-"644","Huntington County","USA","IN",1
-"645","Huron County","USA","MI",1
-"646","Huron County","USA","OH",1
-"647","Hyde County","USA","NC",1
-"648","Iberia Parish","USA","LA",1
-"649","Imperial County","USA","CA",2
-"650","Independence County","USA","AR",1
-"651","Indian River County","USA","FL",2
-"652","Indiana County","USA","PA",1
-"653","Ingham County","USA","MI",2
-"654","Inyo County","USA","CA",1
-"655","Ionia County","USA","MI",1
-"656","Iosco County","USA","MI",1
-"657","Iowa County","USA","WI",1
-"658","Iredell County","USA","NC",2
-"659","Iron County","USA","UT",1
-"660","Iroquois County","USA","IL",1
-"661","Isabella County","USA","MI",1
-"662","Island County","USA","WA",1
-"663","Isle of Man","UK",NA,1
-"664","Itasca County","USA","MN",1
-"665","Jackson County","USA","AL",1
-"666","Jackson County","USA","FL",1
-"667","Jackson County","USA","GA",2
-"668","Jackson County","USA","IA",1
-"669","Jackson County","USA","IL",2
-"670","Jackson County","USA","IN",1
-"671","Jackson County","USA","MI",1
-"672","Jackson County","USA","MO",6
-"673","Jackson County","USA","MS",1
-"674","Jackson County","USA","NC",1
-"675","Jackson County","USA","OK",1
-"676","Jackson County","USA","OR",2
-"677","Jackson County","USA","TX",1
-"678","Jackson County","USA","WI",1
-"679","Jasper County","USA","IA",1
-"680","Jasper County","USA","IL",1
-"681","Jasper County","USA","IN",1
-"682","Jasper County","USA","MO",1
-"683","Jasper County","USA","TX",1
-"684","Jefferson County","USA","AL",6
-"685","Jefferson County","USA","AR",1
-"686","Jefferson County","USA","CO",4
-"687","Jefferson County","USA","FL",2
-"688","Jefferson County","USA","IA",1
-"689","Jefferson County","USA","IL",1
-"690","Jefferson County","USA","IN",1
-"691","Jefferson County","USA","KY",1
-"692","Jefferson County","USA","MO",2
-"693","Jefferson County","USA","NY",1
-"694","Jefferson County","USA","OH",1
-"695","Jefferson County","USA","OR",1
-"696","Jefferson County","USA","PA",1
-"697","Jefferson County","USA","TX",2
-"698","Jefferson County","USA","WA",1
-"699","Jefferson County","USA","WI",2
-"700","Jefferson County","USA","WV",2
-"701","Jefferson Davis Parish","USA","LA",1
-"702","Jefferson Parish","USA","LA",4
-"703","Jersey","UK",NA,1
-"704","Jersey County","USA","IL",1
-"705","Johnson County","USA","IA",3
-"706","Johnson County","USA","KS",5
-"707","Johnson County","USA","KY",1
-"708","Johnson County","USA","MO",1
-"709","Johnson County","USA","TX",1
-"710","Johnson County","USA","WY",1
-"711","Johnston County","USA","NC",3
-"712","Jones County","USA","MS",1
-"713","Josephine County","USA","OR",1
-"714","Juneau City and Borough","USA","AK",1
-"715","Kalamazoo County","USA","MI",3
-"716","Kanawha County","USA","WV",1
-"717","Kandiyohi County","USA","MN",1
-"718","Kane County","USA","IL",7
-"719","Kane County","USA","UT",1
-"720","Kankakee County","USA","IL",2
-"721","Kauai County","USA","HI",2
-"722","Kaufman County","USA","TX",2
-"723","Kay County","USA","OK",1
-"724","Kenai Peninsula Borough","USA","AK",3
-"725","Kendall County","USA","IL",1
-"726","Kendall County","USA","TX",1
-"727","Kennebec County","USA","ME",5
-"728","Kenosha County","USA","WI",1
-"729","Kent County","USA","DE",2
-"730","Kent County","USA","MD",1
-"731","Kent County","USA","MI",2
-"732","Kenton County","USA","KY",4
-"733","Kern County","USA","CA",6
-"734","Kerr County","USA","TX",1
-"735","Kershaw County","USA","SC",1
-"736","Ketchikan Gateway Borough","USA","AK",1
-"737","Kewaunee County","USA","WI",1
-"738","King County","USA","WA",21
-"739","Kings County","USA","CA",3
-"740","Kings County","USA","NY",2
-"741","Kiowa County","USA","KS",1
-"742","Kitsap County","USA","WA",5
-"743","Kittitas County","USA","WA",2
-"744","Klamath County","USA","OR",1
-"745","Kleberg County","USA","TX",1
-"746","Klickitat County","USA","WA",1
-"747","Knox County","USA","IL",1
-"748","Knox County","USA","IN",1
-"749","Knox County","USA","ME",2
-"750","Knox County","USA","OH",1
-"751","Knox County","USA","TN",1
-"752","Kodiak Island Borough","USA","AK",1
-"753","Kootenai County","USA","ID",1
-"754","Kosciusko County","USA","IN",1
-"755","La Crosse County","USA","WI",1
-"756","La Plata County","USA","CO",1
-"757","Labette County","USA","KS",1
-"758","Lackawanna County","USA","PA",2
-"759","Laclede County","USA","MO",1
-"760","Lafayette County","USA","MO",1
-"761","Lafayette County","USA","MS",1
-"762","Lafayette Parish","USA","LA",1
-"763","Lafourche Parish","USA","LA",1
-"764","Lake County","USA","CA",3
-"765","Lake County","USA","FL",4
-"766","Lake County","USA","IL",12
-"767","Lake County","USA","IN",11
-"768","Lake County","USA","OH",1
-"769","Lamar County","USA","TX",1
-"770","Lamoille County","USA","VT",1
-"771","Lampasas County","USA","TX",1
-"772","Lancaster County","USA","NE",1
-"773","Lancaster County","USA","PA",7
-"774","Lancaster County","USA","SC",1
-"775","Lancaster County","USA","VA",1
-"776","Lane County","USA","OR",4
-"777","Langlade County","USA","WI",1
-"778","Lanier County","USA","GA",1
-"779","Lapeer County","USA","MI",1
-"780","LaPorte County","USA","IN",2
-"781","Laramie County","USA","WY",1
-"782","Larimer County","USA","CO",4
-"783","Las Animas County","USA","CO",1
-"784","LaSalle County","USA","IL",4
-"785","Lassen County","USA","CA",1
-"786","Latah County","USA","ID",1
-"787","Lauderdale County","USA","AL",1
-"788","Lauderdale County","USA","MS",1
-"789","Laurens County","USA","GA",1
-"790","Laurens County","USA","SC",1
-"791","Lawrence County","USA","AL",1
-"792","Lawrence County","USA","IN",1
-"793","Lawrence County","USA","OH",1
-"794","Lawrence County","USA","PA",1
-"795","Leavenworth County","USA","KS",1
-"796","Lebanon County","USA","PA",2
-"797","Lee County","USA","AL",2
-"798","Lee County","USA","FL",3
-"799","Lee County","USA","IA",1
-"800","Lee County","USA","IL",1
-"801","Lee County","USA","MS",1
-"802","Lee County","USA","NC",1
-"803","Leflore County","USA","MS",1
-"804","Lehigh County","USA","PA",2
-"805","Lemhi County","USA","ID",1
-"806","Lenawee County","USA","MI",2
-"807","Lenoir County","USA","NC",1
-"808","Leon County","USA","FL",1
-"809","Levy County","USA","FL",3
-"810","Lewis and Clark County","USA","MT",1
-"811","Lewis County","USA","WA",2
-"812","Lexington city","USA","VA",1
-"813","Lexington County","USA","SC",1
-"814","Liberty County","USA","GA",1
-"815","Liberty County","USA","TX",1
-"816","Licking County","USA","OH",2
-"817","Limestone County","USA","AL",1
-"818","Lincoln County","USA","ME",2
-"819","Lincoln County","USA","MS",1
-"820","Lincoln County","USA","NE",1
-"821","Lincoln County","USA","NM",1
-"822","Lincoln County","USA","OR",2
-"823","Lincoln County","USA","WI",1
-"824","Lincoln Parish","USA","LA",1
-"825","Linn County","USA","IA",2
-"826","Linn County","USA","MO",1
-"827","Linn County","USA","OR",2
-"828","Litchfield County","USA","CT",10
-"829","Livingston County","USA","IL",1
-"830","Livingston County","USA","MI",2
-"831","Livingston County","USA","NY",5
-"832","Livingston Parish","USA","LA",1
-"833","Logan County","USA","CO",1
-"834","Logan County","USA","IL",1
-"835","Logan County","USA","OH",1
-"836","Long County","USA","GA",1
-"837","Lonoke County","USA","AR",1
-"838","Lorain County","USA","OH",4
-"839","Los Alamos County","USA","NM",1
-"840","Los Angeles County","USA","CA",58
-"841","Loudoun County","USA","VA",4
-"842","Lowndes County","USA","GA",1
-"843","Lowndes County","USA","MS",1
-"844","Loza Municipio","USA","PR",1
-"845","Lubbock County","USA","TX",1
-"846","Lucas County","USA","OH",4
-"847","Luna County","USA","NM",1
-"848","Luzerne County","USA","PA",2
-"849","Lycoming County","USA","PA",2
-"850","Lynchburg city","USA","VA",1
-"851","Lyon County","USA","KS",1
-"852","Lyon County","USA","MN",1
-"853","Mackinac County","USA","MI",1
-"854","Macomb County","USA","MI",7
-"855","Macon County","USA","AL",1
-"856","Macon County","USA","IL",1
-"857","Macon County","USA","MO",1
-"858","Macon County","USA","NC",1
-"859","Macoupin County","USA","IL",2
-"860","Madera County","USA","CA",2
-"861","Madison County","USA","AL",1
-"862","Madison County","USA","ID",1
-"863","Madison County","USA","IL",6
-"864","Madison County","USA","IN",3
-"865","Madison County","USA","KY",1
-"866","Madison County","USA","NC",1
-"867","Madison County","USA","NE",1
-"868","Madison County","USA","NY",2
-"869","Madison County","USA","TN",1
-"870","Mahaska County","USA","IA",1
-"871","Mahoning County","USA","OH",2
-"872","Malheur County","USA","OR",1
-"873","Manassas city","USA","VA",1
-"874","Manatee County","USA","FL",1
-"875","Manitoba","Canada","MB",4
-"876","Manitowoc County","USA","WI",2
-"877","Marathon County","USA","WI",1
-"878","Maricopa County","USA","AZ",11
-"879","Marin County","USA","CA",9
-"880","Marinette County","USA","WI",1
-"881","Marion County","USA","AR",1
-"882","Marion County","USA","FL",1
-"883","Marion County","USA","IL",1
-"884","Marion County","USA","IN",1
-"885","Marion County","USA","KY",1
-"886","Marion County","USA","MO",1
-"887","Marion County","USA","MS",1
-"888","Marion County","USA","OH",1
-"889","Marion County","USA","OR",3
-"890","Marion County","USA","TX",1
-"891","Marion County","USA","WV",1
-"892","Mariposa County","USA","CA",1
-"893","Marquette County","USA","MI",1
-"894","Marshall County","USA","AL",1
-"895","Marshall County","USA","IA",1
-"896","Marshall County","USA","IN",1
-"897","Marshall County","USA","KY",1
-"898","Martin County","USA","FL",2
-"899","Martinsville city","USA","VA",1
-"900","Mason County","USA","KY",1
-"901","Mason County","USA","MI",1
-"902","Mason County","USA","TX",1
-"903","Mason County","USA","WA",1
-"904","Massac County","USA","IL",1
-"905","Matanuska-Susitna Borough","USA","AK",2
-"906","Mathews County","USA","VA",1
-"907","Maui County","USA","HI",5
-"908","Maury County","USA","TN",2
-"909","Maverick County","USA","TX",1
-"910","McCracken County","USA","KY",1
-"911","McDonough County","USA","IL",1
-"912","McDowell County","USA","NC",2
-"913","McDuffie County","USA","GA",1
-"914","McHenry County","USA","IL",6
-"915","McKean County","USA","PA",2
-"916","McKinley County","USA","NM",1
-"917","McLean County","USA","IL",2
-"918","McLennan County","USA","TX",1
-"919","McLeod County","USA","MN",1
-"920","McMinn County","USA","TN",1
-"921","McPherson County","USA","KS",1
-"922","Mecklenburg County","USA","NC",4
-"923","Mecklenburg County","USA","VA",3
-"924","Mecosta County","USA","MI",1
-"925","Medina County","USA","OH",2
-"926","Medina County","USA","TX",1
-"927","Mendocino County","USA","CA",4
-"928","Menominee County","USA","MI",1
-"929","Merced County","USA","CA",2
-"930","Mercer County","USA","IL",1
-"931","Mercer County","USA","KY",1
-"932","Mercer County","USA","NJ",8
-"933","Mercer County","USA","OH",1
-"934","Mercer County","USA","PA",7
-"935","Mercer County","USA","WV",2
-"936","Merrimack County","USA","NH",3
-"937","Mesa County","USA","CO",1
-"938","Miami-Dade County","USA","FL",7
-"939","Miami County","USA","IN",1
-"940","Miami County","USA","OH",3
-"941","Middlesex County","USA","CT",4
-"942","Middlesex County","USA","MA",26
-"943","Middlesex County","USA","NJ",14
-"944","Middlesex County","USA","VA",1
-"945","Midland County","USA","MI",1
-"946","Midland County","USA","TX",1
-"947","Miller County","USA","AR",1
-"948","Milwaukee County","USA","WI",12
-"949","Mineral County","USA","CO",1
-"950","Mineral County","USA","WV",1
-"951","Mingo County","USA","WV",1
-"952","Minnehaha County","USA","SD",1
-"953","Mississippi County","USA","AR",1
-"954","Missoula County","USA","MT",1
-"955","Mitchell County","USA","NC",1
-"956","Mobile County","USA","AL",1
-"957","Moffat County","USA","CO",1
-"958","Mohave County","USA","AZ",3
-"959","Monmouth County","USA","NJ",13
-"960","Mono County","USA","CA",1
-"961","Monongalia County","USA","WV",1
-"962","Monroe County","USA","FL",2
-"963","Monroe County","USA","IL",2
-"964","Monroe County","USA","IN",1
-"965","Monroe County","USA","MI",3
-"966","Monroe County","USA","NY",8
-"967","Monroe County","USA","PA",3
-"968","Monroe County","USA","TN",1
-"969","Monroe County","USA","WI",1
-"970","Montague County","USA","TX",1
-"971","Monterey County","USA","CA",7
-"972","Montezuma County","USA","CO",1
-"973","Montgomery County","USA","AL",1
-"974","Montgomery County","USA","IL",1
-"975","Montgomery County","USA","IN",1
-"976","Montgomery County","USA","KS",1
-"977","Montgomery County","USA","MD",17
-"978","Montgomery County","USA","NY",1
-"979","Montgomery County","USA","OH",9
-"980","Montgomery County","USA","PA",19
-"981","Montgomery County","USA","TN",1
-"982","Montgomery County","USA","TX",2
-"983","Montgomery County","USA","VA",2
-"984","Montour County","USA","PA",1
-"985","Montrose County","USA","CO",1
-"986","Moore County","USA","NC",2
-"987","Moore County","USA","TX",1
-"988","Morgan County","USA","AL",1
-"989","Morgan County","USA","GA",1
-"990","Morgan County","USA","IL",1
-"991","Morgan County","USA","IN",2
-"992","Morgan County","USA","WV",1
-"993","Morris County","USA","NJ",7
-"994","Mountrail County","USA","ND",1
-"995","Mower County","USA","MN",1
-"996","Muhlenberg County","USA","KY",1
-"997","Multnomah County","USA","OR",3
-"998","Muscatine County","USA","IA",1
-"999","Muscogee County","USA","GA",1
-"1000","Muskegon County","USA","MI",2
-"1001","Muskingum County","USA","OH",1
-"1002","Muskogee County","USA","OK",1
-"1003","Nacogdoches County","USA","TX",1
-"1004","Nantucket County","USA","MA",1
-"1005","Napa County","USA","CA",3
-"1006","Nash County","USA","NC",2
-"1007","Nassau County","USA","FL",1
-"1008","Nassau County","USA","NY",25
-"1009","Natchitoches Parish","USA","LA",1
-"1010","Natrona County","USA","WY",1
-"1011","Navajo County","USA","AZ",2
-"1012","Navarro County","USA","TX",1
-"1013","Nelson County","USA","KY",1
-"1014","Nemaha County","USA","NE",1
-"1015","Neshoba County","USA","MS",1
-"1016","Nevada County","USA","CA",3
-"1017","New Brunswick","Canada","NB",5
-"1018","New Castle County","USA","DE",3
-"1019","New Hanover County","USA","NC",2
-"1020","New Haven County","USA","CT",16
-"1021","New London County","USA","CT",11
-"1022","New South Wales","Australia",NA,12
-"1023","New York County","USA","NY",3
-"1024","Newberry County","USA","SC",1
-"1025","Newfoundland and Labrador","Canada","NL",1
-"1026","Newport County","USA","RI",2
-"1027","Newport News city","USA","VA",1
-"1028","Newton County","USA","GA",1
-"1029","Nez Perce County","USA","ID",1
-"1030","Niagara County","USA","NY",2
-"1031","Nicollet County","USA","MN",1
-"1032","Nobles County","USA","MN",1
-"1033","Nodaway County","USA","MO",1
-"1034","Nome Census Area","USA","AK",2
-"1035","Norfolk city","USA","VA",1
-"1036","Norfolk County","USA","MA",16
-"1037","North Slope Borough","USA","AK",1
-"1038","Northampton County","USA","PA",4
-"1039","Northampton County","USA","VA",1
-"1040","Northern Ireland","UK",NA,3
-"1041","Northern Territory","Australia",NA,2
-"1042","Northumberland County","USA","PA",3
-"1043","Northwest Arctic Borough","USA","AK",1
-"1044","Northwest Territories","Canada","NT",2
-"1045","Norton city","USA","VA",1
-"1046","Nova Scotia","Canada","NS",9
-"1047","Nueces County","USA","TX",1
-"1048","Nunavut","Canada","NU",1
-"1049","Oakland County","USA","MI",16
-"1050","Ocean County","USA","NJ",7
-"1051","Oconee County","USA","SC",3
-"1052","Oconto County","USA","WI",1
-"1053","Ogemaw County","USA","MI",1
-"1054","Ogle County","USA","IL",2
-"1055","Oglethorpe County","USA","GA",1
-"1056","Ohio County","USA","KY",1
-"1057","Ohio County","USA","WV",1
-"1058","Okaloosa County","USA","FL",2
-"1059","Okanogan County","USA","WA",2
-"1060","Oklahoma County","USA","OK",2
-"1061","Oktibbeha County","USA","MS",1
-"1062","Olmsted County","USA","MN",1
-"1063","Oneida County","USA","NY",2
-"1064","Oneida County","USA","WI",2
-"1065","Onondaga County","USA","NY",6
-"1066","Onslow County","USA","NC",1
-"1067","Ontario","Canada","ON",50
-"1068","Ontario County","USA","NY",4
-"1069","Orange County","USA","CA",28
-"1070","Orange County","USA","FL",5
-"1071","Orange County","USA","IN",1
-"1072","Orange County","USA","NC",2
-"1073","Orange County","USA","NY",11
-"1074","Orange County","USA","TX",2
-"1075","Orange County","USA","VA",1
-"1076","Orange County","USA","VT",1
-"1077","Orangeburg County","USA","SC",1
-"1078","Orleans County","USA","NY",1
-"1079","Orleans County","USA","VT",1
-"1080","Orleans Parish","USA","LA",1
-"1081","Osceola County","USA","FL",2
-"1082","Oswego County","USA","NY",1
-"1083","Otero County","USA","CO",1
-"1084","Otero County","USA","NM",2
-"1085","Otoe County","USA","NE",1
-"1086","Otsego County","USA","MI",1
-"1087","Otsego County","USA","NY",2
-"1088","Ottawa County","USA","MI",1
-"1089","Ottawa County","USA","OH",1
-"1090","Ottawa County","USA","OK",1
-"1091","Otter Tail County","USA","MN",1
-"1092","Ouachita Parish","USA","LA",1
-"1093","Ouray County","USA","CO",1
-"1094","Outagamie County","USA","WI",1
-"1095","Ozaukee County","USA","WI",4
-"1096","Pacific County","USA","WA",3
-"1097","Page County","USA","IA",1
-"1098","Palm Beach County","USA","FL",8
-"1099","Park County","USA","MT",1
-"1100","Park County","USA","WY",1
-"1101","Parker County","USA","TX",2
-"1102","Pasco County","USA","FL",1
-"1103","Pasquotank County","USA","NC",1
-"1104","Passaic County","USA","NJ",4
-"1105","Payne County","USA","OK",1
-"1106","Pearl River County","USA","MS",1
-"1107","Pecos County","USA","TX",1
-"1108","Pennington County","USA","SD",1
-"1109","Penobscot County","USA","ME",2
-"1110","Peoria County","USA","IL",1
-"1111","Perry County","USA","IL",2
-"1112","Perry County","USA","KY",1
-"1113","Perry County","USA","MO",1
-"1114","Perry County","USA","PA",1
-"1115","Person County","USA","NC",1
-"1116","Petersburg Census Area","USA","AK",2
-"1117","Petersburg city","USA","VA",1
-"1118","Pettis County","USA","MO",1
-"1119","Phelps County","USA","MO",1
-"1120","Philadelphia County","USA","PA",1
-"1121","Piatt County","USA","IL",1
-"1122","Pickens County","USA","GA",1
-"1123","Pickens County","USA","SC",3
-"1124","Pierce County","USA","ND",1
-"1125","Pierce County","USA","WA",8
-"1126","Pike County","USA","AL",1
-"1127","Pike County","USA","KY",1
-"1128","Pike County","USA","MO",1
-"1129","Pike County","USA","MS",1
-"1130","Pike County","USA","PA",1
-"1131","Pima County","USA","AZ",2
-"1132","Pinal County","USA","AZ",5
-"1133","Pine County","USA","MN",1
-"1134","Pinellas County","USA","FL",2
-"1135","Piscataquis County","USA","ME",2
-"1136","Pitkin County","USA","CO",1
-"1137","Pitt County","USA","NC",1
-"1138","Pittsburg County","USA","OK",1
-"1139","Placer County","USA","CA",5
-"1140","Plaquemines Parish","USA","LA",1
-"1141","Platte County","USA","MO",1
-"1142","Platte County","USA","NE",1
-"1143","Plumas County","USA","CA",1
-"1144","Plymouth County","USA","IA",1
-"1145","Plymouth County","USA","MA",13
-"1146","Polk County","USA","AR",1
-"1147","Polk County","USA","FL",1
-"1148","Polk County","USA","GA",1
-"1149","Polk County","USA","IA",3
-"1150","Polk County","USA","MN",1
-"1151","Polk County","USA","MO",1
-"1152","Polk County","USA","OR",2
-"1153","Polk County","USA","TX",1
-"1154","Pontotoc County","USA","MS",1
-"1155","Pontotoc County","USA","OK",1
-"1156","Pope County","USA","AR",1
-"1157","Poquoson city","USA","VA",1
-"1158","Portage County","USA","OH",5
-"1159","Portage County","USA","WI",1
-"1160","Porter County","USA","IN",3
-"1161","Portsmouth city","USA","VA",1
-"1162","Pottawatomie County","USA","OK",1
-"1163","Pottawattamie County","USA","IA",1
-"1164","Potter County","USA","PA",1
-"1165","Potter County","USA","TX",1
-"1166","Poweshiek County","USA","IA",1
-"1167","Preble County","USA","OH",1
-"1168","Prentiss County","USA","MS",1
-"1169","Presidio County","USA","TX",1
-"1170","Prince Edward County","USA","VA",1
-"1171","Prince Edward Island","Canada","PE",1
-"1172","Prince George's County","USA","MD",12
-"1173","Prince William County","USA","VA",2
-"1174","Providence County","USA","RI",3
-"1175","Pueblo County","USA","CO",1
-"1176","Pulaski County","USA","AR",1
-"1177","Pulaski County","USA","GA",1
-"1178","Pulaski County","USA","IL",1
-"1179","Pulaski County","USA","KY",1
-"1180","Pulaski County","USA","MO",1
-"1181","Pushmataha County","USA","OK",1
-"1182","Putnam County","USA","IN",1
-"1183","Putnam County","USA","NY",2
-"1184","Putnam County","USA","TN",1
-"1185","Québec","Canada","QC",10
-"1186","Queen Anne's County","USA","MD",1
-"1187","Queens County","USA","NY",8
-"1188","Queensland","Australia",NA,6
-"1189","Rabun County","USA","GA",1
-"1190","Racine County","USA","WI",3
-"1191","Raleigh County","USA","WV",1
-"1192","Ramsey County","USA","MN",4
-"1193","Randall County","USA","TX",1
-"1194","Randolph County","USA","IL",1
-"1195","Randolph County","USA","MO",1
-"1196","Randolph County","USA","NC",1
-"1197","Rapides Parish","USA","LA",1
-"1198","Ravalli County","USA","MT",1
-"1199","Red Willow County","USA","NE",1
-"1200","Reeves County","USA","TX",1
-"1201","Refugio County","USA","TX",1
-"1202","Reno County","USA","KS",1
-"1203","Rensselaer County","USA","NY",1
-"1204","Richland County","USA","OH",3
-"1205","Richland County","USA","SC",1
-"1206","Richland County","USA","WI",1
-"1207","Richmond city","USA","VA",1
-"1208","Richmond County","USA","GA",1
-"1209","Richmond County","USA","NC",1
-"1210","Richmond County","USA","NY",4
-"1211","Riley County","USA","KS",1
-"1212","Rio Grande County","USA","CO",1
-"1213","Ripley County","USA","IN",1
-"1214","Riverside County","USA","CA",18
-"1215","Roanoke city","USA","VA",1
-"1216","Robeson County","USA","NC",1
-"1217","Rock County","USA","WI",3
-"1218","Rock Island County","USA","IL",2
-"1219","Rockdale County","USA","GA",1
-"1220","Rockingham County","USA","NC",1
-"1221","Rockingham County","USA","NH",3
-"1222","Rockingham County","USA","VA",2
-"1223","Rockland County","USA","NY",4
-"1224","Rockwall County","USA","TX",2
-"1225","Rogers County","USA","OK",1
-"1226","Roosevelt County","USA","NM",1
-"1227","Ross County","USA","OH",1
-"1228","Routt County","USA","CO",1
-"1229","Rowan County","USA","KY",1
-"1230","Rowan County","USA","NC",2
-"1231","Rush County","USA","IN",1
-"1232","Russell County","USA","VA",1
-"1233","Rutherford County","USA","NC",2
-"1234","Rutherford County","USA","TN",1
-"1235","Rutland County","USA","VT",1
-"1236","Sacramento County","USA","CA",5
-"1237","Sagadahoc County","USA","ME",2
-"1238","Saginaw County","USA","MI",1
-"1239","Saipan Municipality","USA","MP",1
-"1240","Salem County","USA","NJ",2
-"1241","Saline County","USA","AR",1
-"1242","Saline County","USA","IL",1
-"1243","Saline County","USA","KS",1
-"1244","Saline County","USA","MO",1
-"1245","Salt Lake County","USA","UT",2
-"1246","Sampson County","USA","NC",1
-"1247","San Benito County","USA","CA",1
-"1248","San Bernardino County","USA","CA",22
-"1249","San Diego County","USA","CA",25
-"1250","San Francisco County","USA","CA",1
-"1251","San Jacinto County","USA","TX",1
-"1252","San Joaquin County","USA","CA",7
-"1253","San Juan County","USA","NM",2
-"1254","San Juan County","USA","WA",3
-"1255","San Juan Municipio","USA","PR",1
-"1256","San Luis Obispo County","USA","CA",6
-"1257","San Mateo County","USA","CA",9
-"1258","San Miguel County","USA","CO",2
-"1259","San Miguel County","USA","NM",1
-"1260","San Patricio County","USA","TX",2
-"1261","Sanders County","USA","MT",1
-"1262","Sandoval County","USA","NM",1
-"1263","Sandusky County","USA","OH",1
-"1264","Sangamon County","USA","IL",3
-"1265","Santa Barbara County","USA","CA",6
-"1266","Santa Clara County","USA","CA",12
-"1267","Santa Cruz County","USA","AZ",1
-"1268","Santa Cruz County","USA","CA",3
-"1269","Santa Fe County","USA","NM",3
-"1270","Santa Rosa County","USA","FL",1
-"1271","Sarasota County","USA","FL",1
-"1272","Saratoga County","USA","NY",3
-"1273","Sarpy County","USA","NE",2
-"1274","Saskatchewan","Canada","SK",7
-"1275","Sauk County","USA","WI",2
-"1276","Sawyer County","USA","WI",1
-"1277","Schenectady County","USA","NY",2
-"1278","Schoharie County","USA","NY",1
-"1279","Schuyler County","USA","IL",1
-"1280","Schuylkill County","USA","PA",3
-"1281","Scioto County","USA","OH",1
-"1282","Scotland","UK",NA,21
-"1283","Scotland County","USA","NC",1
-"1284","Scott County","USA","IA",2
-"1285","Scott County","USA","KY",1
-"1286","Scotts Bluff County","USA","NE",1
-"1287","Sebastian County","USA","AR",1
-"1288","Sedgwick County","USA","KS",2
-"1289","Seminole County","USA","FL",2
-"1290","Seneca County","USA","OH",2
-"1291","Seward County","USA","KS",1
-"1292","Shannon County","USA","SD",1
-"1293","Shasta County","USA","CA",1
-"1294","Shawano County","USA","WI",1
-"1295","Shawnee County","USA","KS",1
-"1296","Sheboygan County","USA","WI",2
-"1297","Shelby County","USA","KY",1
-"1298","Shelby County","USA","OH",1
-"1299","Shelby County","USA","TN",4
-"1300","Shelby County","USA","TX",1
-"1301","Sherburne County","USA","MN",1
-"1302","Sheridan County","USA","WY",1
-"1303","Shiawassee County","USA","MI",1
-"1304","Silver Bow County","USA","MT",1
-"1305","Simpson County","USA","KY",1
-"1306","Siskiyou County","USA","CA",2
-"1307","Sitka City and Borough","USA","AK",1
-"1308","Skagit County","USA","WA",3
-"1309","Skagway Municipality","USA","AK",1
-"1310","Skamania County","USA","WA",1
-"1311","Smith County","USA","TX",1
-"1312","Smyth County","USA","VA",1
-"1313","Snohomish County","USA","WA",12
-"1314","Snyder County","USA","PA",1
-"1315","Socorro County","USA","NM",1
-"1316","Solano County","USA","CA",5
-"1317","Somerset County","USA","ME",1
-"1318","Somerset County","USA","NJ",6
-"1319","Somerset County","USA","PA",1
-"1320","Sonoma County","USA","CA",9
-"1321","South Australia","Australia",NA,1
-"1322","Spalding County","USA","GA",1
-"1323","Spartanburg County","USA","SC",1
-"1324","Spokane County","USA","WA",1
-"1325","St. Charles County","USA","MO",4
-"1326","St. Clair County","USA","IL",6
-"1327","St. Clair County","USA","MI",1
-"1328","St. Croix County","USA","WI",1
-"1329","St. Croix Island","USA","VI",1
-"1330","St. Francis County","USA","AR",1
-"1331","St. Francois County","USA","MO",1
-"1332","St. John Island","USA","VI",1
-"1333","St. Johns County","USA","FL",3
-"1334","St. Joseph County","USA","IN",3
-"1335","St. Joseph County","USA","MI",1
-"1336","St. Lawrence County","USA","NY",4
-"1337","St. Louis city","USA","MO",1
-"1338","St. Louis County","USA","MN",4
-"1339","St. Louis County","USA","MO",17
-"1340","St. Lucie County","USA","FL",2
-"1341","St. Mary's County","USA","MD",2
-"1342","St. Mary Parish","USA","LA",1
-"1343","St. Tammany Parish","USA","LA",2
-"1344","St. Thomas Island","USA","VI",1
-"1345","Stafford County","USA","VA",1
-"1346","Stanislaus County","USA","CA",6
-"1347","Stanly County","USA","NC",1
-"1348","Stark County","USA","ND",1
-"1349","Stark County","USA","OH",3
-"1350","Starr County","USA","TX",1
-"1351","Staunton city","USA","VA",1
-"1352","Stearns County","USA","MN",1
-"1353","Steele County","USA","MN",1
-"1354","Stephens County","USA","GA",1
-"1355","Stephens County","USA","OK",1
-"1356","Stephenson County","USA","IL",1
-"1357","Steuben County","USA","IN",1
-"1358","Steuben County","USA","NY",3
-"1359","Stevens County","USA","WA",1
-"1360","Stokes County","USA","NC",2
-"1361","Story County","USA","IA",1
-"1362","Strafford County","USA","NH",2
-"1363","Stutsman County","USA","ND",1
-"1364","Sublette County","USA","WY",1
-"1365","Suffolk city","USA","VA",2
-"1366","Suffolk County","USA","MA",6
-"1367","Suffolk County","USA","NY",37
-"1368","Sullivan County","USA","NH",3
-"1369","Sullivan County","USA","NY",4
-"1370","Sullivan County","USA","TN",2
-"1371","Summit County","USA","CO",1
-"1372","Summit County","USA","OH",6
-"1373","Summit County","USA","UT",1
-"1374","Sumner County","USA","KS",1
-"1375","Sumner County","USA","TN",1
-"1376","Sumter County","USA","GA",1
-"1377","Sumter County","USA","SC",1
-"1378","Surry County","USA","NC",2
-"1379","Sussex County","USA","DE",4
-"1380","Sussex County","USA","NJ",3
-"1381","Sutter County","USA","CA",1
-"1382","Suwannee County","USA","FL",1
-"1383","Swain County","USA","NC",1
-"1384","Sweetwater County","USA","WY",1
-"1385","Talbot County","USA","MD",1
-"1386","Talladega County","USA","AL",2
-"1387","Tallapoosa County","USA","AL",1
-"1388","Taney County","USA","MO",1
-"1389","Tangipahoa Parish","USA","LA",1
-"1390","Taos County","USA","NM",1
-"1391","Tarrant County","USA","TX",7
-"1392","Tasmania","Australia",NA,2
-"1393","Taylor County","USA","KY",1
-"1394","Taylor County","USA","TX",1
-"1395","Tazewell County","USA","IL",1
-"1396","Tazewell County","USA","VA",1
-"1397","Tehama County","USA","CA",1
-"1398","Terrebonne Parish","USA","LA",1
-"1399","Teton County","USA","ID",1
-"1400","Teton County","USA","WY",1
-"1401","Texas County","USA","OK",1
-"1402","Thomas County","USA","GA",1
-"1403","Thurston County","USA","WA",1
-"1404","Tift County","USA","GA",1
-"1405","Tillamook County","USA","OR",3
-"1406","Tioga County","USA","PA",1
-"1407","Tippah County","USA","MS",1
-"1408","Tippecanoe County","USA","IN",1
-"1409","Tipton County","USA","TN",1
-"1410","Titus County","USA","TX",1
-"1411","Tolland County","USA","CT",8
-"1412","Tom Green County","USA","TX",1
-"1413","Tompkins County","USA","NY",2
-"1414","Toombs County","USA","GA",1
-"1415","Towns County","USA","GA",1
-"1416","Transylvania County","USA","NC",1
-"1417","Travis County","USA","TX",3
-"1418","Trinity County","USA","CA",1
-"1419","Troup County","USA","GA",1
-"1420","Trumbull County","USA","OH",1
-"1421","Tulare County","USA","CA",3
-"1422","Tulsa County","USA","OK",3
-"1423","Tuolumne County","USA","CA",1
-"1424","Tuscaloosa County","USA","AL",1
-"1425","Tuscarawas County","USA","OH",2
-"1426","Tuscola County","USA","MI",1
-"1427","Twiggs County","USA","GA",1
-"1428","Twin Falls County","USA","ID",1
-"1429","Tyler County","USA","TX",1
-"1430","Ulster County","USA","NY",4
-"1431","Umatilla County","USA","OR",4
-"1432","Union County","USA","AR",1
-"1433","Union County","USA","IA",1
-"1434","Union County","USA","IL",1
-"1435","Union County","USA","MS",1
-"1436","Union County","USA","NC",2
-"1437","Union County","USA","NJ",14
-"1438","Union County","USA","OH",1
-"1439","Union County","USA","OR",1
-"1440","Union County","USA","PA",2
-"1441","Upshur County","USA","WV",1
-"1442","Utah County","USA","UT",2
-"1443","Uvalde County","USA","TX",1
-"1444","Val Verde County","USA","TX",1
-"1445","Valdez-Cordova Census Area","USA","AK",1
-"1446","Valley County","USA","ID",1
-"1447","Van Buren County","USA","MI",1
-"1448","Van Wert County","USA","OH",1
-"1449","Van Zandt County","USA","TX",1
-"1450","Vance County","USA","NC",1
-"1451","Vanderburgh County","USA","IN",1
-"1452","Venango County","USA","PA",3
-"1453","Ventura County","USA","CA",6
-"1454","Vermilion County","USA","IL",2
-"1455","Vernon County","USA","MO",1
-"1456","Vernon County","USA","WI",1
-"1457","Vernon Parish","USA","LA",1
-"1458","Victoria","Australia",NA,4
-"1459","Victoria County","USA","TX",1
-"1460","Vigo County","USA","IN",1
-"1461","Vilas County","USA","WI",1
-"1462","Virginia Beach city","USA","VA",1
-"1463","Volusia County","USA","FL",6
-"1464","Wabash County","USA","IN",1
-"1465","Wake County","USA","NC",6
-"1466","Waldo County","USA","ME",1
-"1467","Wales","UK",NA,25
-"1468","Walker County","USA","AL",1
-"1469","Walker County","USA","TX",1
-"1470","Walla Walla County","USA","WA",1
-"1471","Wallowa County","USA","OR",1
-"1472","Walton County","USA","FL",2
-"1473","Walton County","USA","GA",2
-"1474","Walworth County","USA","WI",4
-"1475","Wapello County","USA","IA",1
-"1476","Ward County","USA","ND",1
-"1477","Ware County","USA","GA",1
-"1478","Warren County","USA","IA",1
-"1479","Warren County","USA","IL",1
-"1480","Warren County","USA","KY",1
-"1481","Warren County","USA","MS",1
-"1482","Warren County","USA","NJ",3
-"1483","Warren County","USA","NY",2
-"1484","Warren County","USA","OH",3
-"1485","Warren County","USA","PA",1
-"1486","Warren County","USA","TN",1
-"1487","Warren County","USA","VA",1
-"1488","Wasco County","USA","OR",1
-"1489","Waseca County","USA","MN",1
-"1490","Washington County","USA","AR",2
-"1491","Washington County","USA","GA",1
-"1492","Washington County","USA","MD",1
-"1493","Washington County","USA","ME",2
-"1494","Washington County","USA","MN",3
-"1495","Washington County","USA","NY",1
-"1496","Washington County","USA","OH",1
-"1497","Washington County","USA","OK",1
-"1498","Washington County","USA","OR",5
-"1499","Washington County","USA","PA",3
-"1500","Washington County","USA","RI",6
-"1501","Washington County","USA","TN",1
-"1502","Washington County","USA","TX",1
-"1503","Washington County","USA","UT",1
-"1504","Washington County","USA","VA",1
-"1505","Washington County","USA","VT",2
-"1506","Washington County","USA","WI",1
-"1507","Washoe County","USA","NV",1
-"1508","Washtenaw County","USA","MI",6
-"1509","Watauga County","USA","NC",1
-"1510","Waukesha County","USA","WI",5
-"1511","Waupaca County","USA","WI",1
-"1512","Wayne County","USA","IN",1
-"1513","Wayne County","USA","MI",13
-"1514","Wayne County","USA","NC",1
-"1515","Wayne County","USA","OH",1
-"1516","Wayne County","USA","PA",2
-"1517","Waynesboro city","USA","VA",1
-"1518","Weakley County","USA","TN",1
-"1519","Webb County","USA","TX",1
-"1520","Weber County","USA","UT",1
-"1521","Webster County","USA","IA",1
-"1522","Webster Parish","USA","LA",1
-"1523","Weld County","USA","CO",1
-"1524","West Baton Rouge Parish","USA","LA",1
-"1525","West Feliciana Parish","USA","LA",2
-"1526","Westchester County","USA","NY",18
-"1527","Western Australia","Australia",NA,4
-"1528","Western District","USA","AS",1
-"1529","Westmoreland County","USA","PA",10
-"1530","Westmoreland County","USA","VA",2
-"1531","Wexford County","USA","MI",1
-"1532","Wharton County","USA","TX",1
-"1533","Whatcom County","USA","WA",1
-"1534","White County","USA","AR",1
-"1535","White Pine County","USA","NV",1
-"1536","Whiteside County","USA","IL",3
-"1537","Whitfield County","USA","GA",1
-"1538","Whitley County","USA","IN",1
-"1539","Whitley County","USA","KY",1
-"1540","Whitman County","USA","WA",1
-"1541","Wichita County","USA","TX",1
-"1542","Wicomico County","USA","MD",1
-"1543","Wilbarger County","USA","TX",1
-"1544","Wilkes County","USA","NC",2
-"1545","Will County","USA","IL",4
-"1546","Williams County","USA","ND",1
-"1547","Williams County","USA","OH",1
-"1548","Williamsburg city","USA","VA",1
-"1549","Williamson County","USA","IL",3
-"1550","Williamson County","USA","TN",2
-"1551","Williamson County","USA","TX",5
-"1552","Wilson County","USA","NC",1
-"1553","Wilson County","USA","TN",1
-"1554","Wilson County","USA","TX",1
-"1555","Winchester city","USA","VA",1
-"1556","Windham County","USA","CT",5
-"1557","Windham County","USA","VT",3
-"1558","Windsor County","USA","VT",6
-"1559","Winnebago County","USA","IA",1
-"1560","Winnebago County","USA","IL",1
-"1561","Winnebago County","USA","WI",2
-"1562","Winneshiek County","USA","IA",1
-"1563","Winona County","USA","MN",1
-"1564","Wood County","USA","OH",2
-"1565","Wood County","USA","WI",2
-"1566","Wood County","USA","WV",1
-"1567","Woodbury County","USA","IA",1
-"1568","Woodward County","USA","OK",1
-"1569","Worcester County","USA","MA",15
-"1570","Worcester County","USA","MD",2
-"1571","Wright County","USA","MN",1
-"1572","Wyandot County","USA","OH",1
-"1573","Wyandotte County","USA","KS",1
-"1574","Wyoming County","USA","PA",1
-"1575","Wythe County","USA","VA",1
-"1576","Yakima County","USA","WA",3
-"1577","Yakutat City and Borough","USA","AK",1
-"1578","Yamhill County","USA","OR",2
-"1579","Yancey County","USA","NC",1
-"1580","Yankton County","USA","SD",1
-"1581","Yates County","USA","NY",1
-"1582","Yavapai County","USA","AZ",4
-"1583","Yazoo County","USA","MS",1
-"1584","Yellowstone County","USA","MT",1
-"1585","Yolo County","USA","CA",3
-"1586","York County","USA","ME",5
-"1587","York County","USA","PA",2
-"1588","York County","USA","SC",3
-"1589","Yuba County","USA","CA",1
-"1590","Yukon","Canada","YT",2
-"1591","Yuma County","USA","AZ",1
-"1592",NA,"Denmark",NA,4
-"1593",NA,"France",NA,20
-"1594",NA,"Netherlands",NA,32
+"64","Baja California","Mexico","(Missing)",1
+"65","Baker County","USA","OR",1
+"66","Baldwin County","USA","GA",1
+"67","Baltimore city","USA","MD",1
+"68","Baltimore County","USA","MD",7
+"69","Bannock County","USA","ID",1
+"70","Barnes County","USA","ND",1
+"71","Barnstable County","USA","MA",11
+"72","Barren County","USA","KY",1
+"73","Barron County","USA","WI",2
+"74","Barry County","USA","MO",1
+"75","Bartholomew County","USA","IN",1
+"76","Barton County","USA","KS",1
+"77","Bartow County","USA","GA",1
+"78","Bastrop County","USA","TX",1
+"79","Baxter County","USA","AR",1
+"80","Bay County","USA","FL",3
+"81","Bay County","USA","MI",1
+"82","Bayfield County","USA","WI",1
+"83","Beadle County","USA","SD",1
+"84","Beaufort County","USA","NC",1
+"85","Beaufort County","USA","SC",3
+"86","Beauregard Parish","USA","LA",1
+"87","Beaver County","USA","PA",4
+"88","Beaverhead County","USA","MT",1
+"89","Becker County","USA","MN",1
+"90","Bedford city","USA","VA",1
+"91","Bedford County","USA","PA",1
+"92","Belknap County","USA","NH",2
+"93","Bell County","USA","KY",1
+"94","Bell County","USA","TX",3
+"95","Beltrami County","USA","MN",1
+"96","Ben Hill County","USA","GA",1
+"97","Bennington County","USA","VT",2
+"98","Benton County","USA","AR",2
+"99","Benton County","USA","IA",1
+"100","Benton County","USA","OR",1
+"101","Benton County","USA","WA",2
+"102","Bergen County","USA","NJ",19
+"103","Berkeley County","USA","SC",1
+"104","Berkeley County","USA","WV",1
+"105","Berks County","USA","PA",9
+"106","Berkshire County","USA","MA",4
+"107","Bermuda","UK","(Missing)",1
+"108","Bernalillo County","USA","NM",1
+"109","Berrien County","USA","MI",5
+"110","Bethel Census Area","USA","AK",1
+"111","Bexar County","USA","TX",2
+"112","Bibb County","USA","GA",1
+"113","Black Hawk County","USA","IA",2
+"114","Bladen County","USA","NC",1
+"115","Blaine County","USA","ID",3
+"116","Blair County","USA","PA",3
+"117","Bleckley County","USA","GA",1
+"118","Blount County","USA","TN",2
+"119","Blue Earth County","USA","MN",1
+"120","Bolivar County","USA","MS",1
+"121","Bonner County","USA","ID",1
+"122","Bonneville County","USA","ID",1
+"123","Boone County","USA","AR",1
+"124","Boone County","USA","IA",1
+"125","Boone County","USA","MO",1
+"126","Bossier Parish","USA","LA",2
+"127","Boulder County","USA","CO",4
+"128","Bourbon County","USA","KS",1
+"129","Bowie County","USA","TX",1
+"130","Box Butte County","USA","NE",1
+"131","Boyle County","USA","KY",1
+"132","Bradford County","USA","PA",1
+"133","Bradley County","USA","TN",1
+"134","Branch County","USA","MI",1
+"135","Brazoria County","USA","TX",5
+"136","Brazos County","USA","TX",2
+"137","Brevard County","USA","FL",8
+"138","Brewster County","USA","TX",1
+"139","Bristol city","USA","VA",1
+"140","Bristol County","USA","MA",8
+"141","Bristol County","USA","RI",2
+"142","British Columbia","Canada","BC",26
+"143","Bronx County","USA","NY",1
+"144","Brookings County","USA","SD",1
+"145","Broome County","USA","NY",1
+"146","Broomfield County","USA","CO",1
+"147","Broward County","USA","FL",11
+"148","Brown County","USA","MN",1
+"149","Brown County","USA","SD",1
+"150","Brown County","USA","TX",1
+"151","Brown County","USA","WI",3
+"152","Brunswick County","USA","VA",1
+"153","Bryan County","USA","GA",1
+"154","Bryan County","USA","OK",1
+"155","Buchanan County","USA","MO",1
+"156","Bucks County","USA","PA",12
+"157","Buena Vista County","USA","IA",1
+"158","Buffalo County","USA","NE",1
+"159","Bulloch County","USA","GA",1
+"160","Buncombe County","USA","NC",3
+"161","Bureau County","USA","IL",1
+"162","Burke County","USA","NC",1
+"163","Burleigh County","USA","ND",1
+"164","Burlington County","USA","NJ",8
+"165","Burnet County","USA","TX",1
+"166","Butler County","USA","MO",1
+"167","Butler County","USA","OH",5
+"168","Butler County","USA","PA",3
+"169","Butte County","USA","CA",4
+"170","Butte County","USA","SD",1
+"171","Cabarrus County","USA","NC",2
+"172","Cabell County","USA","WV",1
+"173","Cache County","USA","UT",1
+"174","Caddo Parish","USA","LA",1
+"175","Calaveras County","USA","CA",1
+"176","Calcasieu Parish","USA","LA",1
+"177","Caldwell County","USA","KY",1
+"178","Caldwell County","USA","NC",1
+"179","Caldwell County","USA","TX",1
+"180","Caledonia County","USA","VT",2
+"181","Calhoun County","USA","AL",2
+"182","Calhoun County","USA","MI",2
+"183","Calhoun County","USA","WV",1
+"184","Callaway County","USA","MO",1
+"185","Calloway County","USA","KY",1
+"186","Calvert County","USA","MD",1
+"187","Cambria County","USA","PA",1
+"188","Camden County","USA","GA",3
+"189","Camden County","USA","MO",1
+"190","Camden County","USA","NJ",6
+"191","Cameron County","USA","TX",2
+"192","Campbell County","USA","KY",1
+"193","Campbell County","USA","WY",1
+"194","Canary Islands","Spain","(Missing)",1
+"195","Cape Girardeau County","USA","MO",1
+"196","Cape May County","USA","NJ",4
+"197","Carbon County","USA","MT",1
+"198","Carbon County","USA","PA",4
+"199","Caroline County","USA","MD",1
+"200","Caroline County","USA","VA",1
+"201","Carroll County","USA","GA",1
+"202","Carroll County","USA","IA",1
+"203","Carroll County","USA","MD",3
+"204","Carroll County","USA","NH",3
+"205","Carroll County","USA","TN",1
+"206","Carson City","USA","NV",1
+"207","Carter County","USA","OK",1
+"208","Carteret County","USA","NC",2
+"209","Carver County","USA","MN",1
+"210","Cascade County","USA","MT",1
+"211","Cass County","USA","IA",1
+"212","Cass County","USA","IL",1
+"213","Cass County","USA","MI",2
+"214","Cass County","USA","ND",1
+"215","Cass County","USA","TX",1
+"216","Catawba County","USA","NC",2
+"217","Cattaraugus County","USA","NY",1
+"218","Cayuga County","USA","NY",1
+"219","Cecil County","USA","MD",2
+"220","Centre County","USA","PA",3
+"221","Cerro Gordo County","USA","IA",1
+"222","Chaffee County","USA","CO",1
+"223","Champaign County","USA","IL",3
+"224","Charles City County","USA","VA",1
+"225","Charles County","USA","MD",2
+"226","Charleston County","USA","SC",2
+"227","Charlevoix County","USA","MI",1
+"228","Charlotte County","USA","FL",2
+"229","Charlottesville city","USA","VA",1
+"230","Chatham County","USA","GA",2
+"231","Chatham County","USA","NC",1
+"232","Chautauqua County","USA","NY",3
+"233","Chaves County","USA","NM",1
+"234","Cheboygan County","USA","MI",1
+"235","Chelan County","USA","WA",2
+"236","Chemung County","USA","NY",1
+"237","Chenango County","USA","NY",1
+"238","Cherokee County","USA","GA",2
+"239","Cherokee County","USA","NC",1
+"240","Cherokee County","USA","OK",1
+"241","Cherokee County","USA","SC",1
+"242","Cherokee County","USA","TX",1
+"243","Chesapeake city","USA","VA",1
+"244","Cheshire County","USA","NH",2
+"245","Chester County","USA","PA",6
+"246","Chester County","USA","SC",1
+"247","Chesterfield County","USA","SC",1
+"248","Chesterfield County","USA","VA",1
+"249","Cheyenne County","USA","NE",1
+"250","Chippewa County","USA","MI",1
+"251","Chippewa County","USA","MN",1
+"252","Chittenden County","USA","VT",5
+"253","Choctaw County","USA","AL",1
+"254","Chowan County","USA","NC",1
+"255","Christian County","USA","IL",1
+"256","Christian County","USA","KY",1
+"257","Churchill County","USA","NV",1
+"258","Citrus County","USA","FL",2
+"259","Clackamas County","USA","OR",9
+"260","Clallam County","USA","WA",3
+"261","Clarion County","USA","PA",1
+"262","Clark County","USA","AR",1
+"263","Clark County","USA","IL",1
+"264","Clark County","USA","IN",1
+"265","Clark County","USA","KY",1
+"266","Clark County","USA","NV",5
+"267","Clark County","USA","OH",1
+"268","Clark County","USA","WA",5
+"269","Clarke County","USA","AL",1
+"270","Clarke County","USA","GA",1
+"271","Clatsop County","USA","OR",3
+"272","Clay County","USA","AL",1
+"273","Clay County","USA","IA",1
+"274","Clay County","USA","IL",1
+"275","Clay County","USA","NE",1
+"276","Clay County","USA","SD",1
+"277","Clearfield County","USA","PA",2
+"278","Clermont County","USA","OH",1
+"279","Cleveland County","USA","NC",1
+"280","Cleveland County","USA","OK",1
+"281","Clinton County","USA","IA",1
+"282","Clinton County","USA","NY",1
+"283","Clinton County","USA","OH",1
+"284","Clinton County","USA","PA",1
+"285","Coahoma County","USA","MS",1
+"286","Cobb County","USA","GA",4
+"287","Cochise County","USA","AZ",3
+"288","Cocke County","USA","TN",1
+"289","Coconino County","USA","AZ",3
+"290","Codington County","USA","SD",1
+"291","Colbert County","USA","AL",2
+"292","Cole County","USA","MO",1
+"293","Coles County","USA","IL",2
+"294","Colfax County","USA","NM",2
+"295","Colleton County","USA","SC",1
+"296","Collier County","USA","FL",4
+"297","Collin County","USA","TX",7
+"298","Colonial Heights city","USA","VA",1
+"299","Colquitt County","USA","GA",1
+"300","Columbia County","USA","AR",1
+"301","Columbia County","USA","FL",1
+"302","Columbia County","USA","GA",1
+"303","Columbia County","USA","NY",2
+"304","Columbia County","USA","OR",1
+"305","Columbia County","USA","PA",1
+"306","Columbia County","USA","WI",1
+"307","Columbiana County","USA","OH",1
+"308","Colusa County","USA","CA",1
+"309","Comal County","USA","TX",1
+"310","Comanche County","USA","OK",1
+"311","Contra Costa County","USA","CA",16
+"312","Cook County","USA","IL",32
+"313","Cook County","USA","MN",1
+"314","Cooper County","USA","MO",1
+"315","Coos County","USA","NH",2
+"316","Coos County","USA","OR",3
+"317","Cortland County","USA","NY",2
+"318","Coryell County","USA","TX",1
+"319","Coshocton County","USA","OH",1
+"320","Covington city","USA","VA",1
+"321","Covington County","USA","AL",1
+"322","Coweta County","USA","GA",1
+"323","Cowley County","USA","KS",1
+"324","Cowlitz County","USA","WA",2
+"325","Craighead County","USA","AR",1
+"326","Craven County","USA","NC",2
+"327","Crawford County","USA","AR",1
+"328","Crawford County","USA","IA",1
+"329","Crawford County","USA","IL",1
+"330","Crawford County","USA","KS",1
+"331","Crawford County","USA","MI",1
+"332","Crawford County","USA","MO",1
+"333","Crawford County","USA","OH",1
+"334","Crawford County","USA","PA",1
+"335","Crawford County","USA","WI",1
+"336","Crittenden County","USA","AR",1
+"337","Crook County","USA","OR",1
+"338","Crow Wing County","USA","MN",1
+"339","Cullman County","USA","AL",1
+"340","Culpeper County","USA","VA",1
+"341","Cumberland County","USA","ME",5
+"342","Cumberland County","USA","NC",1
+"343","Cumberland County","USA","NJ",2
+"344","Cumberland County","USA","PA",4
+"345","Curry County","USA","NM",1
+"346","Curry County","USA","OR",1
+"347","Custer County","USA","CO",1
+"348","Custer County","USA","OK",1
+"349","Cuyahoga County","USA","OH",11
+"350","Dakota County","USA","MN",5
+"351","Dallas County","USA","AL",1
+"352","Dallas County","USA","TX",12
+"353","Dane County","USA","WI",8
+"354","Danville city","USA","VA",1
+"355","Dare County","USA","NC",1
+"356","Darke County","USA","OH",1
+"357","Darlington County","USA","SC",1
+"358","Dauphin County","USA","PA",2
+"359","Davidson County","USA","NC",1
+"360","Davidson County","USA","TN",1
+"361","Daviess County","USA","IN",1
+"362","Daviess County","USA","KY",1
+"363","Davis County","USA","UT",1
+"364","Davison County","USA","SD",1
+"365","Dawes County","USA","NE",1
+"366","Dawson County","USA","MT",1
+"367","Defiance County","USA","OH",1
+"368","DeKalb County","USA","AL",1
+"369","DeKalb County","USA","GA",2
+"370","DeKalb County","USA","IL",2
+"371","DeKalb County","USA","IN",1
+"372","Del Norte County","USA","CA",1
+"373","Delaware County","USA","IN",1
+"374","Delaware County","USA","NY",6
+"375","Delaware County","USA","OH",1
+"376","Delaware County","USA","OK",1
+"377","Delaware County","USA","PA",8
+"378","Delta County","USA","MI",1
+"379","Denali Borough","USA","AK",1
+"380","Denton County","USA","TX",7
+"381","Denver County","USA","CO",1
+"382","Des Moines County","USA","IA",1
+"383","Deschutes County","USA","OR",3
+"384","DeSoto County","USA","MS",2
+"385","Dickinson County","USA","MI",1
+"386","Dickson County","USA","TN",1
+"387","Dillingham Census Area","USA","AK",1
+"388","Dillon County","USA","SC",1
+"389","District of Columbia","USA","DC",1
+"390","Doña Ana County","USA","NM",1
+"391","Dodge County","USA","NE",1
+"392","Dodge County","USA","WI",2
+"393","Door County","USA","WI",2
+"394","Dorchester County","USA","MD",1
+"395","Dorchester County","USA","SC",1
+"396","Dougherty County","USA","GA",1
+"397","Douglas County","USA","CO",2
+"398","Douglas County","USA","GA",1
+"399","Douglas County","USA","IL",1
+"400","Douglas County","USA","KS",1
+"401","Douglas County","USA","MN",1
+"402","Douglas County","USA","NE",1
+"403","Douglas County","USA","NV",1
+"404","Douglas County","USA","OR",1
+"405","Douglas County","USA","WI",1
+"406","Drew County","USA","AR",1
+"407","Dubois County","USA","IN",1
+"408","Dubuque County","USA","IA",1
+"409","Duchesne County","USA","UT",1
+"410","Dukes County","USA","MA",2
+"411","Dunn County","USA","WI",1
+"412","DuPage County","USA","IL",7
+"413","Durham County","USA","NC",1
+"414","Dutchess County","USA","NY",6
+"415","Duval County","USA","FL",2
+"416","Eagle County","USA","CO",1
+"417","East Baton Rouge Parish","USA","LA",1
+"418","Eau Claire County","USA","WI",1
+"419","Ector County","USA","TX",1
+"420","Eddy County","USA","NM",1
+"421","Edgefield County","USA","SC",1
+"422","Effingham County","USA","IL",1
+"423","El Dorado County","USA","CA",3
+"424","El Paso County","USA","CO",1
+"425","El Paso County","USA","TX",1
+"426","Elk County","USA","PA",2
+"427","Elkhart County","USA","IN",2
+"428","Elko County","USA","NV",1
+"429","Ellis County","USA","KS",1
+"430","Ellis County","USA","TX",3
+"431","Emmet County","USA","MI",1
+"432","England","UK","(Missing)",133
+"433","Erath County","USA","TX",1
+"434","Erie County","USA","NY",2
+"435","Erie County","USA","OH",1
+"436","Erie County","USA","PA",3
+"437","Escambia County","USA","AL",1
+"438","Escambia County","USA","FL",1
+"439","Essex County","USA","MA",16
+"440","Essex County","USA","NJ",14
+"441","Essex County","USA","NY",6
+"442","Essex County","USA","VT",1
+"443","Etowah County","USA","AL",1
+"444","Fairbanks North Star Borough","USA","AK",1
+"445","Fairfax city","USA","VA",1
+"446","Fairfax County","USA","VA",6
+"447","Fairfield County","USA","CT",16
+"448","Fairfield County","USA","OH",1
+"449","Falls Church city","USA","VA",1
+"450","Faroe Islands","Denmark","(Missing)",1
+"451","Faulkner County","USA","AR",1
+"452","Fauquier County","USA","VA",1
+"453","Fayette County","USA","GA",1
+"454","Fayette County","USA","IL",1
+"455","Fayette County","USA","KY",1
+"456","Fayette County","USA","PA",2
+"457","Fayette County","USA","TX",1
+"458","Fayette County","USA","WV",2
+"459","Federal District","Mexico","(Missing)",1
+"460","Finney County","USA","KS",1
+"461","Flagler County","USA","FL",1
+"462","Flathead County","USA","MT",3
+"463","Florence County","USA","SC",1
+"464","Floyd County","USA","GA",1
+"465","Floyd County","USA","IA",1
+"466","Floyd County","USA","IN",1
+"467","Floyd County","USA","VA",1
+"468","Fond du Lac County","USA","WI",2
+"469","Ford County","USA","IL",1
+"470","Ford County","USA","KS",1
+"471","Forrest County","USA","MS",2
+"472","Forsyth County","USA","GA",1
+"473","Forsyth County","USA","NC",1
+"474","Fort Bend County","USA","TX",1
+"475","Franklin city","USA","VA",1
+"476","Franklin County","USA","IL",1
+"477","Franklin County","USA","KY",1
+"478","Franklin County","USA","MA",3
+"479","Franklin County","USA","ME",1
+"480","Franklin County","USA","MO",3
+"481","Franklin County","USA","NY",2
+"482","Franklin County","USA","OH",9
+"483","Franklin County","USA","PA",3
+"484","Franklin County","USA","TN",2
+"485","Franklin County","USA","VA",1
+"486","Franklin County","USA","VT",1
+"487","Franklin County","USA","WA",1
+"488","Franklin Parish","USA","LA",1
+"489","Frederick County","USA","MD",1
+"490","Fredericksburg city","USA","VA",1
+"491","Freeborn County","USA","MN",1
+"492","Fremont County","USA","WY",3
+"493","Fresno County","USA","CA",2
+"494","Fulton County","USA","GA",5
+"495","Fulton County","USA","IL",1
+"496","Fulton County","USA","IN",1
+"497","Fulton County","USA","NY",2
+"498","Fulton County","USA","PA",1
+"499","Gadsden County","USA","FL",1
+"500","Gage County","USA","NE",1
+"501","Galax city","USA","VA",1
+"502","Gallatin County","USA","MT",1
+"503","Gallia County","USA","OH",1
+"504","Galveston County","USA","TX",4
+"505","Garfield County","USA","CO",3
+"506","Garfield County","USA","OK",1
+"507","Garfield County","USA","UT",1
+"508","Garland County","USA","AR",1
+"509","Garrett County","USA","MD",1
+"510","Garvin County","USA","OK",1
+"511","Gaston County","USA","NC",2
+"512","Geary County","USA","KS",1
+"513","Genesee County","USA","MI",4
+"514","Genesee County","USA","NY",1
+"515","Georgetown County","USA","SC",3
+"516","Gibson County","USA","IN",1
+"517","Gibson County","USA","TN",1
+"518","Gila County","USA","AZ",2
+"519","Gillespie County","USA","TX",1
+"520","Glenn County","USA","CA",2
+"521","Gloucester County","USA","NJ",6
+"522","Gloucester County","USA","VA",1
+"523","Glynn County","USA","GA",1
+"524","Gogebic County","USA","MI",1
+"525","Goodhue County","USA","MN",1
+"526","Gordon County","USA","GA",1
+"527","Goshen County","USA","WY",1
+"528","Grady County","USA","GA",1
+"529","Grady County","USA","OK",1
+"530","Grafton County","USA","NH",4
+"531","Graham County","USA","AZ",1
+"532","Grand County","USA","CO",1
+"533","Grand County","USA","UT",2
+"534","Grand Forks County","USA","ND",1
+"535","Grand Traverse County","USA","MI",1
+"536","Granite County","USA","MT",1
+"537","Grant County","USA","IN",1
+"538","Grant County","USA","NM",1
+"539","Grant County","USA","OR",1
+"540","Grant County","USA","WA",1
+"541","Grant County","USA","WI",1
+"542","Graves County","USA","KY",1
+"543","Gray County","USA","TX",1
+"544","Grays Harbor County","USA","WA",2
+"545","Grayson County","USA","KY",1
+"546","Grayson County","USA","TX",3
+"547","Green County","USA","WI",1
+"548","Greenbrier County","USA","WV",1
+"549","Greene County","USA","MO",1
+"550","Greene County","USA","NY",2
+"551","Greene County","USA","OH",5
+"552","Greene County","USA","TN",1
+"553","Greenville County","USA","SC",2
+"554","Greenwood County","USA","SC",1
+"555","Gregg County","USA","TX",1
+"556","Grimes County","USA","TX",1
+"557","Grundy County","USA","IA",1
+"558","Grundy County","USA","IL",1
+"559","Guadalupe County","USA","TX",1
+"560","Guam","USA","GU",2
+"561","Guernsey","UK","(Missing)",1
+"562","Guernsey County","USA","OH",2
+"563","Guilford County","USA","NC",2
+"564","Gunnison County","USA","CO",2
+"565","Guthrie County","USA","IA",1
+"566","Gwinnett County","USA","GA",6
+"567","Haines Borough","USA","AK",1
+"568","Halifax County","USA","NC",1
+"569","Halifax County","USA","VA",1
+"570","Hall County","USA","GA",1
+"571","Hall County","USA","NE",1
+"572","Hamblen County","USA","TN",1
+"573","Hamilton County","USA","IN",4
+"574","Hamilton County","USA","OH",4
+"575","Hamilton County","USA","TN",1
+"576","Hampden County","USA","MA",8
+"577","Hampshire County","USA","MA",3
+"578","Hampton city","USA","VA",1
+"579","Hancock County","USA","ME",6
+"580","Hancock County","USA","OH",1
+"581","Hancock County","USA","WV",1
+"582","Hanover County","USA","VA",2
+"583","Hardeman County","USA","TN",1
+"584","Hardin County","USA","KY",1
+"585","Hardin County","USA","TN",1
+"586","Harford County","USA","MD",4
+"587","Harlan County","USA","KY",1
+"588","Harnett County","USA","NC",1
+"589","Harney County","USA","OR",1
+"590","Harris County","USA","GA",1
+"591","Harris County","USA","TX",5
+"592","Harrison County","USA","MS",2
+"593","Harrison County","USA","TX",1
+"594","Harrison County","USA","WV",1
+"595","Harrisonburg city","USA","VA",1
+"596","Hart County","USA","GA",1
+"597","Hartford County","USA","CT",21
+"598","Harvey County","USA","KS",1
+"599","Hawaii County","USA","HI",3
+"600","Hays County","USA","TX",6
+"601","Haywood County","USA","NC",2
+"602","Henderson County","USA","KY",1
+"603","Henderson County","USA","NC",1
+"604","Henderson County","USA","TX",1
+"605","Hendricks County","USA","IN",2
+"606","Hennepin County","USA","MN",8
+"607","Henrico County","USA","VA",2
+"608","Henry County","USA","GA",1
+"609","Henry County","USA","IA",1
+"610","Henry County","USA","IL",1
+"611","Henry County","USA","TN",1
+"612","Herkimer County","USA","NY",1
+"613","Hernando County","USA","FL",1
+"614","Hidalgo County","USA","TX",2
+"615","Highland County","USA","OH",1
+"616","Highlands County","USA","FL",1
+"617","Hill County","USA","MT",1
+"618","Hillsborough County","USA","FL",4
+"619","Hillsborough County","USA","NH",6
+"620","Hillsdale County","USA","MI",1
+"621","Hinds County","USA","MS",1
+"622","Hockley County","USA","TX",1
+"623","Hoke County","USA","NC",1
+"624","Hong Kong","China","(Missing)",1
+"625","Honolulu County","USA","HI",4
+"626","Hood County","USA","TX",1
+"627","Hood River County","USA","OR",1
+"628","Hopkins County","USA","KY",1
+"629","Hopkins County","USA","TX",1
+"630","Horry County","USA","SC",3
+"631","Houghton County","USA","MI",2
+"632","Houston County","USA","AL",1
+"633","Houston County","USA","GA",1
+"634","Howard County","USA","IN",1
+"635","Howard County","USA","MD",1
+"636","Howard County","USA","TX",1
+"637","Howell County","USA","MO",1
+"638","Hubbard County","USA","MN",1
+"639","Hudson County","USA","NJ",7
+"640","Huerfano County","USA","CO",1
+"641","Hughes County","USA","SD",1
+"642","Humboldt County","USA","CA",5
+"643","Humboldt County","USA","NV",1
+"644","Hunt County","USA","TX",3
+"645","Hunterdon County","USA","NJ",2
+"646","Huntingdon County","USA","PA",1
+"647","Huntington County","USA","IN",1
+"648","Huron County","USA","MI",1
+"649","Huron County","USA","OH",1
+"650","Hyde County","USA","NC",1
+"651","Iberia Parish","USA","LA",1
+"652","Imperial County","USA","CA",2
+"653","Independence County","USA","AR",1
+"654","Indian River County","USA","FL",2
+"655","Indiana County","USA","PA",1
+"656","Ingham County","USA","MI",2
+"657","Inyo County","USA","CA",1
+"658","Ionia County","USA","MI",1
+"659","Iosco County","USA","MI",1
+"660","Iowa County","USA","WI",1
+"661","Iredell County","USA","NC",2
+"662","Iron County","USA","UT",1
+"663","Iroquois County","USA","IL",1
+"664","Isabella County","USA","MI",1
+"665","Island County","USA","WA",1
+"666","Isle of Man","UK","(Missing)",1
+"667","Itasca County","USA","MN",1
+"668","Jackson County","USA","AL",1
+"669","Jackson County","USA","FL",1
+"670","Jackson County","USA","GA",2
+"671","Jackson County","USA","IA",1
+"672","Jackson County","USA","IL",2
+"673","Jackson County","USA","IN",1
+"674","Jackson County","USA","MI",1
+"675","Jackson County","USA","MO",6
+"676","Jackson County","USA","MS",1
+"677","Jackson County","USA","NC",1
+"678","Jackson County","USA","OK",1
+"679","Jackson County","USA","OR",2
+"680","Jackson County","USA","TX",1
+"681","Jackson County","USA","WI",1
+"682","Jalisco","Mexico","(Missing)",1
+"683","Jasper County","USA","IA",1
+"684","Jasper County","USA","IL",1
+"685","Jasper County","USA","IN",1
+"686","Jasper County","USA","MO",1
+"687","Jasper County","USA","TX",1
+"688","Jefferson County","USA","AL",6
+"689","Jefferson County","USA","AR",1
+"690","Jefferson County","USA","CO",4
+"691","Jefferson County","USA","FL",2
+"692","Jefferson County","USA","IA",1
+"693","Jefferson County","USA","IL",1
+"694","Jefferson County","USA","IN",1
+"695","Jefferson County","USA","KY",1
+"696","Jefferson County","USA","MO",2
+"697","Jefferson County","USA","NY",1
+"698","Jefferson County","USA","OH",1
+"699","Jefferson County","USA","OR",1
+"700","Jefferson County","USA","PA",1
+"701","Jefferson County","USA","TX",2
+"702","Jefferson County","USA","WA",1
+"703","Jefferson County","USA","WI",2
+"704","Jefferson County","USA","WV",2
+"705","Jefferson Davis Parish","USA","LA",1
+"706","Jefferson Parish","USA","LA",4
+"707","Jersey","UK","(Missing)",1
+"708","Jersey County","USA","IL",1
+"709","Johnson County","USA","IA",3
+"710","Johnson County","USA","KS",5
+"711","Johnson County","USA","KY",1
+"712","Johnson County","USA","MO",1
+"713","Johnson County","USA","TX",1
+"714","Johnson County","USA","WY",1
+"715","Johnston County","USA","NC",3
+"716","Jones County","USA","MS",1
+"717","Josephine County","USA","OR",1
+"718","Juneau City and Borough","USA","AK",1
+"719","Kalamazoo County","USA","MI",3
+"720","Kanawha County","USA","WV",1
+"721","Kandiyohi County","USA","MN",1
+"722","Kane County","USA","IL",7
+"723","Kane County","USA","UT",1
+"724","Kankakee County","USA","IL",2
+"725","Kauai County","USA","HI",2
+"726","Kaufman County","USA","TX",2
+"727","Kay County","USA","OK",1
+"728","Kenai Peninsula Borough","USA","AK",3
+"729","Kendall County","USA","IL",1
+"730","Kendall County","USA","TX",1
+"731","Kennebec County","USA","ME",5
+"732","Kenosha County","USA","WI",1
+"733","Kent County","USA","DE",2
+"734","Kent County","USA","MD",1
+"735","Kent County","USA","MI",2
+"736","Kenton County","USA","KY",4
+"737","Kern County","USA","CA",6
+"738","Kerr County","USA","TX",1
+"739","Kershaw County","USA","SC",1
+"740","Ketchikan Gateway Borough","USA","AK",1
+"741","Kewaunee County","USA","WI",1
+"742","King County","USA","WA",21
+"743","Kings County","USA","CA",3
+"744","Kings County","USA","NY",2
+"745","Kiowa County","USA","KS",1
+"746","Kitsap County","USA","WA",5
+"747","Kittitas County","USA","WA",2
+"748","Klamath County","USA","OR",1
+"749","Kleberg County","USA","TX",1
+"750","Klickitat County","USA","WA",1
+"751","Knox County","USA","IL",1
+"752","Knox County","USA","IN",1
+"753","Knox County","USA","ME",2
+"754","Knox County","USA","OH",1
+"755","Knox County","USA","TN",1
+"756","Kodiak Island Borough","USA","AK",1
+"757","Kootenai County","USA","ID",1
+"758","Kosciusko County","USA","IN",1
+"759","La Crosse County","USA","WI",1
+"760","La Plata County","USA","CO",1
+"761","Labette County","USA","KS",1
+"762","Lackawanna County","USA","PA",2
+"763","Laclede County","USA","MO",1
+"764","Lafayette County","USA","MO",1
+"765","Lafayette County","USA","MS",1
+"766","Lafayette Parish","USA","LA",1
+"767","Lafourche Parish","USA","LA",1
+"768","Lake County","USA","CA",3
+"769","Lake County","USA","FL",4
+"770","Lake County","USA","IL",12
+"771","Lake County","USA","IN",11
+"772","Lake County","USA","OH",1
+"773","Lamar County","USA","TX",1
+"774","Lamoille County","USA","VT",1
+"775","Lampasas County","USA","TX",1
+"776","Lancaster County","USA","NE",1
+"777","Lancaster County","USA","PA",7
+"778","Lancaster County","USA","SC",1
+"779","Lancaster County","USA","VA",1
+"780","Lane County","USA","OR",4
+"781","Langlade County","USA","WI",1
+"782","Lanier County","USA","GA",1
+"783","Lapeer County","USA","MI",1
+"784","LaPorte County","USA","IN",2
+"785","Laramie County","USA","WY",1
+"786","Larimer County","USA","CO",4
+"787","Las Animas County","USA","CO",1
+"788","LaSalle County","USA","IL",4
+"789","Lassen County","USA","CA",1
+"790","Latah County","USA","ID",1
+"791","Lauderdale County","USA","AL",1
+"792","Lauderdale County","USA","MS",1
+"793","Laurens County","USA","GA",1
+"794","Laurens County","USA","SC",1
+"795","Lawrence County","USA","AL",1
+"796","Lawrence County","USA","IN",1
+"797","Lawrence County","USA","OH",1
+"798","Lawrence County","USA","PA",1
+"799","Leavenworth County","USA","KS",1
+"800","Lebanon County","USA","PA",2
+"801","Lee County","USA","AL",2
+"802","Lee County","USA","FL",3
+"803","Lee County","USA","IA",1
+"804","Lee County","USA","IL",1
+"805","Lee County","USA","MS",1
+"806","Lee County","USA","NC",1
+"807","Leflore County","USA","MS",1
+"808","Lehigh County","USA","PA",2
+"809","Lemhi County","USA","ID",1
+"810","Lenawee County","USA","MI",2
+"811","Lenoir County","USA","NC",1
+"812","Leon County","USA","FL",1
+"813","Levy County","USA","FL",3
+"814","Lewis and Clark County","USA","MT",1
+"815","Lewis County","USA","WA",2
+"816","Lexington city","USA","VA",1
+"817","Lexington County","USA","SC",1
+"818","Liberty County","USA","GA",1
+"819","Liberty County","USA","TX",1
+"820","Licking County","USA","OH",2
+"821","Limestone County","USA","AL",1
+"822","Lincoln County","USA","ME",2
+"823","Lincoln County","USA","MS",1
+"824","Lincoln County","USA","NE",1
+"825","Lincoln County","USA","NM",1
+"826","Lincoln County","USA","OR",2
+"827","Lincoln County","USA","WI",1
+"828","Lincoln Parish","USA","LA",1
+"829","Linn County","USA","IA",2
+"830","Linn County","USA","MO",1
+"831","Linn County","USA","OR",2
+"832","Litchfield County","USA","CT",10
+"833","Livingston County","USA","IL",1
+"834","Livingston County","USA","MI",2
+"835","Livingston County","USA","NY",5
+"836","Livingston Parish","USA","LA",1
+"837","Logan County","USA","CO",1
+"838","Logan County","USA","IL",1
+"839","Logan County","USA","OH",1
+"840","Long County","USA","GA",1
+"841","Lonoke County","USA","AR",1
+"842","Lorain County","USA","OH",4
+"843","Los Alamos County","USA","NM",1
+"844","Los Angeles County","USA","CA",58
+"845","Loudoun County","USA","VA",4
+"846","Lowndes County","USA","GA",1
+"847","Lowndes County","USA","MS",1
+"848","Loza Municipio","USA","PR",1
+"849","Lubbock County","USA","TX",1
+"850","Lucas County","USA","OH",4
+"851","Luna County","USA","NM",1
+"852","Luzerne County","USA","PA",2
+"853","Lycoming County","USA","PA",2
+"854","Lynchburg city","USA","VA",1
+"855","Lyon County","USA","KS",1
+"856","Lyon County","USA","MN",1
+"857","Mackinac County","USA","MI",1
+"858","Macomb County","USA","MI",7
+"859","Macon County","USA","AL",1
+"860","Macon County","USA","IL",1
+"861","Macon County","USA","MO",1
+"862","Macon County","USA","NC",1
+"863","Macoupin County","USA","IL",2
+"864","Madera County","USA","CA",2
+"865","Madison County","USA","AL",1
+"866","Madison County","USA","ID",1
+"867","Madison County","USA","IL",6
+"868","Madison County","USA","IN",3
+"869","Madison County","USA","KY",1
+"870","Madison County","USA","NC",1
+"871","Madison County","USA","NE",1
+"872","Madison County","USA","NY",2
+"873","Madison County","USA","TN",1
+"874","Mahaska County","USA","IA",1
+"875","Mahoning County","USA","OH",2
+"876","Malheur County","USA","OR",1
+"877","Manassas city","USA","VA",1
+"878","Manatee County","USA","FL",1
+"879","Manitoba","Canada","MB",4
+"880","Manitowoc County","USA","WI",2
+"881","Marathon County","USA","WI",1
+"882","Maricopa County","USA","AZ",11
+"883","Marin County","USA","CA",9
+"884","Marinette County","USA","WI",1
+"885","Marion County","USA","AR",1
+"886","Marion County","USA","FL",1
+"887","Marion County","USA","IL",1
+"888","Marion County","USA","IN",1
+"889","Marion County","USA","KY",1
+"890","Marion County","USA","MO",1
+"891","Marion County","USA","MS",1
+"892","Marion County","USA","OH",1
+"893","Marion County","USA","OR",3
+"894","Marion County","USA","TX",1
+"895","Marion County","USA","WV",1
+"896","Mariposa County","USA","CA",1
+"897","Marquette County","USA","MI",1
+"898","Marshall County","USA","AL",1
+"899","Marshall County","USA","IA",1
+"900","Marshall County","USA","IN",1
+"901","Marshall County","USA","KY",1
+"902","Martin County","USA","FL",2
+"903","Martinsville city","USA","VA",1
+"904","Mason County","USA","KY",1
+"905","Mason County","USA","MI",1
+"906","Mason County","USA","TX",1
+"907","Mason County","USA","WA",1
+"908","Massac County","USA","IL",1
+"909","Matanuska-Susitna Borough","USA","AK",2
+"910","Mathews County","USA","VA",1
+"911","Maui County","USA","HI",5
+"912","Maury County","USA","TN",2
+"913","Maverick County","USA","TX",1
+"914","McCracken County","USA","KY",1
+"915","McDonough County","USA","IL",1
+"916","McDowell County","USA","NC",2
+"917","McDuffie County","USA","GA",1
+"918","McHenry County","USA","IL",6
+"919","McKean County","USA","PA",2
+"920","McKinley County","USA","NM",1
+"921","McLean County","USA","IL",2
+"922","McLennan County","USA","TX",1
+"923","McLeod County","USA","MN",1
+"924","McMinn County","USA","TN",1
+"925","McPherson County","USA","KS",1
+"926","Mecklenburg County","USA","NC",4
+"927","Mecklenburg County","USA","VA",3
+"928","Mecosta County","USA","MI",1
+"929","Medina County","USA","OH",2
+"930","Medina County","USA","TX",1
+"931","Mendocino County","USA","CA",4
+"932","Menominee County","USA","MI",1
+"933","Merced County","USA","CA",2
+"934","Mercer County","USA","IL",1
+"935","Mercer County","USA","KY",1
+"936","Mercer County","USA","NJ",8
+"937","Mercer County","USA","OH",1
+"938","Mercer County","USA","PA",7
+"939","Mercer County","USA","WV",2
+"940","Merrimack County","USA","NH",3
+"941","Mesa County","USA","CO",1
+"942","Miami-Dade County","USA","FL",7
+"943","Miami County","USA","IN",1
+"944","Miami County","USA","OH",3
+"945","Middlesex County","USA","CT",4
+"946","Middlesex County","USA","MA",26
+"947","Middlesex County","USA","NJ",14
+"948","Middlesex County","USA","VA",1
+"949","Midland County","USA","MI",1
+"950","Midland County","USA","TX",1
+"951","Miller County","USA","AR",1
+"952","Milwaukee County","USA","WI",12
+"953","Mineral County","USA","CO",1
+"954","Mineral County","USA","WV",1
+"955","Mingo County","USA","WV",1
+"956","Minnehaha County","USA","SD",1
+"957","Mississippi County","USA","AR",1
+"958","Missoula County","USA","MT",1
+"959","Mitchell County","USA","NC",1
+"960","Mobile County","USA","AL",1
+"961","Moffat County","USA","CO",1
+"962","Mohave County","USA","AZ",3
+"963","Monmouth County","USA","NJ",13
+"964","Mono County","USA","CA",1
+"965","Monongalia County","USA","WV",1
+"966","Monroe County","USA","FL",2
+"967","Monroe County","USA","IL",2
+"968","Monroe County","USA","IN",1
+"969","Monroe County","USA","MI",3
+"970","Monroe County","USA","NY",8
+"971","Monroe County","USA","PA",3
+"972","Monroe County","USA","TN",1
+"973","Monroe County","USA","WI",1
+"974","Montague County","USA","TX",1
+"975","Monterey County","USA","CA",7
+"976","Montezuma County","USA","CO",1
+"977","Montgomery County","USA","AL",1
+"978","Montgomery County","USA","IL",1
+"979","Montgomery County","USA","IN",1
+"980","Montgomery County","USA","KS",1
+"981","Montgomery County","USA","MD",17
+"982","Montgomery County","USA","NY",1
+"983","Montgomery County","USA","OH",9
+"984","Montgomery County","USA","PA",19
+"985","Montgomery County","USA","TN",1
+"986","Montgomery County","USA","TX",2
+"987","Montgomery County","USA","VA",2
+"988","Montour County","USA","PA",1
+"989","Montrose County","USA","CO",1
+"990","Moore County","USA","NC",2
+"991","Moore County","USA","TX",1
+"992","Morgan County","USA","AL",1
+"993","Morgan County","USA","GA",1
+"994","Morgan County","USA","IL",1
+"995","Morgan County","USA","IN",2
+"996","Morgan County","USA","WV",1
+"997","Morris County","USA","NJ",7
+"998","Mountrail County","USA","ND",1
+"999","Mower County","USA","MN",1
+"1000","Muhlenberg County","USA","KY",1
+"1001","Multnomah County","USA","OR",3
+"1002","Muscatine County","USA","IA",1
+"1003","Muscogee County","USA","GA",1
+"1004","Muskegon County","USA","MI",2
+"1005","Muskingum County","USA","OH",1
+"1006","Muskogee County","USA","OK",1
+"1007","Nacogdoches County","USA","TX",1
+"1008","Nantucket County","USA","MA",1
+"1009","Napa County","USA","CA",3
+"1010","Nash County","USA","NC",2
+"1011","Nassau County","USA","FL",1
+"1012","Nassau County","USA","NY",25
+"1013","Natchitoches Parish","USA","LA",1
+"1014","Natrona County","USA","WY",1
+"1015","Navajo County","USA","AZ",2
+"1016","Navarro County","USA","TX",1
+"1017","Nelson County","USA","KY",1
+"1018","Nemaha County","USA","NE",1
+"1019","Neshoba County","USA","MS",1
+"1020","Nevada County","USA","CA",3
+"1021","New Brunswick","Canada","NB",5
+"1022","New Castle County","USA","DE",3
+"1023","New Hanover County","USA","NC",2
+"1024","New Haven County","USA","CT",16
+"1025","New London County","USA","CT",11
+"1026","New South Wales","Australia","(Missing)",12
+"1027","New York County","USA","NY",3
+"1028","Newberry County","USA","SC",1
+"1029","Newfoundland and Labrador","Canada","NL",1
+"1030","Newport County","USA","RI",2
+"1031","Newport News city","USA","VA",1
+"1032","Newton County","USA","GA",1
+"1033","Nez Perce County","USA","ID",1
+"1034","Niagara County","USA","NY",2
+"1035","Nicollet County","USA","MN",1
+"1036","Nobles County","USA","MN",1
+"1037","Nodaway County","USA","MO",1
+"1038","Nome Census Area","USA","AK",2
+"1039","Norfolk city","USA","VA",1
+"1040","Norfolk County","USA","MA",16
+"1041","North Slope Borough","USA","AK",1
+"1042","Northampton County","USA","PA",4
+"1043","Northampton County","USA","VA",1
+"1044","Northern Ireland","UK","(Missing)",3
+"1045","Northern Territory","Australia","(Missing)",2
+"1046","Northumberland County","USA","PA",3
+"1047","Northwest Arctic Borough","USA","AK",1
+"1048","Northwest Territories","Canada","NT",2
+"1049","Norton city","USA","VA",1
+"1050","Nova Scotia","Canada","NS",9
+"1051","Nueces County","USA","TX",1
+"1052","Nunavut","Canada","NU",1
+"1053","Oakland County","USA","MI",16
+"1054","Ocean County","USA","NJ",7
+"1055","Oconee County","USA","SC",3
+"1056","Oconto County","USA","WI",1
+"1057","Ogemaw County","USA","MI",1
+"1058","Ogle County","USA","IL",2
+"1059","Oglethorpe County","USA","GA",1
+"1060","Ohio County","USA","KY",1
+"1061","Ohio County","USA","WV",1
+"1062","Okaloosa County","USA","FL",2
+"1063","Okanogan County","USA","WA",2
+"1064","Okinawa","Japan","(Missing)",2
+"1065","Oklahoma County","USA","OK",2
+"1066","Oktibbeha County","USA","MS",1
+"1067","Olmsted County","USA","MN",1
+"1068","Oneida County","USA","NY",2
+"1069","Oneida County","USA","WI",2
+"1070","Onondaga County","USA","NY",6
+"1071","Onslow County","USA","NC",1
+"1072","Ontario","Canada","ON",50
+"1073","Ontario County","USA","NY",4
+"1074","Orange County","USA","CA",28
+"1075","Orange County","USA","FL",5
+"1076","Orange County","USA","IN",1
+"1077","Orange County","USA","NC",2
+"1078","Orange County","USA","NY",11
+"1079","Orange County","USA","TX",2
+"1080","Orange County","USA","VA",1
+"1081","Orange County","USA","VT",1
+"1082","Orangeburg County","USA","SC",1
+"1083","Orleans County","USA","NY",1
+"1084","Orleans County","USA","VT",1
+"1085","Orleans Parish","USA","LA",1
+"1086","Osceola County","USA","FL",2
+"1087","Oswego County","USA","NY",1
+"1088","Otero County","USA","CO",1
+"1089","Otero County","USA","NM",2
+"1090","Otoe County","USA","NE",1
+"1091","Otsego County","USA","MI",1
+"1092","Otsego County","USA","NY",2
+"1093","Ottawa County","USA","MI",1
+"1094","Ottawa County","USA","OH",1
+"1095","Ottawa County","USA","OK",1
+"1096","Otter Tail County","USA","MN",1
+"1097","Ouachita Parish","USA","LA",1
+"1098","Ouray County","USA","CO",1
+"1099","Outagamie County","USA","WI",1
+"1100","Ozaukee County","USA","WI",4
+"1101","Pacific County","USA","WA",3
+"1102","Page County","USA","IA",1
+"1103","Palm Beach County","USA","FL",8
+"1104","Park County","USA","MT",1
+"1105","Park County","USA","WY",1
+"1106","Parker County","USA","TX",2
+"1107","Pasco County","USA","FL",1
+"1108","Pasquotank County","USA","NC",1
+"1109","Passaic County","USA","NJ",4
+"1110","Payne County","USA","OK",1
+"1111","Pearl River County","USA","MS",1
+"1112","Pecos County","USA","TX",1
+"1113","Pennington County","USA","SD",1
+"1114","Penobscot County","USA","ME",2
+"1115","Peoria County","USA","IL",1
+"1116","Perry County","USA","IL",2
+"1117","Perry County","USA","KY",1
+"1118","Perry County","USA","MO",1
+"1119","Perry County","USA","PA",1
+"1120","Person County","USA","NC",1
+"1121","Petersburg Census Area","USA","AK",2
+"1122","Petersburg city","USA","VA",1
+"1123","Pettis County","USA","MO",1
+"1124","Phelps County","USA","MO",1
+"1125","Philadelphia County","USA","PA",1
+"1126","Piatt County","USA","IL",1
+"1127","Pickens County","USA","GA",1
+"1128","Pickens County","USA","SC",3
+"1129","Pierce County","USA","ND",1
+"1130","Pierce County","USA","WA",8
+"1131","Pike County","USA","AL",1
+"1132","Pike County","USA","KY",1
+"1133","Pike County","USA","MO",1
+"1134","Pike County","USA","MS",1
+"1135","Pike County","USA","PA",1
+"1136","Pima County","USA","AZ",2
+"1137","Pinal County","USA","AZ",5
+"1138","Pine County","USA","MN",1
+"1139","Pinellas County","USA","FL",2
+"1140","Piscataquis County","USA","ME",2
+"1141","Pitkin County","USA","CO",1
+"1142","Pitt County","USA","NC",1
+"1143","Pittsburg County","USA","OK",1
+"1144","Placer County","USA","CA",5
+"1145","Plaquemines Parish","USA","LA",1
+"1146","Platte County","USA","MO",1
+"1147","Platte County","USA","NE",1
+"1148","Plumas County","USA","CA",1
+"1149","Plymouth County","USA","IA",1
+"1150","Plymouth County","USA","MA",13
+"1151","Polk County","USA","AR",1
+"1152","Polk County","USA","FL",1
+"1153","Polk County","USA","GA",1
+"1154","Polk County","USA","IA",3
+"1155","Polk County","USA","MN",1
+"1156","Polk County","USA","MO",1
+"1157","Polk County","USA","OR",2
+"1158","Polk County","USA","TX",1
+"1159","Pontotoc County","USA","MS",1
+"1160","Pontotoc County","USA","OK",1
+"1161","Pope County","USA","AR",1
+"1162","Poquoson city","USA","VA",1
+"1163","Portage County","USA","OH",5
+"1164","Portage County","USA","WI",1
+"1165","Porter County","USA","IN",3
+"1166","Portsmouth city","USA","VA",1
+"1167","Pottawatomie County","USA","OK",1
+"1168","Pottawattamie County","USA","IA",1
+"1169","Potter County","USA","PA",1
+"1170","Potter County","USA","TX",1
+"1171","Poweshiek County","USA","IA",1
+"1172","Preble County","USA","OH",1
+"1173","Prentiss County","USA","MS",1
+"1174","Presidio County","USA","TX",1
+"1175","Prince Edward County","USA","VA",1
+"1176","Prince Edward Island","Canada","PE",1
+"1177","Prince George's County","USA","MD",12
+"1178","Prince William County","USA","VA",2
+"1179","Providence County","USA","RI",3
+"1180","Pueblo County","USA","CO",1
+"1181","Pulaski County","USA","AR",1
+"1182","Pulaski County","USA","GA",1
+"1183","Pulaski County","USA","IL",1
+"1184","Pulaski County","USA","KY",1
+"1185","Pulaski County","USA","MO",1
+"1186","Pushmataha County","USA","OK",1
+"1187","Putnam County","USA","IN",1
+"1188","Putnam County","USA","NY",2
+"1189","Putnam County","USA","TN",1
+"1190","Québec","Canada","QC",10
+"1191","Queen Anne's County","USA","MD",1
+"1192","Queens County","USA","NY",8
+"1193","Queensland","Australia","(Missing)",6
+"1194","Rabun County","USA","GA",1
+"1195","Racine County","USA","WI",3
+"1196","Raleigh County","USA","WV",1
+"1197","Ramsey County","USA","MN",4
+"1198","Randall County","USA","TX",1
+"1199","Randolph County","USA","IL",1
+"1200","Randolph County","USA","MO",1
+"1201","Randolph County","USA","NC",1
+"1202","Rapides Parish","USA","LA",1
+"1203","Ravalli County","USA","MT",1
+"1204","Red Willow County","USA","NE",1
+"1205","Reeves County","USA","TX",1
+"1206","Refugio County","USA","TX",1
+"1207","Reno County","USA","KS",1
+"1208","Rensselaer County","USA","NY",1
+"1209","Richland County","USA","OH",3
+"1210","Richland County","USA","SC",1
+"1211","Richland County","USA","WI",1
+"1212","Richmond city","USA","VA",1
+"1213","Richmond County","USA","GA",1
+"1214","Richmond County","USA","NC",1
+"1215","Richmond County","USA","NY",4
+"1216","Riley County","USA","KS",1
+"1217","Rio Grande County","USA","CO",1
+"1218","Ripley County","USA","IN",1
+"1219","Riverside County","USA","CA",18
+"1220","Roanoke city","USA","VA",1
+"1221","Robeson County","USA","NC",1
+"1222","Rock County","USA","WI",3
+"1223","Rock Island County","USA","IL",2
+"1224","Rockdale County","USA","GA",1
+"1225","Rockingham County","USA","NC",1
+"1226","Rockingham County","USA","NH",3
+"1227","Rockingham County","USA","VA",2
+"1228","Rockland County","USA","NY",4
+"1229","Rockwall County","USA","TX",2
+"1230","Rogers County","USA","OK",1
+"1231","Roosevelt County","USA","NM",1
+"1232","Ross County","USA","OH",1
+"1233","Routt County","USA","CO",1
+"1234","Rowan County","USA","KY",1
+"1235","Rowan County","USA","NC",2
+"1236","Rush County","USA","IN",1
+"1237","Russell County","USA","VA",1
+"1238","Rutherford County","USA","NC",2
+"1239","Rutherford County","USA","TN",1
+"1240","Rutland County","USA","VT",1
+"1241","Sacramento County","USA","CA",5
+"1242","Sagadahoc County","USA","ME",2
+"1243","Saginaw County","USA","MI",1
+"1244","Saipan Municipality","USA","MP",1
+"1245","Salem County","USA","NJ",2
+"1246","Saline County","USA","AR",1
+"1247","Saline County","USA","IL",1
+"1248","Saline County","USA","KS",1
+"1249","Saline County","USA","MO",1
+"1250","Salt Lake County","USA","UT",2
+"1251","Sampson County","USA","NC",1
+"1252","San Benito County","USA","CA",1
+"1253","San Bernardino County","USA","CA",22
+"1254","San Diego County","USA","CA",25
+"1255","San Francisco County","USA","CA",1
+"1256","San Jacinto County","USA","TX",1
+"1257","San Joaquin County","USA","CA",7
+"1258","San Juan County","USA","NM",2
+"1259","San Juan County","USA","WA",3
+"1260","San Juan Municipio","USA","PR",1
+"1261","San Luis Obispo County","USA","CA",6
+"1262","San Luis Potosí","Mexico","(Missing)",1
+"1263","San Mateo County","USA","CA",9
+"1264","San Miguel County","USA","CO",2
+"1265","San Miguel County","USA","NM",1
+"1266","San Patricio County","USA","TX",2
+"1267","Sanders County","USA","MT",1
+"1268","Sandoval County","USA","NM",1
+"1269","Sandusky County","USA","OH",1
+"1270","Sangamon County","USA","IL",3
+"1271","Santa Barbara County","USA","CA",6
+"1272","Santa Clara County","USA","CA",12
+"1273","Santa Cruz County","USA","AZ",1
+"1274","Santa Cruz County","USA","CA",3
+"1275","Santa Fe County","USA","NM",3
+"1276","Santa Rosa County","USA","FL",1
+"1277","Sarasota County","USA","FL",1
+"1278","Saratoga County","USA","NY",3
+"1279","Sarpy County","USA","NE",2
+"1280","Saskatchewan","Canada","SK",7
+"1281","Sauk County","USA","WI",2
+"1282","Sawyer County","USA","WI",1
+"1283","Schenectady County","USA","NY",2
+"1284","Schoharie County","USA","NY",1
+"1285","Schuyler County","USA","IL",1
+"1286","Schuylkill County","USA","PA",3
+"1287","Scioto County","USA","OH",1
+"1288","Scotland","UK","(Missing)",21
+"1289","Scotland County","USA","NC",1
+"1290","Scott County","USA","IA",2
+"1291","Scott County","USA","KY",1
+"1292","Scotts Bluff County","USA","NE",1
+"1293","Sebastian County","USA","AR",1
+"1294","Sedgwick County","USA","KS",2
+"1295","Seminole County","USA","FL",2
+"1296","Seneca County","USA","OH",2
+"1297","Seward County","USA","KS",1
+"1298","Shannon County","USA","SD",1
+"1299","Shasta County","USA","CA",1
+"1300","Shawano County","USA","WI",1
+"1301","Shawnee County","USA","KS",1
+"1302","Sheboygan County","USA","WI",2
+"1303","Shelby County","USA","KY",1
+"1304","Shelby County","USA","OH",1
+"1305","Shelby County","USA","TN",4
+"1306","Shelby County","USA","TX",1
+"1307","Sherburne County","USA","MN",1
+"1308","Sheridan County","USA","WY",1
+"1309","Shiawassee County","USA","MI",1
+"1310","Silver Bow County","USA","MT",1
+"1311","Simpson County","USA","KY",1
+"1312","Siskiyou County","USA","CA",2
+"1313","Sitka City and Borough","USA","AK",1
+"1314","Skagit County","USA","WA",3
+"1315","Skagway Municipality","USA","AK",1
+"1316","Skamania County","USA","WA",1
+"1317","Smith County","USA","TX",1
+"1318","Smyth County","USA","VA",1
+"1319","Snohomish County","USA","WA",12
+"1320","Snyder County","USA","PA",1
+"1321","Socorro County","USA","NM",1
+"1322","Solano County","USA","CA",5
+"1323","Somerset County","USA","ME",1
+"1324","Somerset County","USA","NJ",6
+"1325","Somerset County","USA","PA",1
+"1326","Sonoma County","USA","CA",9
+"1327","South Australia","Australia","(Missing)",1
+"1328","Spalding County","USA","GA",1
+"1329","Spartanburg County","USA","SC",1
+"1330","Spokane County","USA","WA",1
+"1331","St. Charles County","USA","MO",4
+"1332","St. Clair County","USA","IL",6
+"1333","St. Clair County","USA","MI",1
+"1334","St. Croix County","USA","WI",1
+"1335","St. Croix Island","USA","VI",1
+"1336","St. Francis County","USA","AR",1
+"1337","St. Francois County","USA","MO",1
+"1338","St. John Island","USA","VI",1
+"1339","St. Johns County","USA","FL",3
+"1340","St. Joseph County","USA","IN",3
+"1341","St. Joseph County","USA","MI",1
+"1342","St. Lawrence County","USA","NY",4
+"1343","St. Louis city","USA","MO",1
+"1344","St. Louis County","USA","MN",4
+"1345","St. Louis County","USA","MO",17
+"1346","St. Lucie County","USA","FL",2
+"1347","St. Mary's County","USA","MD",2
+"1348","St. Mary Parish","USA","LA",1
+"1349","St. Tammany Parish","USA","LA",2
+"1350","St. Thomas Island","USA","VI",1
+"1351","Stafford County","USA","VA",1
+"1352","Stanislaus County","USA","CA",6
+"1353","Stanly County","USA","NC",1
+"1354","Stark County","USA","ND",1
+"1355","Stark County","USA","OH",3
+"1356","Starr County","USA","TX",1
+"1357","Staunton city","USA","VA",1
+"1358","Stearns County","USA","MN",1
+"1359","Steele County","USA","MN",1
+"1360","Stephens County","USA","GA",1
+"1361","Stephens County","USA","OK",1
+"1362","Stephenson County","USA","IL",1
+"1363","Steuben County","USA","IN",1
+"1364","Steuben County","USA","NY",3
+"1365","Stevens County","USA","WA",1
+"1366","Stokes County","USA","NC",2
+"1367","Story County","USA","IA",1
+"1368","Strafford County","USA","NH",2
+"1369","Stutsman County","USA","ND",1
+"1370","Sublette County","USA","WY",1
+"1371","Suffolk city","USA","VA",2
+"1372","Suffolk County","USA","MA",6
+"1373","Suffolk County","USA","NY",37
+"1374","Sullivan County","USA","NH",3
+"1375","Sullivan County","USA","NY",4
+"1376","Sullivan County","USA","TN",2
+"1377","Summit County","USA","CO",1
+"1378","Summit County","USA","OH",6
+"1379","Summit County","USA","UT",1
+"1380","Sumner County","USA","KS",1
+"1381","Sumner County","USA","TN",1
+"1382","Sumter County","USA","GA",1
+"1383","Sumter County","USA","SC",1
+"1384","Surry County","USA","NC",2
+"1385","Sussex County","USA","DE",4
+"1386","Sussex County","USA","NJ",3
+"1387","Sutter County","USA","CA",1
+"1388","Suwannee County","USA","FL",1
+"1389","Swain County","USA","NC",1
+"1390","Sweetwater County","USA","WY",1
+"1391","Talbot County","USA","MD",1
+"1392","Talladega County","USA","AL",2
+"1393","Tallapoosa County","USA","AL",1
+"1394","Taney County","USA","MO",1
+"1395","Tangipahoa Parish","USA","LA",1
+"1396","Taos County","USA","NM",1
+"1397","Tarrant County","USA","TX",7
+"1398","Tasmania","Australia","(Missing)",2
+"1399","Taylor County","USA","KY",1
+"1400","Taylor County","USA","TX",1
+"1401","Tazewell County","USA","IL",1
+"1402","Tazewell County","USA","VA",1
+"1403","Tehama County","USA","CA",1
+"1404","Terrebonne Parish","USA","LA",1
+"1405","Teton County","USA","ID",1
+"1406","Teton County","USA","WY",1
+"1407","Texas County","USA","OK",1
+"1408","Thomas County","USA","GA",1
+"1409","Thurston County","USA","WA",1
+"1410","Tift County","USA","GA",1
+"1411","Tillamook County","USA","OR",3
+"1412","Tioga County","USA","PA",1
+"1413","Tippah County","USA","MS",1
+"1414","Tippecanoe County","USA","IN",1
+"1415","Tipton County","USA","TN",1
+"1416","Titus County","USA","TX",1
+"1417","Tolland County","USA","CT",8
+"1418","Tom Green County","USA","TX",1
+"1419","Tompkins County","USA","NY",2
+"1420","Toombs County","USA","GA",1
+"1421","Towns County","USA","GA",1
+"1422","Transylvania County","USA","NC",1
+"1423","Travis County","USA","TX",3
+"1424","Trinity County","USA","CA",1
+"1425","Troup County","USA","GA",1
+"1426","Trumbull County","USA","OH",1
+"1427","Tulare County","USA","CA",3
+"1428","Tulsa County","USA","OK",3
+"1429","Tuolumne County","USA","CA",1
+"1430","Tuscaloosa County","USA","AL",1
+"1431","Tuscarawas County","USA","OH",2
+"1432","Tuscola County","USA","MI",1
+"1433","Twiggs County","USA","GA",1
+"1434","Twin Falls County","USA","ID",1
+"1435","Tyler County","USA","TX",1
+"1436","Ulster County","USA","NY",4
+"1437","Umatilla County","USA","OR",4
+"1438","Union County","USA","AR",1
+"1439","Union County","USA","IA",1
+"1440","Union County","USA","IL",1
+"1441","Union County","USA","MS",1
+"1442","Union County","USA","NC",2
+"1443","Union County","USA","NJ",14
+"1444","Union County","USA","OH",1
+"1445","Union County","USA","OR",1
+"1446","Union County","USA","PA",2
+"1447","Upshur County","USA","WV",1
+"1448","Utah County","USA","UT",2
+"1449","Uvalde County","USA","TX",1
+"1450","Val Verde County","USA","TX",1
+"1451","Valdez-Cordova Census Area","USA","AK",1
+"1452","Valley County","USA","ID",1
+"1453","Van Buren County","USA","MI",1
+"1454","Van Wert County","USA","OH",1
+"1455","Van Zandt County","USA","TX",1
+"1456","Vance County","USA","NC",1
+"1457","Vanderburgh County","USA","IN",1
+"1458","Venango County","USA","PA",3
+"1459","Ventura County","USA","CA",6
+"1460","Veracruz","Mexico","(Missing)",1
+"1461","Vermilion County","USA","IL",2
+"1462","Vernon County","USA","MO",1
+"1463","Vernon County","USA","WI",1
+"1464","Vernon Parish","USA","LA",1
+"1465","Victoria","Australia","(Missing)",4
+"1466","Victoria County","USA","TX",1
+"1467","Vigo County","USA","IN",1
+"1468","Vilas County","USA","WI",1
+"1469","Virginia Beach city","USA","VA",1
+"1470","Volusia County","USA","FL",6
+"1471","Wabash County","USA","IN",1
+"1472","Wake County","USA","NC",6
+"1473","Waldo County","USA","ME",1
+"1474","Wales","UK","(Missing)",25
+"1475","Walker County","USA","AL",1
+"1476","Walker County","USA","TX",1
+"1477","Walla Walla County","USA","WA",1
+"1478","Wallowa County","USA","OR",1
+"1479","Walton County","USA","FL",2
+"1480","Walton County","USA","GA",2
+"1481","Walworth County","USA","WI",4
+"1482","Wapello County","USA","IA",1
+"1483","Ward County","USA","ND",1
+"1484","Ware County","USA","GA",1
+"1485","Warren County","USA","IA",1
+"1486","Warren County","USA","IL",1
+"1487","Warren County","USA","KY",1
+"1488","Warren County","USA","MS",1
+"1489","Warren County","USA","NJ",3
+"1490","Warren County","USA","NY",2
+"1491","Warren County","USA","OH",3
+"1492","Warren County","USA","PA",1
+"1493","Warren County","USA","TN",1
+"1494","Warren County","USA","VA",1
+"1495","Wasco County","USA","OR",1
+"1496","Waseca County","USA","MN",1
+"1497","Washington County","USA","AR",2
+"1498","Washington County","USA","GA",1
+"1499","Washington County","USA","MD",1
+"1500","Washington County","USA","ME",2
+"1501","Washington County","USA","MN",3
+"1502","Washington County","USA","NY",1
+"1503","Washington County","USA","OH",1
+"1504","Washington County","USA","OK",1
+"1505","Washington County","USA","OR",5
+"1506","Washington County","USA","PA",3
+"1507","Washington County","USA","RI",6
+"1508","Washington County","USA","TN",1
+"1509","Washington County","USA","TX",1
+"1510","Washington County","USA","UT",1
+"1511","Washington County","USA","VA",1
+"1512","Washington County","USA","VT",2
+"1513","Washington County","USA","WI",1
+"1514","Washoe County","USA","NV",1
+"1515","Washtenaw County","USA","MI",6
+"1516","Watauga County","USA","NC",1
+"1517","Waukesha County","USA","WI",5
+"1518","Waupaca County","USA","WI",1
+"1519","Wayne County","USA","IN",1
+"1520","Wayne County","USA","MI",13
+"1521","Wayne County","USA","NC",1
+"1522","Wayne County","USA","OH",1
+"1523","Wayne County","USA","PA",2
+"1524","Waynesboro city","USA","VA",1
+"1525","Weakley County","USA","TN",1
+"1526","Webb County","USA","TX",1
+"1527","Weber County","USA","UT",1
+"1528","Webster County","USA","IA",1
+"1529","Webster Parish","USA","LA",1
+"1530","Weld County","USA","CO",1
+"1531","West Baton Rouge Parish","USA","LA",1
+"1532","West Feliciana Parish","USA","LA",2
+"1533","Westchester County","USA","NY",18
+"1534","Western Australia","Australia","(Missing)",4
+"1535","Western District","USA","AS",1
+"1536","Westmoreland County","USA","PA",10
+"1537","Westmoreland County","USA","VA",2
+"1538","Wexford County","USA","MI",1
+"1539","Wharton County","USA","TX",1
+"1540","Whatcom County","USA","WA",1
+"1541","White County","USA","AR",1
+"1542","White Pine County","USA","NV",1
+"1543","Whiteside County","USA","IL",3
+"1544","Whitfield County","USA","GA",1
+"1545","Whitley County","USA","IN",1
+"1546","Whitley County","USA","KY",1
+"1547","Whitman County","USA","WA",1
+"1548","Wichita County","USA","TX",1
+"1549","Wicomico County","USA","MD",1
+"1550","Wilbarger County","USA","TX",1
+"1551","Wilkes County","USA","NC",2
+"1552","Will County","USA","IL",4
+"1553","Williams County","USA","ND",1
+"1554","Williams County","USA","OH",1
+"1555","Williamsburg city","USA","VA",1
+"1556","Williamson County","USA","IL",3
+"1557","Williamson County","USA","TN",2
+"1558","Williamson County","USA","TX",5
+"1559","Wilson County","USA","NC",1
+"1560","Wilson County","USA","TN",1
+"1561","Wilson County","USA","TX",1
+"1562","Winchester city","USA","VA",1
+"1563","Windham County","USA","CT",5
+"1564","Windham County","USA","VT",3
+"1565","Windsor County","USA","VT",6
+"1566","Winnebago County","USA","IA",1
+"1567","Winnebago County","USA","IL",1
+"1568","Winnebago County","USA","WI",2
+"1569","Winneshiek County","USA","IA",1
+"1570","Winona County","USA","MN",1
+"1571","Wood County","USA","OH",2
+"1572","Wood County","USA","WI",2
+"1573","Wood County","USA","WV",1
+"1574","Woodbury County","USA","IA",1
+"1575","Woodward County","USA","OK",1
+"1576","Worcester County","USA","MA",15
+"1577","Worcester County","USA","MD",2
+"1578","Wright County","USA","MN",1
+"1579","Wyandot County","USA","OH",1
+"1580","Wyandotte County","USA","KS",1
+"1581","Wyoming County","USA","PA",1
+"1582","Wythe County","USA","VA",1
+"1583","Yakima County","USA","WA",3
+"1584","Yakutat City and Borough","USA","AK",1
+"1585","Yamhill County","USA","OR",2
+"1586","Yancey County","USA","NC",1
+"1587","Yankton County","USA","SD",1
+"1588","Yates County","USA","NY",1
+"1589","Yavapai County","USA","AZ",4
+"1590","Yazoo County","USA","MS",1
+"1591","Yellowstone County","USA","MT",1
+"1592","Yolo County","USA","CA",3
+"1593","York County","USA","ME",5
+"1594","York County","USA","PA",2
+"1595","York County","USA","SC",3
+"1596","Yuba County","USA","CA",1
+"1597","Yukon","Canada","YT",2
+"1598","Yuma County","USA","AZ",1
+"1599",NA,"Andorra","(Missing)",1
+"1600",NA,"Argentina","(Missing)",1
+"1601",NA,"Armenia","(Missing)",1
+"1602",NA,"Austria","(Missing)",6
+"1603",NA,"Barbados","(Missing)",1
+"1604",NA,"Belgium","(Missing)",10
+"1605",NA,"Belize","(Missing)",1
+"1606",NA,"Brazil","(Missing)",7
+"1607",NA,"Bulgaria","(Missing)",1
+"1608",NA,"Colombia","(Missing)",1
+"1609",NA,"Costa Rica","(Missing)",1
+"1610",NA,"Croatia","(Missing)",1
+"1611",NA,"Cyprus","(Missing)",1
+"1612",NA,"Czech Republic","(Missing)",1
+"1613",NA,"Denmark","(Missing)",4
+"1614",NA,"Dominican Republic","(Missing)",1
+"1615",NA,"Ecuador","(Missing)",1
+"1616",NA,"Estonia","(Missing)",1
+"1617",NA,"Fiji","(Missing)",1
+"1618",NA,"Finland","(Missing)",7
+"1619",NA,"France","(Missing)",20
+"1620",NA,"Georgia","(Missing)",1
+"1621",NA,"Germany","(Missing)",49
+"1622",NA,"Ghana","(Missing)",1
+"1623",NA,"Greece","(Missing)",2
+"1624",NA,"Guadeloupe","(Missing)",1
+"1625",NA,"Haiti","(Missing)",1
+"1626",NA,"Hungary","(Missing)",1
+"1627",NA,"Iceland","(Missing)",2
+"1628",NA,"India","(Missing)",1
+"1629",NA,"Indonesia","(Missing)",1
+"1630",NA,"Iran","(Missing)",2
+"1631",NA,"Ireland","(Missing)",22
+"1632",NA,"Israel","(Missing)",3
+"1633",NA,"Italy","(Missing)",26
+"1634",NA,"Jamaica","(Missing)",1
+"1635",NA,"Japan","(Missing)",6
+"1636",NA,"Kazakhstan","(Missing)",1
+"1637",NA,"Kenya","(Missing)",2
+"1638",NA,"Kosovo","(Missing)",1
+"1639",NA,"Lebanon","(Missing)",1
+"1640",NA,"Liberia","(Missing)",1
+"1641",NA,"Lithuania","(Missing)",1
+"1642",NA,"Luxembourg","(Missing)",1
+"1643",NA,"Malta","(Missing)",1
+"1644",NA,"Montenegro","(Missing)",1
+"1645",NA,"Netherlands","(Missing)",32
+"1646",NA,"New Zealand","(Missing)",9
+"1647",NA,"Nigeria","(Missing)",2
+"1648",NA,"Norway","(Missing)",5
+"1649",NA,"Pakistan","(Missing)",1
+"1650",NA,"Palestine","(Missing)",1
+"1651",NA,"Philippines","(Missing)",1
+"1652",NA,"Poland","(Missing)",4
+"1653",NA,"Portugal","(Missing)",5
+"1654",NA,"Romania","(Missing)",1
+"1655",NA,"Russia","(Missing)",1
+"1656",NA,"Senegal","(Missing)",1
+"1657",NA,"Serbia","(Missing)",1
+"1658",NA,"Slovakia","(Missing)",1
+"1659",NA,"Slovenia","(Missing)",1
+"1660",NA,"South Africa","(Missing)",3
+"1661",NA,"South Korea","(Missing)",3
+"1662",NA,"Spain","(Missing)",21
+"1663",NA,"Sri Lanka","(Missing)",1
+"1664",NA,"Sweden","(Missing)",5
+"1665",NA,"Switzerland","(Missing)",6
+"1666",NA,"Syria","(Missing)",1
+"1667",NA,"Taiwan","(Missing)",1
+"1668",NA,"Thailand","(Missing)",1
+"1669",NA,"Trinidad and Tobago","(Missing)",1
+"1670",NA,"Tunisia","(Missing)",1
+"1671",NA,"Turkey","(Missing)",2
+"1672",NA,"Uganda","(Missing)",1
+"1673",NA,"Ukraine","(Missing)",1
