@@ -38,16 +38,16 @@ These are the U.S. and Global time series tables from the CSSE database
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Province_State</th>
       <th>Country_Region</th>
-      <th>Lat</th>
-      <th>Long</th>
       <th>1/22/2020</th>
       <th>1/23/2020</th>
       <th>1/24/2020</th>
       <th>1/25/2020</th>
       <th>1/26/2020</th>
       <th>1/27/2020</th>
+      <th>1/28/2020</th>
+      <th>1/29/2020</th>
+      <th>1/30/2020</th>
       <th>...</th>
       <th>6/22/2020</th>
       <th>6/23/2020</th>
@@ -64,10 +64,10 @@ These are the U.S. and Global time series tables from the CSSE database
   <tbody>
     <tr>
       <th>0</th>
-      <td>NaN</td>
       <td>Afghanistan</td>
-      <td>33.000000</td>
-      <td>65.000000</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -88,10 +88,10 @@ These are the U.S. and Global time series tables from the CSSE database
     </tr>
     <tr>
       <th>1</th>
-      <td>NaN</td>
       <td>Albania</td>
-      <td>41.153300</td>
-      <td>20.168300</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -112,10 +112,10 @@ These are the U.S. and Global time series tables from the CSSE database
     </tr>
     <tr>
       <th>2</th>
-      <td>NaN</td>
       <td>Algeria</td>
-      <td>28.033900</td>
-      <td>1.659600</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -136,10 +136,10 @@ These are the U.S. and Global time series tables from the CSSE database
     </tr>
     <tr>
       <th>3</th>
-      <td>NaN</td>
       <td>Andorra</td>
-      <td>42.506300</td>
-      <td>1.521800</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -183,11 +183,35 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
     </tr>
     <tr>
-      <th>262</th>
+      <th>184</th>
+      <td>Western Sahara</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
       <td>NaN</td>
+    </tr>
+    <tr>
+      <th>185</th>
       <td>Yemen</td>
-      <td>15.552727</td>
-      <td>48.516388</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -207,11 +231,11 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>NaN</td>
     </tr>
     <tr>
-      <th>263</th>
-      <td>NaN</td>
-      <td>Comoros</td>
-      <td>-11.645500</td>
-      <td>43.333300</td>
+      <th>186</th>
+      <td>Zambia</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -219,47 +243,23 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>247</td>
-      <td>265</td>
-      <td>265</td>
-      <td>272</td>
-      <td>272</td>
-      <td>272</td>
-      <td>272</td>
-      <td>272</td>
-      <td>303</td>
+      <td>1430</td>
+      <td>1477</td>
+      <td>1489</td>
+      <td>1497</td>
+      <td>1531</td>
+      <td>1531</td>
+      <td>1557</td>
+      <td>1568</td>
+      <td>1594</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>264</th>
-      <td>NaN</td>
-      <td>Tajikistan</td>
-      <td>38.861034</td>
-      <td>71.276093</td>
+      <th>187</th>
+      <td>Zimbabwe</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>...</td>
-      <td>5513</td>
-      <td>5567</td>
-      <td>5630</td>
-      <td>5691</td>
-      <td>5747</td>
-      <td>5799</td>
-      <td>5849</td>
-      <td>5900</td>
-      <td>5900</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>265</th>
-      <td>NaN</td>
-      <td>Lesotho</td>
-      <td>-29.609988</td>
-      <td>28.233608</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -267,20 +267,20 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>0</td>
       <td>0</td>
       <td>...</td>
-      <td>12</td>
-      <td>17</td>
-      <td>17</td>
-      <td>17</td>
-      <td>24</td>
-      <td>24</td>
-      <td>27</td>
-      <td>27</td>
-      <td>27</td>
+      <td>512</td>
+      <td>525</td>
+      <td>530</td>
+      <td>551</td>
+      <td>561</td>
+      <td>567</td>
+      <td>567</td>
+      <td>574</td>
+      <td>591</td>
       <td>NaN</td>
     </tr>
   </tbody>
 </table>
-<p>266 rows × 166 columns</p>
+<p>188 rows × 163 columns</p>
 </div>
 
 
@@ -688,7 +688,7 @@ These are the U.S. and Global time series tables from the CSSE database
     </tr>
   </tbody>
 </table>
-<p>524216 rows × 7 columns</p>
+<p>523894 rows × 7 columns</p>
 </div>
 
 
@@ -720,10 +720,7 @@ These are the U.S. and Global time series tables from the CSSE database
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Province_State</th>
       <th>Country_Region</th>
-      <th>Lat</th>
-      <th>Long</th>
       <th>Date</th>
       <th>Total_Cases</th>
     </tr>
@@ -731,37 +728,25 @@ These are the U.S. and Global time series tables from the CSSE database
   <tbody>
     <tr>
       <th>0</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
+      <td>Afghanistan</td>
       <td>2020-01-22</td>
       <td>0</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
+      <td>Afghanistan</td>
       <td>2020-01-23</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
+      <td>Afghanistan</td>
       <td>2020-01-24</td>
       <td>0</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
+      <td>Afghanistan</td>
       <td>2020-01-25</td>
       <td>0</td>
     </tr>
@@ -770,49 +755,34 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
     </tr>
     <tr>
-      <th>8529</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
+      <th>30103</th>
+      <td>Zimbabwe</td>
       <td>2020-06-27</td>
-      <td>1392</td>
+      <td>567</td>
     </tr>
     <tr>
-      <th>8530</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
+      <th>30104</th>
+      <td>Zimbabwe</td>
       <td>2020-06-28</td>
-      <td>1417</td>
+      <td>567</td>
     </tr>
     <tr>
-      <th>8531</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
+      <th>30105</th>
+      <td>Zimbabwe</td>
       <td>2020-06-29</td>
-      <td>1450</td>
+      <td>574</td>
     </tr>
     <tr>
-      <th>8532</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
+      <th>30106</th>
+      <td>Zimbabwe</td>
       <td>2020-06-30</td>
-      <td>1487</td>
+      <td>591</td>
     </tr>
   </tbody>
 </table>
-<p>541604 rows × 6 columns</p>
+<p>30107 rows × 3 columns</p>
 </div>
 
 
@@ -820,6 +790,8 @@ These are the U.S. and Global time series tables from the CSSE database
 ### Adding Temperature, Political Party, Protest, and Lockdown Variables
 
 **After organizing the pandemic data, I added a series of other interesting variables mainly to the U.S. dataset including average temperature per month, political party controlling the current local governemnt, a count for the number of recoreded Black Lives Matter protests in the area, COVID-19 lockdown phases and restriction rating from the Washington Post.**
+
+**I added another variable Case_2W that shows the number of cases 2 weeks from the current date (does not go past 6/16/20).**
 
 
 <p style='font-size: 15px'>U.S. By Counties</p>
@@ -861,8 +833,9 @@ These are the U.S. and Global time series tables from the CSSE database
       <th>Restriction Rating</th>
       <th>Governer.Party</th>
       <th>Current_Phase</th>
-      <th>FIPS</th>
       <th>Month</th>
+      <th>Cases_2W</th>
+      <th>FIPS</th>
       <th>Avg_Temp</th>
       <th>Protest_Count</th>
     </tr>
@@ -885,8 +858,9 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>minor</td>
       <td>R</td>
       <td>-1</td>
-      <td>1001</td>
       <td>2020-01</td>
+      <td>0.0</td>
+      <td>1001</td>
       <td>50.5</td>
       <td>0</td>
     </tr>
@@ -907,8 +881,9 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>minor</td>
       <td>R</td>
       <td>-1</td>
-      <td>1001</td>
       <td>2020-01</td>
+      <td>0.0</td>
+      <td>1001</td>
       <td>50.5</td>
       <td>0</td>
     </tr>
@@ -929,8 +904,9 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>minor</td>
       <td>R</td>
       <td>-1</td>
-      <td>1001</td>
       <td>2020-01</td>
+      <td>0.0</td>
+      <td>1001</td>
       <td>50.5</td>
       <td>0</td>
     </tr>
@@ -951,8 +927,9 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>minor</td>
       <td>R</td>
       <td>-1</td>
-      <td>1001</td>
       <td>2020-01</td>
+      <td>0.0</td>
+      <td>1001</td>
       <td>50.5</td>
       <td>0</td>
     </tr>
@@ -977,15 +954,16 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
+      <td>...</td>
     </tr>
     <tr>
       <th>521636</th>
-      <td>Unassigned</td>
+      <td>Weston</td>
       <td>US</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
+      <td>43.839612</td>
+      <td>-104.567488</td>
       <td>2020-06-27</td>
-      <td>0</td>
+      <td>1</td>
       <td>Wyoming</td>
       <td>WY</td>
       <td>2020-03-15</td>
@@ -995,19 +973,20 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>minor</td>
       <td>R</td>
       <td>3</td>
-      <td>90056</td>
       <td>2020-06</td>
+      <td>NaN</td>
+      <td>56045</td>
       <td>NaN</td>
       <td>0</td>
     </tr>
     <tr>
       <th>521637</th>
-      <td>Unassigned</td>
+      <td>Weston</td>
       <td>US</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
+      <td>43.839612</td>
+      <td>-104.567488</td>
       <td>2020-06-28</td>
-      <td>0</td>
+      <td>1</td>
       <td>Wyoming</td>
       <td>WY</td>
       <td>2020-03-15</td>
@@ -1017,19 +996,20 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>minor</td>
       <td>R</td>
       <td>3</td>
-      <td>90056</td>
       <td>2020-06</td>
+      <td>NaN</td>
+      <td>56045</td>
       <td>NaN</td>
       <td>0</td>
     </tr>
     <tr>
       <th>521638</th>
-      <td>Unassigned</td>
+      <td>Weston</td>
       <td>US</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
+      <td>43.839612</td>
+      <td>-104.567488</td>
       <td>2020-06-29</td>
-      <td>0</td>
+      <td>2</td>
       <td>Wyoming</td>
       <td>WY</td>
       <td>2020-03-15</td>
@@ -1039,19 +1019,20 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>minor</td>
       <td>R</td>
       <td>3</td>
-      <td>90056</td>
       <td>2020-06</td>
+      <td>NaN</td>
+      <td>56045</td>
       <td>NaN</td>
       <td>0</td>
     </tr>
     <tr>
       <th>521639</th>
-      <td>Unassigned</td>
+      <td>Weston</td>
       <td>US</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
+      <td>43.839612</td>
+      <td>-104.567488</td>
       <td>2020-06-30</td>
-      <td>0</td>
+      <td>2</td>
       <td>Wyoming</td>
       <td>WY</td>
       <td>2020-03-15</td>
@@ -1061,19 +1042,20 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>minor</td>
       <td>R</td>
       <td>3</td>
-      <td>90056</td>
       <td>2020-06</td>
+      <td>NaN</td>
+      <td>56045</td>
       <td>NaN</td>
       <td>0</td>
     </tr>
   </tbody>
 </table>
-<p>521640 rows × 19 columns</p>
+<p>521640 rows × 20 columns</p>
 </div>
 
 
 
-**For the global table, I was able to add Average Temp for most non-US countries and an international BLM protest count per country**
+**For the global table, I was able to add Average Temp for most non-US countries and an international BLM protest count per country.**
 
 
 <p style='font-size: 15px'>Global</p>
@@ -1100,70 +1082,50 @@ These are the U.S. and Global time series tables from the CSSE database
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Province_State</th>
       <th>Country_Region</th>
-      <th>Lat</th>
-      <th>Long</th>
       <th>Date</th>
       <th>Total_Cases</th>
       <th>Month</th>
       <th>Avg_Temp</th>
-      <th>Abbreviation</th>
       <th>Protest_Count</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
+      <th>966</th>
+      <td>Argentina</td>
       <td>2020-01-22</td>
       <td>0</td>
       <td>2020-01</td>
-      <td>NaN</td>
-      <td>AL</td>
-      <td>38.0</td>
+      <td>22.950000</td>
+      <td>1.0</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
+      <th>967</th>
+      <td>Argentina</td>
       <td>2020-01-23</td>
       <td>0</td>
       <td>2020-01</td>
-      <td>NaN</td>
-      <td>AL</td>
-      <td>38.0</td>
+      <td>22.950000</td>
+      <td>1.0</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
+      <th>968</th>
+      <td>Argentina</td>
       <td>2020-01-24</td>
       <td>0</td>
       <td>2020-01</td>
-      <td>NaN</td>
-      <td>AL</td>
-      <td>38.0</td>
+      <td>22.950000</td>
+      <td>1.0</td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>Alabama</td>
-      <td>US</td>
-      <td>32.539527</td>
-      <td>-86.644082</td>
+      <th>969</th>
+      <td>Argentina</td>
       <td>2020-01-25</td>
       <td>0</td>
       <td>2020-01</td>
-      <td>NaN</td>
-      <td>AL</td>
-      <td>38.0</td>
+      <td>22.950000</td>
+      <td>1.0</td>
     </tr>
     <tr>
       <th>...</th>
@@ -1173,66 +1135,46 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
     </tr>
     <tr>
-      <th>541600</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
+      <th>28332</th>
+      <td>Ukraine</td>
       <td>2020-06-27</td>
-      <td>1392</td>
+      <td>42932</td>
       <td>2020-06</td>
-      <td>NaN</td>
-      <td>WY</td>
-      <td>14.0</td>
+      <td>18.389362</td>
+      <td>1.0</td>
     </tr>
     <tr>
-      <th>541601</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
+      <th>28333</th>
+      <td>Ukraine</td>
       <td>2020-06-28</td>
-      <td>1417</td>
+      <td>43856</td>
       <td>2020-06</td>
-      <td>NaN</td>
-      <td>WY</td>
-      <td>14.0</td>
+      <td>18.389362</td>
+      <td>1.0</td>
     </tr>
     <tr>
-      <th>541602</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
+      <th>28334</th>
+      <td>Ukraine</td>
       <td>2020-06-29</td>
-      <td>1450</td>
+      <td>44538</td>
       <td>2020-06</td>
-      <td>NaN</td>
-      <td>WY</td>
-      <td>14.0</td>
+      <td>18.389362</td>
+      <td>1.0</td>
     </tr>
     <tr>
-      <th>541603</th>
-      <td>Wyoming</td>
-      <td>US</td>
-      <td>39.639935</td>
-      <td>-98.580983</td>
+      <th>28335</th>
+      <td>Ukraine</td>
       <td>2020-06-30</td>
-      <td>1487</td>
+      <td>45254</td>
       <td>2020-06</td>
-      <td>NaN</td>
-      <td>WY</td>
-      <td>14.0</td>
+      <td>18.389362</td>
+      <td>1.0</td>
     </tr>
   </tbody>
 </table>
-<p>541604 rows × 10 columns</p>
+<p>8211 rows × 6 columns</p>
 </div>
 
 
@@ -1269,6 +1211,7 @@ These are the U.S. and Global time series tables from the CSSE database
       <th>FIPS</th>
       <th>Perc.Over.65</th>
       <th>Perc.White</th>
+      <th>Perc.Female</th>
       <th>Perc.Black</th>
       <th>Perc.Native</th>
       <th>Perc.Asian</th>
@@ -1292,6 +1235,7 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>1001</td>
       <td>13.5</td>
       <td>78.1</td>
+      <td>51.5</td>
       <td>18.4</td>
       <td>0.5</td>
       <td>1.1</td>
@@ -1313,6 +1257,7 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>1003</td>
       <td>18.1</td>
       <td>87.3</td>
+      <td>51.2</td>
       <td>9.5</td>
       <td>0.7</td>
       <td>0.9</td>
@@ -1334,6 +1279,7 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>1005</td>
       <td>15.9</td>
       <td>50.2</td>
+      <td>46.5</td>
       <td>47.6</td>
       <td>0.6</td>
       <td>0.5</td>
@@ -1355,6 +1301,7 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>1007</td>
       <td>14.3</td>
       <td>76.3</td>
+      <td>46.0</td>
       <td>22.1</td>
       <td>0.4</td>
       <td>0.2</td>
@@ -1391,12 +1338,14 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>...</td>
       <td>...</td>
       <td>...</td>
+      <td>...</td>
     </tr>
     <tr>
       <th>3001</th>
       <td>56039</td>
       <td>11.8</td>
       <td>94.6</td>
+      <td>48.0</td>
       <td>1.5</td>
       <td>1.0</td>
       <td>1.3</td>
@@ -1418,6 +1367,7 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>56041</td>
       <td>10.5</td>
       <td>95.6</td>
+      <td>49.3</td>
       <td>0.8</td>
       <td>1.3</td>
       <td>0.4</td>
@@ -1439,6 +1389,7 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>56043</td>
       <td>19.2</td>
       <td>95.0</td>
+      <td>49.7</td>
       <td>0.8</td>
       <td>1.7</td>
       <td>0.7</td>
@@ -1460,6 +1411,7 @@ These are the U.S. and Global time series tables from the CSSE database
       <td>56045</td>
       <td>17.4</td>
       <td>95.3</td>
+      <td>47.6</td>
       <td>0.6</td>
       <td>1.7</td>
       <td>0.3</td>
@@ -1478,12 +1430,12 @@ These are the U.S. and Global time series tables from the CSSE database
     </tr>
   </tbody>
 </table>
-<p>3005 rows × 18 columns</p>
+<p>3005 rows × 19 columns</p>
 </div>
 
 
 
-**For the global data, the European Union had population numbers per county. These are 2020 estimates.**
+**For the global data, the United Nations had population numbers per country. These are 2020 estimates.**
 
 
 <p style='font-size: 15px'>Global</p>
