@@ -5,7 +5,7 @@ filename: descriptive_analytics
 ---
 
 
-
+{% include figure.html %}
         <script type="text/javascript">
         window.PlotlyConfig = {MathJaxConfig: 'local'};
         if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
