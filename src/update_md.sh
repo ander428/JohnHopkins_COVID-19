@@ -24,7 +24,7 @@ done
 mv *.html ../
 
 if [[ `git status --porcelain` ]]; then
-    git add ./*.ipynb ../*.html
+    git add ./*.ipynb ../*.html ../_config.yml
     git commit -m "Code and HTML Autoupdate `date`"
     git push
     echo "Changes Uploaded!"
