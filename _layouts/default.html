@@ -34,18 +34,12 @@
             {% if page.title %}
             <a href="{{ page.filename }}" class="btn">{{ page.title }}</a>
             {% endif %}
-
         {% endfor %}
 
-        {% if page.htmlwidgets %}
-            {% for html_dep in site.static_files %}
-                {% if html_dep.path contains 'htmlwidgets_deps/' %}
-                    {% assign start = "<script src=" | append: {{site.baseurl}} %}
-                    {{html_dep.path | prepend: start | append: "></script>" }}
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-        
+        {% for item in site.data.samplelist.docs %}
+            <a href="{{ page.filename }}" class="btn">{{ item.title }}</a>
+        {% endfor %}
+
         {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
