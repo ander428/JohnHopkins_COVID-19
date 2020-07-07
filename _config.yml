@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+docs:
+  - title: Introduction
+    url: README.md
+
+  - title: Data Cleaning
+    url: data_cleaning.html
+
+  - title: Descriptive Analytics
+    url: descriptive_analytics.html
