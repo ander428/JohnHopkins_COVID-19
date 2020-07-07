@@ -16500,14 +16500,14 @@ Please replace it with one of the following more specific types
                     ).then(function(){
                             
 var gd = document.getElementById('3ce6d46a-5e6b-49a9-9536-96fa716b2f41');
-var x = new MutationObserver(function (mutations, observer) {{
+var x = new MutationObserver(function (mutations, observer) {{  
         var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
+        if (!display || display === 'none') {{  
             console.log([gd, 'removed!']);
             Plotly.purge(gd);
             observer.disconnect();
-        }}
-}});
+         }}  
+  }});
 
 // Listen for the removal of the full notebook cells
 var notebookContainer = gd.closest('#notebook-container');
