@@ -4,7 +4,7 @@ layout: default
 filename: descriptive_analytics
 ---
 
-
+<!-- {% raw %} --> 
 {% include figure.html %}
         <script type="text/javascript">
         window.PlotlyConfig = {MathJaxConfig: 'local'};
@@ -136,3 +136,4 @@ if (outputEl) {{
             </script>
         </div>
 
+<!-- {% endraw %} -->
