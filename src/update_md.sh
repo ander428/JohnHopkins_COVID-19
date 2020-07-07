@@ -21,7 +21,7 @@ do
     fi
 done
 
-mv *.html ../
+mv *.html ../_pages/
 
 if [[ `git status --porcelain` ]]; then
     git add ./*.ipynb ../*.html ../_config.yml
