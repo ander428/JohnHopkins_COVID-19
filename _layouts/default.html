@@ -36,8 +36,8 @@
             {% endif %}
         {% endfor %}
 
-        {% for item in site.data.samplelist.docs %}
-            <a href="{{ page.filename }}" class="btn">{{ item.title }}</a>
+        {% for item in site._pages %}
+            <a href="{{ item.filename }}" class="btn">{{ item.title }}</a>
         {% endfor %}
 
         {% if site.show_downloads %}
