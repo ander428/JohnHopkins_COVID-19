@@ -5,7 +5,7 @@ filename: descriptive_analytics
 ---
 
 
-<iframe src="/assets/img/Bokeh/flowers.html"
+<iframe src="assets/img/Bokeh/flowers.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
