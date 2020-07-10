@@ -14,7 +14,7 @@ filename: descriptive_analytics
 
 
 
-![png](descriptive_analytics_files/descriptive_analytics_7_1.png)
+<img src='descriptive_analytics_files/descriptive_analytics_7_1.png'></p>
 
 
 <iframe src="assets/img/Bokeh/Total_Pop_Plot.html"
