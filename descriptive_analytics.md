@@ -17,15 +17,6 @@ filename: descriptive_analytics
 ![png](descriptive_analytics_files/descriptive_analytics_7_1.png)
 
 
-<iframe src="../assets/img/Seaborn/Corr_Plot.png"
-    sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="500"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
 <iframe src="../assets/img/Bokeh/Total_Pop_Plot.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
