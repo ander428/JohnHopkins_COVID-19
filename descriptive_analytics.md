@@ -5,10 +5,6 @@ filename: descriptive_analytics
 ---
 
 
-    C:\Users\jwand\Anaconda3\lib\site-packages\statsmodels\tools\_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
-      import pandas.util.testing as tm
-    
-
 # Descriptive Analytics
 
 ## United States Summary
