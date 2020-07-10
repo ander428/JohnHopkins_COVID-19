@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="e5461f31-9ab6-46e7-809c-96eac35fd23b" data-root-id="1647"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1751">
+          {"6f6f06db-805d-449e-af6f-178f81d93642":{"roots":{"references":[{"attributes":{},"id":"1667","type":"PanTool"},{"attributes":{"dimension":1,"ticker":{"id":"1663","type":"BasicTicker"}},"id":"1666","type":"Grid"},{"attributes":{"axis_label":"U.S. County","formatter":{"id":"1683","type":"CategoricalTickFormatter"},"major_label_orientation":"vertical","ticker":{"id":"1659","type":"CategoricalTicker"}},"id":"1658","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Total_Cases"},"width":{"value":0.9},"x":{"field":"State"}},"id":"1679","type":"VBar"},{"attributes":{"factors":["major/varies","moderate/varies","moderate","minor/varies","minor"],"palette":["#2c7bb6","#abd9e9","#ffffbf","#fdae61","#d7191c"]},"id":"1676","type":"CategoricalColorMapper"},{"attributes":{},"id":"1668","type":"ResetTool"},{"attributes":{"callback":null,"data":{"Restrictions":["major/varies","moderate/varies","moderate","minor/varies","minor","moderate/varies","moderate","moderate","minor","minor"],"State":["California","New York","New Jersey","Texas","Florida","Illinois","Massachusetts","Pennsylvania","Georgia","Arizona"],"Total_Cases":{"__ndarray__":"TDeJQWDtbEDNzMzMzEhmQNNNYhBYdWVAUrgehethZEDZzvdT4w1jQFK4HoXr5WFAMQisHFo0W0A3iUFg5chWQLTIdr6fUlRAO99PjZfOU0A=","dtype":"float64","shape":[10]}},"selected":{"id":"1693","type":"Selection"},"selection_policy":{"id":"1694","type":"UnionRenderers"}},"id":"1646","type":"ColumnDataSource"},{"attributes":{"callback":null,"tooltips":[["State","@State"],["Restriction Rating","@{Restrictions}"],["Total_Cases","@Total_Cases"]]},"id":"1645","type":"HoverTool"},{"attributes":{"fill_color":{"field":"Restrictions","transform":{"id":"1676","type":"CategoricalColorMapper"}},"line_color":{"value":"#1f77b4"},"top":{"field":"Total_Cases"},"width":{"value":0.9},"x":{"field":"State"}},"id":"1678","type":"VBar"},{"attributes":{},"id":"1669","type":"WheelZoomTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1645","type":"HoverTool"},{"id":"1667","type":"PanTool"},{"id":"1668","type":"ResetTool"},{"id":"1669","type":"WheelZoomTool"}]},"id":"1670","type":"Toolbar"},{"attributes":{},"id":"1663","type":"BasicTicker"},{"attributes":{"data_source":{"id":"1646","type":"ColumnDataSource"},"glyph":{"id":"1678","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1679","type":"VBar"},"selection_glyph":null,"view":{"id":"1681","type":"CDSView"}},"id":"1680","type":"GlyphRenderer"},{"attributes":{"items":[{"id":"1687","type":"LegendItem"}],"title":"State Lockdown Restrictions"},"id":"1675","type":"Legend"},{"attributes":{},"id":"1694","type":"UnionRenderers"},{"attributes":{"label":{"field":"Restrictions"},"renderers":[{"id":"1680","type":"GlyphRenderer"}]},"id":"1687","type":"LegendItem"},{"attributes":{"grid_line_color":null,"ticker":{"id":"1659","type":"CategoricalTicker"}},"id":"1661","type":"Grid"},{"attributes":{"callback":null,"end":256.418},"id":"1652","type":"Range1d"},{"attributes":{"source":{"id":"1646","type":"ColumnDataSource"}},"id":"1681","type":"CDSView"},{"attributes":{},"id":"1693","type":"Selection"},{"attributes":{"below":[{"id":"1658","type":"CategoricalAxis"}],"center":[{"id":"1661","type":"Grid"},{"id":"1666","type":"Grid"}],"left":[{"id":"1662","type":"LinearAxis"}],"plot_height":450,"renderers":[{"id":"1680","type":"GlyphRenderer"}],"right":[{"id":"1675","type":"Legend"}],"title":{"id":"1648","type":"Title"},"toolbar":{"id":"1670","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1650","type":"FactorRange"},"x_scale":{"id":"1654","type":"CategoricalScale"},"y_range":{"id":"1652","type":"Range1d"},"y_scale":{"id":"1656","type":"LinearScale"}},"id":"1647","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1683","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1656","type":"LinearScale"},{"attributes":{"callback":null,"factors":["California","New York","New Jersey","Texas","Florida","Illinois","Massachusetts","Pennsylvania","Georgia","Arizona"]},"id":"1650","type":"FactorRange"},{"attributes":{},"id":"1685","type":"BasicTickFormatter"},{"attributes":{"text":"Total COVID-19 Cases by Top 10 Counties as of 6/30/20"},"id":"1648","type":"Title"},{"attributes":{},"id":"1654","type":"CategoricalScale"},{"attributes":{"axis_label":"Total COVID-19 Cases (Thousands)","formatter":{"id":"1685","type":"BasicTickFormatter"},"ticker":{"id":"1663","type":"BasicTicker"}},"id":"1662","type":"LinearAxis"},{"attributes":{},"id":"1659","type":"CategoricalTicker"}],"root_ids":["1647"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1751').textContent;
+                  var render_items = [{"docid":"6f6f06db-805d-449e-af6f-178f81d93642","roots":{"1647":"e5461f31-9ab6-46e7-809c-96eac35fd23b"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
