@@ -9,14 +9,6 @@ filename: descriptive_analytics
 
 ## United States Summary
 
-
-<p style='font-size: 15px'>U.S. Correlation Plot</p>
-
-
-
-<img src='descriptive_analytics_files/descriptive_analytics_7_1.png'></p>
-
-
 <iframe src="assets/img/Bokeh/Total_Pop_Plot.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
