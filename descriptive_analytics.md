@@ -13,10 +13,6 @@ filename: descriptive_analytics
 <p style='font-size: 15px'>U.S. Correlation Plot</p>
 
 
-
-![png](descriptive_analytics_files/descriptive_analytics_6_1.png)
-
-
 ![img](assets/img/Seaborn/Corr_Plot.png)
 
 <iframe src="assets/img/Bokeh/Total_Pop_Plot.html"
