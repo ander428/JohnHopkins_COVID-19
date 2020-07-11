@@ -9,6 +9,8 @@ filename: descriptive_analytics
 
 ## United States Summary
 
+![img](assets/img/Seaborn/Corr_Plot.png)
+
 <iframe src="assets/img/Bokeh/Total_Pop_Plot.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
