@@ -93,10 +93,38 @@ This data is an aggregation of population per country including multiple differe
 - **LocID**: numeric code for the location; for countries and areas, it follows the ISO 3166-1 numeric standard
 - **Location**: name of the region, subregion, country or area
 - **VarID**: numeric code for the variant
-- **Variant**: projection variant name (Medium is the most used); for more information see Definition of projection variants
+- **Variant**: projection variant name (Medium is the most used); for more information see Definition of projection variants.
 - **Time**: label identifying the single year (e.g. 1950) or the period of the data (e.g. 1950-1955)
 - **MidPeriod**: numeric value identifying the mid period of the data, with the decimal representing the month (e.g. 1950.5 for July 1950)
 - **PopMale**: Total male population (thousands)
 - **PopFemale**: Total female population (thousands)
 - **PopTotal**: Total population, both sexes (thousands)
 - **PopDensity**: Population per square kilometre (thousands)
+
+### World Meteorological Organization Standard Normals, Dry Bulb Temperature
+
+The UN collects data from countries around the world. The 'Dry Bulb' temperature was chosen as it represents the air temperature without moisture or radiation making it considered the steriotypical air temperture. Only mean value rows were used and rows with a missing value were excluded. The average was then aggregated by country using the mean of all temperatures in a given month. Units are in celsius. Here are the variables used from this data:
+
+- **Country or Territory**: The country of interest.
+- **Period**: the period of time the averages were measured and recorded.
+- **Jan-June**: the average temperature for each month for a given country.
+
+### Australian Bureau of Meterology, Climate Data online, Climate statistics for Australian locations
+
+This data was used as Australia specifically was not included in the above source. The climate statistics from the Australian government had the same data provided. The period 1961-1990 was used.
+
+### NOAA National Centers for Environmental Information, State of the Climate: Global Climate Report for Jan-May 2020, published online June 2020
+
+This source was used in tandem with the Australian Bureau of Meterology to create more accurate average temperatures with 2020 numbers.
+
+
+## Protest Sources
+
+### Alex Smith, a GIS analyst in the southwest U.S., Black Lives Matter 2020 Protests Map
+
+The BLM data was taken from the site describing every recorded BLM protest internationally. Since there was no time series data for these protests, they were treated as a constant. The data was processed through excel and an r script outputting these variables:
+
+- **Region**: The county or geographical region of the country.
+- **Values.properties.Country**: The country of the given location.
+- **State**: The state of the given location.
+- **n**: The aggregated number of protests of the given location.
