@@ -79,3 +79,4 @@ filename: descriptive_analytics
 </iframe>
 
 ***This chart shows the progression of daily cases of the 5 states with the most total cases. Take notice that the y-axis does not represent the number of total cases but the number of new cases. It should be noted that around mid-May is the time California and Florida start a strong postitive trend. Many people may attribute this to moving to phase 2 too early although it is interesting that New York moved to phase 2 around the same timline with more active cases, yet sees a decline while Florida sees an increase. This means phase is likely not the only main factor in predicting cases.***
+***You may hover over a line for more detail or click on the legend to filter states.***
