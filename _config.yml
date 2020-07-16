@@ -14,3 +14,12 @@ docs:
 
   - title: Descriptive Analytics
     url: descriptive_analytics_(US).md
+
+  - title: Descriptive Analytics
+    url: descriptive_analytics_(Global).md
+
+  - title: Descriptive Analytics (Global)
+    url: descriptive_analytics (Global).md
+
+  - title: Descriptive Analytics (US)
+    url: descriptive_analytics (US).md

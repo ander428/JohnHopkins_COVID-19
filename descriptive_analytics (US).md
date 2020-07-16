@@ -1,17 +1,13 @@
 ---
-title: Descriptive Analytics 
+title: Descriptive Analytics (US) 
 layout: default
-filename: descriptive_analytics
+filename: descriptive_analytics (US)
 ---
 
 
 # Descriptive Analytics
 
 ## United States Summary
-
-
-<p style='font-size: 15px'>U.S. Correlation Plot</p>
-
 
 ![img](assets/img/Seaborn/Corr_Plot.png)
 
@@ -28,7 +24,7 @@ filename: descriptive_analytics
 
 ***The figure above shows the correlation between total covid cases as of June 30th compared to the 2019 population estimate for each county in the US divided by the average person per household. There is a slight positive trend. Something to point out is that the counties with a higher average person per household than the national average (~2.5-2.6) seem to describe most of the outliers.***
 
-***You may hover over different points to see more information.***
+***You may hover over points for more detailed information.***
 
 <iframe src="assets/img/Bokeh/BLM_Gov_Cases_Plot.html"
     sandbox="allow-same-origin allow-scripts"
