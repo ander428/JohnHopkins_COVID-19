@@ -9,6 +9,10 @@ filename: descriptive_analytics (US)
 
 ## United States Summary
 
+
+<p style='font-size: 15px'>U.S. Correlation Plot</p>
+
+
 ![img](assets/img/Seaborn/Corr_Plot.png)
 
 ***The figure above is a correlation plot of all numeric variables for U.S. cases. This was calculated using the correlation coefficient (pearson's). Some interesting correlations related to cases (and cases in 2 weeks) are protest count (.51/.54), population (.49/.51), and percent foreign born (.27,.28). It is interesting to point out that most variables had an increased correlation with cases 2 weeks later rather than cases at a given time.***
