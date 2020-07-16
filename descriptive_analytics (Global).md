@@ -14,7 +14,7 @@ filename: descriptive_analytics (Global)
 <iframe src="assets/img/Bokeh/Global_Area_Temp.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
-    height="500"
+    height="525"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
