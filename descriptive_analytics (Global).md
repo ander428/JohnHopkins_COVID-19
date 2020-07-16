@@ -9,7 +9,7 @@ filename: descriptive_analytics (Global)
 <p style='font-size: 15px'>Global Correlation Plot</p>
 
 
-![img](assets/img/Seaborn/Corr_Plot.png)
+![img](assets/img/Seaborn/Corr_Plot_Global.png)
 
 <iframe src="assets/img/Bokeh/Global_Area_Temp.html"
     sandbox="allow-same-origin allow-scripts"
@@ -20,7 +20,7 @@ filename: descriptive_analytics (Global)
     frameborder="0">
 </iframe>
 
-<iframe src="assets/img/Bokeh/Global_Area_Temp.html"
+<iframe src="assets/img/Bokeh/Global_Density_Temp.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
