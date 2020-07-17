@@ -23,7 +23,16 @@ filename: descriptive_analytics (Global)
 <iframe src="assets/img/Bokeh/Global_Density_Temp.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
-    height="500"
+    height="525"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+<iframe src="assets/img/Bokeh/County_Density_Plot.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="525"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
