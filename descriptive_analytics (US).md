@@ -39,7 +39,7 @@ filename: descriptive_analytics (US)
     frameborder="0">
 </iframe>
 
-***This figure shows the correlation between total cases and the protests divided by the political party of the governer of the state. This seems to again have a slight positive correlation that is smaller than the population correlation. It should also be noted that There is a similar amount of Republican and Democratic outliers.***
+***This figure shows the correlation between total cases and the protests divided by the political party of the governer of the state. This seems to again have a slight positive correlation that is smaller than the population correlation. It should also be noted that there are a similar amount of Republican and Democratic outliers.***
 
 ***You may hover over points for more detailed information.***
 
@@ -69,7 +69,7 @@ filename: descriptive_analytics (US)
 
 ***You may hover over the bars for more detailed information.***
 
-<iframe src="assets/img/Bokeh/Time_Series_US.html"
+<iframe src="assets/img/Bokeh/Time_Series_US_County.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="550"
@@ -78,5 +78,19 @@ filename: descriptive_analytics (US)
     frameborder="0">
 </iframe>
 
-***This chart shows the progression of daily cases of the 5 states with the most total cases. Take notice that the y-axis does not represent the number of total cases but the number of new cases. It should be noted that around mid-May is the time California and Florida start a strong postitive trend. Many people may attribute this to moving to phase 2 too early although it is interesting that New York moved to phase 2 around the same timline with more active cases, yet sees a decline while Florida sees an increase. This means phase is likely not the only main factor in predicting cases.***
+***This chart shows the progression of daily cases of the 5 Counties with the most total cases. Take notice that the y-axis does not represent the number of total cases but the number of new cases. The total cases can be seen on the tool tips based off of the date. It is interesting to see that the cases in Cook County are still higher than Maricopa Conuty although the daily rate is much higher in Maricopa as of the end of June. This means Cook was able to stop spreading moreso than Maricopa, but Maricopa had not passed Cook in actual cases yet. Los Angeles is shown to be in a worse situation as the total and daily cases are high by the end of June.***
+
+***You may hover over a line for more detail or click on the legend to filter Counties.***
+
+<iframe src="assets/img/Bokeh/Time_Series_US_State.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="550"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+***This chart shows the progression of daily cases of the 5 states with the most total cases. Take notice that the y-axis does not represent the number of total cases but the number of new cases. It should be noted that around mid-May is the time California and Florida start a strong postitive trend. It could be attributed to moving to phase 2 too early although it is interesting that New York moved to phase 2 around the same timline with more total cases, yet sees a decline while Florida sees an increase. This means phase is likely not the only main factor in predicting cases.***
+
 ***You may hover over a line for more detail or click on the legend to filter states.***
