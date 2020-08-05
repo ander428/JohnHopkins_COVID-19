@@ -82,6 +82,20 @@ filename: descriptive_analytics (US)
 
 ***You may hover over a line for more detail or click on the legend to filter Counties.***
 
+    BokehUserWarning: ColumnDataSource's columns must be of the same length. Current lengths: ('State', 6), ('angle', 6), ('cases', 6), ('cases_perc', 6), ('color', 10)
+    
+
+<iframe src="assets/img/Bokeh/Pie_Chart_US.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="550"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+***The above figure shows the distribution of cases across states. Interestingly, nearly 40% of U.S. cases are explained by the top 5 states.***
+
 <iframe src="assets/img/Bokeh/Time_Series_US_State.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"

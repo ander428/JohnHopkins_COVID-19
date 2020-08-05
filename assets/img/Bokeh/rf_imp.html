@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="abcd2aa9-e0cb-4e1a-9934-34952683621e" data-root-id="1471"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1562">
+          {"ad8e538e-fa0a-43aa-a006-9ee27930b953":{"roots":{"references":[{"attributes":{},"id":"1501","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1488","type":"CategoricalTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1470","type":"HoverTool"}]},"id":"1491","type":"Toolbar"},{"attributes":{},"id":"1478","type":"LinearScale"},{"attributes":{},"id":"1504","type":"UnionRenderers"},{"attributes":{"source":{"id":"1493","type":"ColumnDataSource"}},"id":"1498","type":"CDSView"},{"attributes":{"fill_color":{"value":"#1f77b4"},"height":{"value":0.9},"line_color":{"value":"#1f77b4"},"right":{"field":"Importance"},"y":{"field":"Variables"}},"id":"1495","type":"HBar"},{"attributes":{},"id":"1480","type":"CategoricalScale"},{"attributes":{"ticker":{"id":"1483","type":"BasicTicker"}},"id":"1486","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.9},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"Importance"},"y":{"field":"Variables"}},"id":"1496","type":"HBar"},{"attributes":{"text":"Random Forest Variable Importance"},"id":"1472","type":"Title"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"1488","type":"CategoricalTicker"}},"id":"1490","type":"Grid"},{"attributes":{"callback":null},"id":"1474","type":"DataRange1d"},{"attributes":{"data_source":{"id":"1493","type":"ColumnDataSource"},"glyph":{"id":"1495","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1496","type":"HBar"},"selection_glyph":null,"view":{"id":"1498","type":"CDSView"}},"id":"1497","type":"GlyphRenderer"},{"attributes":{},"id":"1483","type":"BasicTicker"},{"attributes":{},"id":"1503","type":"BasicTickFormatter"},{"attributes":{"axis_label":"Vasriable Name","formatter":{"id":"1501","type":"CategoricalTickFormatter"},"major_label_orientation":"horizontal","ticker":{"id":"1488","type":"CategoricalTicker"}},"id":"1487","type":"CategoricalAxis"},{"attributes":{"below":[{"id":"1482","type":"LinearAxis"}],"center":[{"id":"1486","type":"Grid"},{"id":"1490","type":"Grid"}],"left":[{"id":"1487","type":"CategoricalAxis"}],"plot_height":500,"plot_width":750,"renderers":[{"id":"1497","type":"GlyphRenderer"}],"title":{"id":"1472","type":"Title"},"toolbar":{"id":"1491","type":"Toolbar"},"x_range":{"id":"1474","type":"DataRange1d"},"x_scale":{"id":"1478","type":"LinearScale"},"y_range":{"id":"1476","type":"FactorRange"},"y_scale":{"id":"1480","type":"CategoricalScale"}},"id":"1471","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"factors":["Perc.Asian","Perc.Pac.Island","Perc.Mixed","Perc.His.Lat","Perc.Foreign.Born","Protest_Count","Perc.Native","Avg.Person.Per.Household","PopDensity","Cases_Delta","Cases_2W","Perc.Over.65","Governer.Party","Perc.White","Perc.Female","Avg_Temp","Perc.Black","Restriction Rating","Current_Phase"]},"id":"1476","type":"FactorRange"},{"attributes":{},"id":"1505","type":"Selection"},{"attributes":{"callback":null,"tooltips":[["Variable","@Variables"],["Importance","@Importance{0.00}"]]},"id":"1470","type":"HoverTool"},{"attributes":{"axis_label":"Variable Importance","formatter":{"id":"1503","type":"BasicTickFormatter"},"ticker":{"id":"1483","type":"BasicTicker"}},"id":"1482","type":"LinearAxis"},{"attributes":{"callback":null,"data":{"Importance":[0.0,0.0,0.0,0.0,0.0,0.01,0.01,0.01,0.01,0.02,0.03,0.03,0.04,0.04,0.07,0.08,0.15,0.22,0.29],"Variables":["Perc.Asian","Perc.Pac.Island","Perc.Mixed","Perc.His.Lat","Perc.Foreign.Born","Protest_Count","Perc.Native","Avg.Person.Per.Household","PopDensity","Cases_Delta","Cases_2W","Perc.Over.65","Governer.Party","Perc.White","Perc.Female","Avg_Temp","Perc.Black","Restriction Rating","Current_Phase"]},"selected":{"id":"1505","type":"Selection"},"selection_policy":{"id":"1504","type":"UnionRenderers"}},"id":"1493","type":"ColumnDataSource"}],"root_ids":["1471"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1562').textContent;
+                  var render_items = [{"docid":"ad8e538e-fa0a-43aa-a006-9ee27930b953","roots":{"1471":"abcd2aa9-e0cb-4e1a-9934-34952683621e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
