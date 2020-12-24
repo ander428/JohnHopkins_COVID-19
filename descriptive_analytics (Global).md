@@ -1,11 +1,3 @@
----
-title: Descriptive Analytics (Global) 
-layout: default
-filename: descriptive_analytics (Global)
----
-
-
-
 <p style='font-size: 15px'>Global Correlation Plot</p>
 
 
