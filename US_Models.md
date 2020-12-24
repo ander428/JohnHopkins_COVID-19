@@ -624,8 +624,6 @@ Testing Set Metrics:
 
 
 
-***The random forest model struggles to not be overfit. I changed which variables are used in several different combinations and the test set R2 seems to hover around 0.6. It seems that the random forest uses governer party as the main indicator of how many predicted cases there will be.***
-
 <iframe src="assets/img/Bokeh/rf_imp.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
@@ -634,6 +632,8 @@ Testing Set Metrics:
     seamless="seamless"
     frameborder="0">
 </iframe>
+
+***The random forest model struggles to not be overfit. I changed which variables are used in several different combinations and the test set R2 seems to hover around 0.6. It seems that the random forest uses governer party as the main indicator of how many predicted cases there will be.***
 
 # K-Means Clustering Model
 
