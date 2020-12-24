@@ -1,3 +1,9 @@
+---
+title: Data Cleaning 
+layout: default
+filename: data_cleaning
+---
+
 # Data Cleaning
 ***
 
