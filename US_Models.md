@@ -306,83 +306,83 @@ filename: US_Models
 
 
 <style  type="text/css" >
-</style><table id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90b" style='display:inline'><caption>US VIF Values</caption><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >variable</th>        <th class="col_heading level0 col1" >VIF</th>    </tr></thead><tbody>
+</style><table id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90b" style='display:inline'><caption>US VIF Values</caption><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >variable</th>        <th class="col_heading level0 col1" >VIF</th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row0" class="row_heading level0 row0" >0</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow0_col0" class="data row0 col0" >Cases_Delta</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow0_col1" class="data row0 col1" >1.356432</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row0" class="row_heading level0 row0" >0</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow0_col0" class="data row0 col0" >Cases_Delta</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow0_col1" class="data row0 col1" >1.356432</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row1" class="row_heading level0 row1" >1</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow1_col0" class="data row1 col0" >Avg_Temp</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow1_col1" class="data row1 col1" >5.076446</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row1" class="row_heading level0 row1" >1</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow1_col0" class="data row1 col0" >Avg_Temp</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow1_col1" class="data row1 col1" >5.076446</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row2" class="row_heading level0 row2" >2</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow2_col0" class="data row2 col0" >Protest_Count</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow2_col1" class="data row2 col1" >2.103504</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row2" class="row_heading level0 row2" >2</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow2_col0" class="data row2 col0" >Protest_Count</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow2_col1" class="data row2 col1" >2.103504</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row3" class="row_heading level0 row3" >3</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow3_col0" class="data row3 col0" >Perc.Black</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow3_col1" class="data row3 col1" >1.519322</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row3" class="row_heading level0 row3" >3</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow3_col0" class="data row3 col0" >Perc.Black</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow3_col1" class="data row3 col1" >1.519322</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row4" class="row_heading level0 row4" >4</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow4_col0" class="data row4 col0" >Perc.Native</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow4_col1" class="data row4 col1" >1.359629</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row4" class="row_heading level0 row4" >4</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow4_col0" class="data row4 col0" >Perc.Native</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow4_col1" class="data row4 col1" >1.359629</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row5" class="row_heading level0 row5" >5</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow5_col0" class="data row5 col0" >Perc.Asian</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow5_col1" class="data row5 col1" >3.389680</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row5" class="row_heading level0 row5" >5</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow5_col0" class="data row5 col0" >Perc.Asian</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow5_col1" class="data row5 col1" >3.389680</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row6" class="row_heading level0 row6" >6</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow6_col0" class="data row6 col0" >Perc.Pac.Island</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow6_col1" class="data row6 col1" >1.723153</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row6" class="row_heading level0 row6" >6</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow6_col0" class="data row6 col0" >Perc.Pac.Island</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow6_col1" class="data row6 col1" >1.723153</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row7" class="row_heading level0 row7" >7</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow7_col0" class="data row7 col0" >Perc.Mixed</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow7_col1" class="data row7 col1" >5.349729</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row7" class="row_heading level0 row7" >7</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow7_col0" class="data row7 col0" >Perc.Mixed</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow7_col1" class="data row7 col1" >5.349729</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row8" class="row_heading level0 row8" >8</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow8_col0" class="data row8 col0" >Perc.His.Lat</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow8_col1" class="data row8 col1" >3.759431</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row8" class="row_heading level0 row8" >8</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow8_col0" class="data row8 col0" >Perc.His.Lat</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow8_col1" class="data row8 col1" >3.759431</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row9" class="row_heading level0 row9" >9</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow9_col0" class="data row9 col0" >Perc.Foreign.Born</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow9_col1" class="data row9 col1" >7.367302</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row9" class="row_heading level0 row9" >9</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow9_col0" class="data row9 col0" >Perc.Foreign.Born</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow9_col1" class="data row9 col1" >7.367302</td>
             </tr>
             <tr>
-                        <th id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90blevel0_row10" class="row_heading level0 row10" >10</th>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow10_col0" class="data row10 col0" >PopDensity</td>
-                        <td id="T_dc1d591d_44dd_11eb_a997_a4b1c1b3a90brow10_col1" class="data row10 col1" >1.397636</td>
+                        <th id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90blevel0_row10" class="row_heading level0 row10" >10</th>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow10_col0" class="data row10 col0" >PopDensity</td>
+                        <td id="T_00cb4e64_45b2_11eb_a4af_a4b1c1b3a90brow10_col1" class="data row10 col1" >1.397636</td>
             </tr>
     </tbody></table><style  type="text/css" >
-</style><table id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90b" style='display:inline'><caption>Variables removed for high multicolinearity</caption><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >variable</th>        <th class="col_heading level0 col1" >VIF</th>    </tr></thead><tbody>
+</style><table id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90b" style='display:inline'><caption>Variables removed for high multicolinearity</caption><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >variable</th>        <th class="col_heading level0 col1" >VIF</th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90blevel0_row0" class="row_heading level0 row0" >0</th>
-                        <td id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90brow0_col0" class="data row0 col0" >Perc.White</td>
-                        <td id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90brow0_col1" class="data row0 col1" >696.964249</td>
+                        <th id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90blevel0_row0" class="row_heading level0 row0" >0</th>
+                        <td id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90brow0_col0" class="data row0 col0" >Perc.White</td>
+                        <td id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90brow0_col1" class="data row0 col1" >696.964249</td>
             </tr>
             <tr>
-                        <th id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90blevel0_row1" class="row_heading level0 row1" >1</th>
-                        <td id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90brow1_col0" class="data row1 col0" >Perc.Female</td>
-                        <td id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90brow1_col1" class="data row1 col1" >316.947887</td>
+                        <th id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90blevel0_row1" class="row_heading level0 row1" >1</th>
+                        <td id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90brow1_col0" class="data row1 col0" >Perc.Female</td>
+                        <td id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90brow1_col1" class="data row1 col1" >316.947887</td>
             </tr>
             <tr>
-                        <th id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90blevel0_row2" class="row_heading level0 row2" >2</th>
-                        <td id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90brow2_col0" class="data row2 col0" >Avg.Person.Per.Household</td>
-                        <td id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90brow2_col1" class="data row2 col1" >103.292748</td>
+                        <th id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90blevel0_row2" class="row_heading level0 row2" >2</th>
+                        <td id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90brow2_col0" class="data row2 col0" >Avg.Person.Per.Household</td>
+                        <td id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90brow2_col1" class="data row2 col1" >103.292748</td>
             </tr>
             <tr>
-                        <th id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90blevel0_row3" class="row_heading level0 row3" >3</th>
-                        <td id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90brow3_col0" class="data row3 col0" >Perc.Over.65</td>
-                        <td id="T_dc1d803c_44dd_11eb_8207_a4b1c1b3a90brow3_col1" class="data row3 col1" >18.447256</td>
+                        <th id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90blevel0_row3" class="row_heading level0 row3" >3</th>
+                        <td id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90brow3_col0" class="data row3 col0" >Perc.Over.65</td>
+                        <td id="T_00cbc392_45b2_11eb_b7a2_a4b1c1b3a90brow3_col1" class="data row3 col1" >18.447256</td>
             </tr>
     </tbody></table>
 
@@ -637,9 +637,7 @@ Testing Set Metrics:
 
 # K-Means Clustering Model
 
-
-![svg](US_Models_files/US_Models_29_0.svg)
-
+![img](assets/img/matplotlib/kmeans.png)
 
 
 
